@@ -1,0 +1,5720 @@
+- filename: image00003.jpg
+  objects:
+  - bounding_box:
+      xmax: 765
+      xmin: 742
+      ymax: 466
+      ymin: 443
+    class: class_4
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00003.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00004.jpg
+  objects:
+  - bounding_box:
+      xmax: 955
+      xmin: 906
+      ymax: 459
+      ymin: 407
+    class: class_2
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00004.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00006.jpg
+  objects:
+  - bounding_box:
+      xmax: 989
+      xmin: 926
+      ymax: 414
+      ymin: 350
+    class: class_2
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00006.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00008.jpg
+  objects:
+  - bounding_box:
+      xmax: 811
+      xmin: 785
+      ymax: 486
+      ymin: 460
+    class: class_2
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00008.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00009.jpg
+  objects:
+  - bounding_box:
+      xmax: 949
+      xmin: 925
+      ymax: 490
+      ymin: 466
+    class: class_4
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00009.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00011.jpg
+  objects:
+  - bounding_box:
+      xmax: 770
+      xmin: 720
+      ymax: 398
+      ymin: 338
+    class: class_1
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00011.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00012.jpg
+  objects:
+  - bounding_box:
+      xmax: 1034
+      xmin: 979
+      ymax: 418
+      ymin: 364
+    class: class_1
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00012.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00013.jpg
+  objects:
+  - bounding_box:
+      xmax: 1120
+      xmin: 1043
+      ymax: 356
+      ymin: 281
+    class: class_2
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00013.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00018.jpg
+  objects:
+  - bounding_box:
+      xmax: 981
+      xmin: 950
+      ymax: 486
+      ymin: 455
+    class: class_4
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00018.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00019.jpg
+  objects:
+  - bounding_box:
+      xmax: 888
+      xmin: 845
+      ymax: 465
+      ymin: 423
+    class: class_2
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00019.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00023.jpg
+  objects:
+  - bounding_box:
+      xmax: 1074
+      xmin: 998
+      ymax: 371
+      ymin: 292
+    class: class_1
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00023.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00026.jpg
+  objects:
+  - bounding_box:
+      xmax: 492
+      xmin: 453
+      ymax: 451
+      ymin: 411
+    class: class_1
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00026.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00027.jpg
+  objects:
+  - bounding_box:
+      xmax: 1024
+      xmin: 969
+      ymax: 441
+      ymin: 386
+    class: class_2
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00027.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00027.jpg
+  objects:
+  - bounding_box:
+      xmax: 157
+      xmin: 102
+      ymax: 430
+      ymin: 375
+    class: class_2
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00027.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00054.jpg
+  objects:
+  - bounding_box:
+      xmax: 1146
+      xmin: 1117
+      ymax: 502
+      ymin: 473
+    class: class_0
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00054.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00056.jpg
+  objects:
+  - bounding_box:
+      xmax: 760
+      xmin: 729
+      ymax: 467
+      ymin: 436
+    class: class_1
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00056.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00057.jpg
+  objects:
+  - bounding_box:
+      xmax: 1036
+      xmin: 990
+      ymax: 467
+      ymin: 418
+    class: class_1
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00057.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00060.jpg
+  objects:
+  - bounding_box:
+      xmax: 842
+      xmin: 819
+      ymax: 464
+      ymin: 441
+    class: class_2
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00060.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00061.jpg
+  objects:
+  - bounding_box:
+      xmax: 1285
+      xmin: 1224
+      ymax: 394
+      ymin: 333
+    class: class_2
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00061.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00064.jpg
+  objects:
+  - bounding_box:
+      xmax: 808
+      xmin: 786
+      ymax: 470
+      ymin: 447
+    class: class_2
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00064.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00069.jpg
+  objects:
+  - bounding_box:
+      xmax: 838
+      xmin: 817
+      ymax: 480
+      ymin: 459
+    class: class_2
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00069.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00071.jpg
+  objects:
+  - bounding_box:
+      xmax: 822
+      xmin: 794
+      ymax: 502
+      ymin: 474
+    class: class_1
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00071.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00072.jpg
+  objects:
+  - bounding_box:
+      xmax: 858
+      xmin: 836
+      ymax: 478
+      ymin: 456
+    class: class_4
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00072.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00073.jpg
+  objects:
+  - bounding_box:
+      xmax: 748
+      xmin: 727
+      ymax: 477
+      ymin: 457
+    class: class_2
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00073.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00073.jpg
+  objects:
+  - bounding_box:
+      xmax: 452
+      xmin: 430
+      ymax: 475
+      ymin: 453
+    class: class_2
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00073.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00075.jpg
+  objects:
+  - bounding_box:
+      xmax: 1179
+      xmin: 1131
+      ymax: 456
+      ymin: 409
+    class: class_4
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00075.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00076.jpg
+  objects:
+  - bounding_box:
+      xmax: 815
+      xmin: 789
+      ymax: 495
+      ymin: 471
+    class: class_2
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00076.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00085.jpg
+  objects:
+  - bounding_box:
+      xmax: 875
+      xmin: 846
+      ymax: 458
+      ymin: 429
+    class: class_1
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00085.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00087.jpg
+  objects:
+  - bounding_box:
+      xmax: 946
+      xmin: 912
+      ymax: 470
+      ymin: 435
+    class: class_6
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00087.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00087.jpg
+  objects:
+  - bounding_box:
+      xmax: 340
+      xmin: 306
+      ymax: 456
+      ymin: 421
+    class: class_6
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00087.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00088.jpg
+  objects:
+  - bounding_box:
+      xmax: 436
+      xmin: 412
+      ymax: 464
+      ymin: 440
+    class: class_8
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00088.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00088.jpg
+  objects:
+  - bounding_box:
+      xmax: 981
+      xmin: 956
+      ymax: 464
+      ymin: 440
+    class: class_8
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00088.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00089.jpg
+  objects:
+  - bounding_box:
+      xmax: 1054
+      xmin: 1025
+      ymax: 468
+      ymin: 438
+    class: class_5
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00089.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00089.jpg
+  objects:
+  - bounding_box:
+      xmax: 660
+      xmin: 634
+      ymax: 474
+      ymin: 447
+    class: class_5
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00089.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00093.jpg
+  objects:
+  - bounding_box:
+      xmax: 379
+      xmin: 344
+      ymax: 436
+      ymin: 397
+    class: class_1
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00093.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00093.jpg
+  objects:
+  - bounding_box:
+      xmax: 1119
+      xmin: 1076
+      ymax: 389
+      ymin: 339
+    class: class_1
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00093.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00095.jpg
+  objects:
+  - bounding_box:
+      xmax: 719
+      xmin: 698
+      ymax: 481
+      ymin: 461
+    class: class_1
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00095.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00101.jpg
+  objects:
+  - bounding_box:
+      xmax: 891
+      xmin: 835
+      ymax: 461
+      ymin: 406
+    class: class_5
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00101.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00107.jpg
+  objects:
+  - bounding_box:
+      xmax: 529
+      xmin: 490
+      ymax: 576
+      ymin: 536
+    class: class_1
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00107.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00109.jpg
+  objects:
+  - bounding_box:
+      xmax: 1020
+      xmin: 990
+      ymax: 513
+      ymin: 484
+    class: class_3
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00109.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00111.jpg
+  objects:
+  - bounding_box:
+      xmax: 1123
+      xmin: 1091
+      ymax: 497
+      ymin: 465
+    class: class_3
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00111.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00111.jpg
+  objects:
+  - bounding_box:
+      xmax: 382
+      xmin: 350
+      ymax: 535
+      ymin: 503
+    class: class_3
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00111.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00112.jpg
+  objects:
+  - bounding_box:
+      xmax: 399
+      xmin: 366
+      ymax: 508
+      ymin: 473
+    class: class_3
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00112.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00112.jpg
+  objects:
+  - bounding_box:
+      xmax: 1225
+      xmin: 1186
+      ymax: 514
+      ymin: 475
+    class: class_3
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00112.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00114.jpg
+  objects:
+  - bounding_box:
+      xmax: 1231
+      xmin: 1169
+      ymax: 484
+      ymin: 421
+    class: class_3
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00114.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00120.jpg
+  objects:
+  - bounding_box:
+      xmax: 164
+      xmin: 58
+      ymax: 345
+      ymin: 243
+    class: class_2
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00120.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00121.jpg
+  objects:
+  - bounding_box:
+      xmax: 185
+      xmin: 91
+      ymax: 416
+      ymin: 308
+    class: class_7
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00121.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00122.jpg
+  objects:
+  - bounding_box:
+      xmax: 521
+      xmin: 500
+      ymax: 518
+      ymin: 496
+    class: class_7
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00122.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00122.jpg
+  objects:
+  - bounding_box:
+      xmax: 904
+      xmin: 883
+      ymax: 520
+      ymin: 498
+    class: class_7
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00122.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00123.jpg
+  objects:
+  - bounding_box:
+      xmax: 550
+      xmin: 519
+      ymax: 524
+      ymin: 492
+    class: class_7
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00123.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00123.jpg
+  objects:
+  - bounding_box:
+      xmax: 1133
+      xmin: 1101
+      ymax: 516
+      ymin: 483
+    class: class_7
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00123.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00124.jpg
+  objects:
+  - bounding_box:
+      xmax: 558
+      xmin: 532
+      ymax: 507
+      ymin: 481
+    class: class_4
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00124.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00124.jpg
+  objects:
+  - bounding_box:
+      xmax: 1002
+      xmin: 976
+      ymax: 496
+      ymin: 470
+    class: class_4
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00124.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00125.jpg
+  objects:
+  - bounding_box:
+      xmax: 1106
+      xmin: 1019
+      ymax: 401
+      ymin: 313
+    class: class_2
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00125.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00126.jpg
+  objects:
+  - bounding_box:
+      xmax: 868
+      xmin: 840
+      ymax: 404
+      ymin: 374
+    class: class_2
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00126.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00126.jpg
+  objects:
+  - bounding_box:
+      xmax: 411
+      xmin: 379
+      ymax: 396
+      ymin: 365
+    class: class_2
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00126.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00127.jpg
+  objects:
+  - bounding_box:
+      xmax: 175
+      xmin: 138
+      ymax: 423
+      ymin: 385
+    class: class_5
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00127.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00127.jpg
+  objects:
+  - bounding_box:
+      xmax: 1046
+      xmin: 1009
+      ymax: 417
+      ymin: 380
+    class: class_5
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00127.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00130.jpg
+  objects:
+  - bounding_box:
+      xmax: 236
+      xmin: 209
+      ymax: 453
+      ymin: 426
+    class: class_1
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00130.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00130.jpg
+  objects:
+  - bounding_box:
+      xmax: 626
+      xmin: 601
+      ymax: 456
+      ymin: 431
+    class: class_1
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00130.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00131.jpg
+  objects:
+  - bounding_box:
+      xmax: 500
+      xmin: 474
+      ymax: 415
+      ymin: 389
+    class: class_1
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00131.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00134.jpg
+  objects:
+  - bounding_box:
+      xmax: 1073
+      xmin: 1008
+      ymax: 365
+      ymin: 299
+    class: class_1
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00134.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00135.jpg
+  objects:
+  - bounding_box:
+      xmax: 777
+      xmin: 718
+      ymax: 356
+      ymin: 298
+    class: class_1
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00135.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00141.jpg
+  objects:
+  - bounding_box:
+      xmax: 894
+      xmin: 857
+      ymax: 416
+      ymin: 379
+    class: class_2
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00141.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00142.jpg
+  objects:
+  - bounding_box:
+      xmax: 835
+      xmin: 816
+      ymax: 473
+      ymin: 454
+    class: class_2
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00142.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00144.jpg
+  objects:
+  - bounding_box:
+      xmax: 727
+      xmin: 708
+      ymax: 464
+      ymin: 445
+    class: class_4
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00144.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00146.jpg
+  objects:
+  - bounding_box:
+      xmax: 729
+      xmin: 711
+      ymax: 445
+      ymin: 427
+    class: class_2
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00146.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00149.jpg
+  objects:
+  - bounding_box:
+      xmax: 1221
+      xmin: 1131
+      ymax: 361
+      ymin: 274
+    class: class_4
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00149.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00150.jpg
+  objects:
+  - bounding_box:
+      xmax: 865
+      xmin: 824
+      ymax: 386
+      ymin: 345
+    class: class_2
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00150.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00151.jpg
+  objects:
+  - bounding_box:
+      xmax: 824
+      xmin: 794
+      ymax: 401
+      ymin: 372
+    class: class_1
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00151.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00165.jpg
+  objects:
+  - bounding_box:
+      xmax: 399
+      xmin: 382
+      ymax: 431
+      ymin: 412
+    class: class_1
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00165.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00166.jpg
+  objects:
+  - bounding_box:
+      xmax: 848
+      xmin: 814
+      ymax: 416
+      ymin: 382
+    class: class_1
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00166.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00167.jpg
+  objects:
+  - bounding_box:
+      xmax: 392
+      xmin: 369
+      ymax: 469
+      ymin: 446
+    class: class_2
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00167.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00167.jpg
+  objects:
+  - bounding_box:
+      xmax: 750
+      xmin: 729
+      ymax: 455
+      ymin: 433
+    class: class_2
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00167.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00169.jpg
+  objects:
+  - bounding_box:
+      xmax: 1212
+      xmin: 1089
+      ymax: 276
+      ymin: 153
+    class: class_2
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00169.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00170.jpg
+  objects:
+  - bounding_box:
+      xmax: 944
+      xmin: 912
+      ymax: 358
+      ymin: 322
+    class: class_4
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00170.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00171.jpg
+  objects:
+  - bounding_box:
+      xmax: 932
+      xmin: 882
+      ymax: 385
+      ymin: 335
+    class: class_4
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00171.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00172.jpg
+  objects:
+  - bounding_box:
+      xmax: 737
+      xmin: 718
+      ymax: 437
+      ymin: 418
+    class: class_1
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00172.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00173.jpg
+  objects:
+  - bounding_box:
+      xmax: 1161
+      xmin: 1111
+      ymax: 329
+      ymin: 279
+    class: class_1
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00173.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00174.jpg
+  objects:
+  - bounding_box:
+      xmax: 747
+      xmin: 723
+      ymax: 467
+      ymin: 443
+    class: class_2
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00174.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00176.jpg
+  objects:
+  - bounding_box:
+      xmax: 875
+      xmin: 850
+      ymax: 440
+      ymin: 414
+    class: class_2
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00176.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00178.jpg
+  objects:
+  - bounding_box:
+      xmax: 748
+      xmin: 728
+      ymax: 476
+      ymin: 456
+    class: class_2
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00178.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00180.jpg
+  objects:
+  - bounding_box:
+      xmax: 1004
+      xmin: 968
+      ymax: 421
+      ymin: 384
+    class: class_2
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00180.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00181.jpg
+  objects:
+  - bounding_box:
+      xmax: 853
+      xmin: 793
+      ymax: 359
+      ymin: 299
+    class: class_4
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00181.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00182.jpg
+  objects:
+  - bounding_box:
+      xmax: 685
+      xmin: 656
+      ymax: 441
+      ymin: 412
+    class: class_2
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00182.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00184.jpg
+  objects:
+  - bounding_box:
+      xmax: 850
+      xmin: 790
+      ymax: 334
+      ymin: 273
+    class: class_1
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00184.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00185.jpg
+  objects:
+  - bounding_box:
+      xmax: 1076
+      xmin: 967
+      ymax: 257
+      ymin: 150
+    class: class_2
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00185.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00186.jpg
+  objects:
+  - bounding_box:
+      xmax: 621
+      xmin: 603
+      ymax: 474
+      ymin: 455
+    class: class_4
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00186.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00186.jpg
+  objects:
+  - bounding_box:
+      xmax: 345
+      xmin: 325
+      ymax: 448
+      ymin: 428
+    class: class_4
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00186.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00187.jpg
+  objects:
+  - bounding_box:
+      xmax: 709
+      xmin: 675
+      ymax: 439
+      ymin: 405
+    class: class_2
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00187.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00187.jpg
+  objects:
+  - bounding_box:
+      xmax: 194
+      xmin: 161
+      ymax: 428
+      ymin: 393
+    class: class_2
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00187.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00192.jpg
+  objects:
+  - bounding_box:
+      xmax: 334
+      xmin: 314
+      ymax: 461
+      ymin: 440
+    class: class_1
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00192.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00203.jpg
+  objects:
+  - bounding_box:
+      xmax: 784
+      xmin: 758
+      ymax: 400
+      ymin: 375
+    class: class_0
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00203.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00204.jpg
+  objects:
+  - bounding_box:
+      xmax: 946
+      xmin: 858
+      ymax: 242
+      ymin: 151
+    class: class_1
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00204.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00216.jpg
+  objects:
+  - bounding_box:
+      xmax: 337
+      xmin: 312
+      ymax: 467
+      ymin: 442
+    class: class_5
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00216.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00216.jpg
+  objects:
+  - bounding_box:
+      xmax: 911
+      xmin: 886
+      ymax: 472
+      ymin: 446
+    class: class_5
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00216.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00217.jpg
+  objects:
+  - bounding_box:
+      xmax: 1031
+      xmin: 971
+      ymax: 328
+      ymin: 267
+    class: class_1
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00217.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00220.jpg
+  objects:
+  - bounding_box:
+      xmax: 1168
+      xmin: 1127
+      ymax: 326
+      ymin: 285
+    class: class_1
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00220.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00222.jpg
+  objects:
+  - bounding_box:
+      xmax: 1022
+      xmin: 985
+      ymax: 390
+      ymin: 354
+    class: class_1
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00222.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00223.jpg
+  objects:
+  - bounding_box:
+      xmax: 858
+      xmin: 816
+      ymax: 374
+      ymin: 334
+    class: class_1
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00223.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00224.jpg
+  objects:
+  - bounding_box:
+      xmax: 977
+      xmin: 923
+      ymax: 341
+      ymin: 276
+    class: class_1
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00224.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00225.jpg
+  objects:
+  - bounding_box:
+      xmax: 924
+      xmin: 856
+      ymax: 334
+      ymin: 268
+    class: class_1
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00225.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00226.jpg
+  objects:
+  - bounding_box:
+      xmax: 1220
+      xmin: 1152
+      ymax: 290
+      ymin: 224
+    class: class_1
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00226.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00228.jpg
+  objects:
+  - bounding_box:
+      xmax: 998
+      xmin: 937
+      ymax: 356
+      ymin: 295
+    class: class_1
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00228.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00229.jpg
+  objects:
+  - bounding_box:
+      xmax: 1305
+      xmin: 1273
+      ymax: 417
+      ymin: 384
+    class: class_1
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00229.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00230.jpg
+  objects:
+  - bounding_box:
+      xmax: 1002
+      xmin: 974
+      ymax: 426
+      ymin: 398
+    class: class_1
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00230.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00231.jpg
+  objects:
+  - bounding_box:
+      xmax: 1183
+      xmin: 1146
+      ymax: 399
+      ymin: 362
+    class: class_1
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00231.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00234.jpg
+  objects:
+  - bounding_box:
+      xmax: 1115
+      xmin: 1051
+      ymax: 338
+      ymin: 275
+    class: class_1
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00234.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00238.jpg
+  objects:
+  - bounding_box:
+      xmax: 877
+      xmin: 849
+      ymax: 471
+      ymin: 443
+    class: class_1
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00238.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00239.jpg
+  objects:
+  - bounding_box:
+      xmax: 812
+      xmin: 792
+      ymax: 458
+      ymin: 439
+    class: class_1
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00239.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00240.jpg
+  objects:
+  - bounding_box:
+      xmax: 879
+      xmin: 847
+      ymax: 396
+      ymin: 364
+    class: class_1
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00240.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00241.jpg
+  objects:
+  - bounding_box:
+      xmax: 880
+      xmin: 838
+      ymax: 442
+      ymin: 400
+    class: class_2
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00241.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00243.jpg
+  objects:
+  - bounding_box:
+      xmax: 867
+      xmin: 843
+      ymax: 470
+      ymin: 447
+    class: class_2
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00243.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00247.jpg
+  objects:
+  - bounding_box:
+      xmax: 492
+      xmin: 471
+      ymax: 474
+      ymin: 453
+    class: class_5
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00247.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00247.jpg
+  objects:
+  - bounding_box:
+      xmax: 877
+      xmin: 856
+      ymax: 469
+      ymin: 448
+    class: class_5
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00247.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00248.jpg
+  objects:
+  - bounding_box:
+      xmax: 229
+      xmin: 204
+      ymax: 479
+      ymin: 452
+    class: class_5
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00248.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00248.jpg
+  objects:
+  - bounding_box:
+      xmax: 870
+      xmin: 843
+      ymax: 456
+      ymin: 429
+    class: class_5
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00248.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00249.jpg
+  objects:
+  - bounding_box:
+      xmax: 1244
+      xmin: 1212
+      ymax: 452
+      ymin: 419
+    class: class_2
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00249.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00250.jpg
+  objects:
+  - bounding_box:
+      xmax: 932
+      xmin: 907
+      ymax: 471
+      ymin: 446
+    class: class_2
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00250.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00252.jpg
+  objects:
+  - bounding_box:
+      xmax: 956
+      xmin: 910
+      ymax: 372
+      ymin: 326
+    class: class_1
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00252.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00254.jpg
+  objects:
+  - bounding_box:
+      xmax: 1237
+      xmin: 1172
+      ymax: 336
+      ymin: 270
+    class: class_2
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00254.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00259.jpg
+  objects:
+  - bounding_box:
+      xmax: 1247
+      xmin: 1202
+      ymax: 374
+      ymin: 329
+    class: class_1
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00259.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00260.jpg
+  objects:
+  - bounding_box:
+      xmax: 784
+      xmin: 720
+      ymax: 330
+      ymin: 266
+    class: class_0
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00260.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00263.jpg
+  objects:
+  - bounding_box:
+      xmax: 666
+      xmin: 646
+      ymax: 437
+      ymin: 417
+    class: class_2
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00263.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00264.jpg
+  objects:
+  - bounding_box:
+      xmax: 988
+      xmin: 964
+      ymax: 435
+      ymin: 412
+    class: class_4
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00264.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00265.jpg
+  objects:
+  - bounding_box:
+      xmax: 827
+      xmin: 805
+      ymax: 480
+      ymin: 458
+    class: class_1
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00265.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00268.jpg
+  objects:
+  - bounding_box:
+      xmax: 917
+      xmin: 891
+      ymax: 422
+      ymin: 396
+    class: class_2
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00268.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00270.jpg
+  objects:
+  - bounding_box:
+      xmax: 293
+      xmin: 243
+      ymax: 386
+      ymin: 335
+    class: class_2
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00270.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00270.jpg
+  objects:
+  - bounding_box:
+      xmax: 1291
+      xmin: 1237
+      ymax: 332
+      ymin: 279
+    class: class_2
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00270.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00271.jpg
+  objects:
+  - bounding_box:
+      xmax: 297
+      xmin: 259
+      ymax: 408
+      ymin: 369
+    class: class_2
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00271.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00271.jpg
+  objects:
+  - bounding_box:
+      xmax: 1130
+      xmin: 1090
+      ymax: 381
+      ymin: 341
+    class: class_2
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00271.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00274.jpg
+  objects:
+  - bounding_box:
+      xmax: 1011
+      xmin: 975
+      ymax: 430
+      ymin: 395
+    class: class_0
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00274.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00280.jpg
+  objects:
+  - bounding_box:
+      xmax: 1083
+      xmin: 1054
+      ymax: 422
+      ymin: 392
+    class: class_2
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00280.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00281.jpg
+  objects:
+  - bounding_box:
+      xmax: 1017
+      xmin: 984
+      ymax: 425
+      ymin: 392
+    class: class_2
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00281.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00283.jpg
+  objects:
+  - bounding_box:
+      xmax: 1284
+      xmin: 1177
+      ymax: 219
+      ymin: 114
+    class: class_4
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00283.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00284.jpg
+  objects:
+  - bounding_box:
+      xmax: 1051
+      xmin: 993
+      ymax: 404
+      ymin: 347
+    class: class_2
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00284.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00287.jpg
+  objects:
+  - bounding_box:
+      xmax: 1154
+      xmin: 1113
+      ymax: 411
+      ymin: 370
+    class: class_2
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00287.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00288.jpg
+  objects:
+  - bounding_box:
+      xmax: 436
+      xmin: 413
+      ymax: 479
+      ymin: 456
+    class: class_5
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00288.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00288.jpg
+  objects:
+  - bounding_box:
+      xmax: 1006
+      xmin: 983
+      ymax: 462
+      ymin: 438
+    class: class_5
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00288.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00289.jpg
+  objects:
+  - bounding_box:
+      xmax: 326
+      xmin: 285
+      ymax: 444
+      ymin: 401
+    class: class_6
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00289.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00289.jpg
+  objects:
+  - bounding_box:
+      xmax: 1326
+      xmin: 1282
+      ymax: 424
+      ymin: 379
+    class: class_6
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00289.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00290.jpg
+  objects:
+  - bounding_box:
+      xmax: 1326
+      xmin: 1294
+      ymax: 428
+      ymin: 391
+    class: class_5
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00290.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00291.jpg
+  objects:
+  - bounding_box:
+      xmax: 1165
+      xmin: 1129
+      ymax: 422
+      ymin: 384
+    class: class_3
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00291.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00292.jpg
+  objects:
+  - bounding_box:
+      xmax: 1011
+      xmin: 982
+      ymax: 451
+      ymin: 422
+    class: class_8
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00292.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00292.jpg
+  objects:
+  - bounding_box:
+      xmax: 345
+      xmin: 315
+      ymax: 476
+      ymin: 447
+    class: class_8
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00292.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00293.jpg
+  objects:
+  - bounding_box:
+      xmax: 70
+      xmin: 28
+      ymax: 456
+      ymin: 410
+    class: class_7
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00293.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00293.jpg
+  objects:
+  - bounding_box:
+      xmax: 1193
+      xmin: 1143
+      ymax: 415
+      ymin: 365
+    class: class_7
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00293.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00295.jpg
+  objects:
+  - bounding_box:
+      xmax: 1272
+      xmin: 1227
+      ymax: 411
+      ymin: 364
+    class: class_6
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00295.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00295.jpg
+  objects:
+  - bounding_box:
+      xmax: 142
+      xmin: 98
+      ymax: 463
+      ymin: 417
+    class: class_6
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00295.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00296.jpg
+  objects:
+  - bounding_box:
+      xmax: 492
+      xmin: 460
+      ymax: 442
+      ymin: 409
+    class: class_7
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00296.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00296.jpg
+  objects:
+  - bounding_box:
+      xmax: 1269
+      xmin: 1237
+      ymax: 417
+      ymin: 385
+    class: class_7
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00296.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00298.jpg
+  objects:
+  - bounding_box:
+      xmax: 1314
+      xmin: 1238
+      ymax: 331
+      ymin: 256
+    class: class_2
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00298.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00300.jpg
+  objects:
+  - bounding_box:
+      xmax: 801
+      xmin: 779
+      ymax: 443
+      ymin: 420
+    class: class_2
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00300.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00301.jpg
+  objects:
+  - bounding_box:
+      xmax: 1125
+      xmin: 1075
+      ymax: 368
+      ymin: 318
+    class: class_2
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00301.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00303.jpg
+  objects:
+  - bounding_box:
+      xmax: 1215
+      xmin: 1186
+      ymax: 414
+      ymin: 385
+    class: class_2
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00303.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00309.jpg
+  objects:
+  - bounding_box:
+      xmax: 220
+      xmin: 180
+      ymax: 431
+      ymin: 388
+    class: class_7
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00309.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00309.jpg
+  objects:
+  - bounding_box:
+      xmax: 1203
+      xmin: 1159
+      ymax: 398
+      ymin: 353
+    class: class_7
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00309.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00311.jpg
+  objects:
+  - bounding_box:
+      xmax: 650
+      xmin: 616
+      ymax: 458
+      ymin: 424
+    class: class_8
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00311.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00311.jpg
+  objects:
+  - bounding_box:
+      xmax: 1329
+      xmin: 1295
+      ymax: 425
+      ymin: 391
+    class: class_8
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00311.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00312.jpg
+  objects:
+  - bounding_box:
+      xmax: 225
+      xmin: 122
+      ymax: 379
+      ymin: 267
+    class: class_5
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00312.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00313.jpg
+  objects:
+  - bounding_box:
+      xmax: 424
+      xmin: 369
+      ymax: 470
+      ymin: 414
+    class: class_6
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00313.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00314.jpg
+  objects:
+  - bounding_box:
+      xmax: 1247
+      xmin: 1213
+      ymax: 434
+      ymin: 398
+    class: class_5
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00314.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00314.jpg
+  objects:
+  - bounding_box:
+      xmax: 429
+      xmin: 396
+      ymax: 485
+      ymin: 451
+    class: class_5
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00314.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00315.jpg
+  objects:
+  - bounding_box:
+      xmax: 1310
+      xmin: 1267
+      ymax: 419
+      ymin: 373
+    class: class_6
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00315.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00315.jpg
+  objects:
+  - bounding_box:
+      xmax: 213
+      xmin: 172
+      ymax: 462
+      ymin: 414
+    class: class_6
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00315.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00316.jpg
+  objects:
+  - bounding_box:
+      xmax: 719
+      xmin: 696
+      ymax: 458
+      ymin: 436
+    class: class_3
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00316.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00316.jpg
+  objects:
+  - bounding_box:
+      xmax: 1020
+      xmin: 995
+      ymax: 445
+      ymin: 421
+    class: class_3
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00316.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00317.jpg
+  objects:
+  - bounding_box:
+      xmax: 1166
+      xmin: 1122
+      ymax: 421
+      ymin: 378
+    class: class_32
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00317.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00319.jpg
+  objects:
+  - bounding_box:
+      xmax: 1248
+      xmin: 1201
+      ymax: 450
+      ymin: 403
+    class: class_3
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00319.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00319.jpg
+  objects:
+  - bounding_box:
+      xmax: 612
+      xmin: 569
+      ymax: 481
+      ymin: 436
+    class: class_3
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00319.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00320.jpg
+  objects:
+  - bounding_box:
+      xmax: 202
+      xmin: 175
+      ymax: 466
+      ymin: 438
+    class: class_32
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00320.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00320.jpg
+  objects:
+  - bounding_box:
+      xmax: 951
+      xmin: 921
+      ymax: 434
+      ymin: 403
+    class: class_32
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00320.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00322.jpg
+  objects:
+  - bounding_box:
+      xmax: 1209
+      xmin: 1166
+      ymax: 370
+      ymin: 327
+    class: class_5
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00322.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00322.jpg
+  objects:
+  - bounding_box:
+      xmax: 381
+      xmin: 338
+      ymax: 449
+      ymin: 406
+    class: class_5
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00322.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00330.jpg
+  objects:
+  - bounding_box:
+      xmax: 1116
+      xmin: 1050
+      ymax: 381
+      ymin: 313
+    class: class_2
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00330.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00334.jpg
+  objects:
+  - bounding_box:
+      xmax: 797
+      xmin: 760
+      ymax: 472
+      ymin: 435
+    class: class_2
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00334.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00338.jpg
+  objects:
+  - bounding_box:
+      xmax: 536
+      xmin: 505
+      ymax: 453
+      ymin: 425
+    class: class_2
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00338.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00338.jpg
+  objects:
+  - bounding_box:
+      xmax: 1029
+      xmin: 1000
+      ymax: 453
+      ymin: 426
+    class: class_2
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00338.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00339.jpg
+  objects:
+  - bounding_box:
+      xmax: 660
+      xmin: 627
+      ymax: 476
+      ymin: 442
+    class: class_1
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00339.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00346.jpg
+  objects:
+  - bounding_box:
+      xmax: 321
+      xmin: 291
+      ymax: 571
+      ymin: 541
+    class: class_5
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00346.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00346.jpg
+  objects:
+  - bounding_box:
+      xmax: 911
+      xmin: 883
+      ymax: 570
+      ymin: 542
+    class: class_5
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00346.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00348.jpg
+  objects:
+  - bounding_box:
+      xmax: 990
+      xmin: 952
+      ymax: 562
+      ymin: 524
+    class: class_5
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00348.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00351.jpg
+  objects:
+  - bounding_box:
+      xmax: 538
+      xmin: 511
+      ymax: 560
+      ymin: 533
+    class: class_5
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00351.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00352.jpg
+  objects:
+  - bounding_box:
+      xmax: 996
+      xmin: 969
+      ymax: 576
+      ymin: 549
+    class: class_6
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00352.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00352.jpg
+  objects:
+  - bounding_box:
+      xmax: 555
+      xmin: 528
+      ymax: 580
+      ymin: 553
+    class: class_6
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00352.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00358.jpg
+  objects:
+  - bounding_box:
+      xmax: 374
+      xmin: 316
+      ymax: 549
+      ymin: 490
+    class: class_8
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00358.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00359.jpg
+  objects:
+  - bounding_box:
+      xmax: 903
+      xmin: 879
+      ymax: 583
+      ymin: 559
+    class: class_8
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00359.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00359.jpg
+  objects:
+  - bounding_box:
+      xmax: 492
+      xmin: 467
+      ymax: 585
+      ymin: 560
+    class: class_8
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00359.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00360.jpg
+  objects:
+  - bounding_box:
+      xmax: 1076
+      xmin: 1032
+      ymax: 528
+      ymin: 484
+    class: class_8
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00360.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00360.jpg
+  objects:
+  - bounding_box:
+      xmax: 296
+      xmin: 253
+      ymax: 545
+      ymin: 502
+    class: class_8
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00360.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00363.jpg
+  objects:
+  - bounding_box:
+      xmax: 450
+      xmin: 407
+      ymax: 526
+      ymin: 483
+    class: class_8
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00363.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00366.jpg
+  objects:
+  - bounding_box:
+      xmax: 540
+      xmin: 517
+      ymax: 553
+      ymin: 530
+    class: class_8
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00366.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00366.jpg
+  objects:
+  - bounding_box:
+      xmax: 1014
+      xmin: 988
+      ymax: 573
+      ymin: 550
+    class: class_8
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00366.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00367.jpg
+  objects:
+  - bounding_box:
+      xmax: 1068
+      xmin: 1028
+      ymax: 541
+      ymin: 501
+    class: class_8
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00367.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00367.jpg
+  objects:
+  - bounding_box:
+      xmax: 274
+      xmin: 230
+      ymax: 530
+      ymin: 488
+    class: class_8
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00367.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00368.jpg
+  objects:
+  - bounding_box:
+      xmax: 431
+      xmin: 382
+      ymax: 510
+      ymin: 460
+    class: class_8
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00368.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00369.jpg
+  objects:
+  - bounding_box:
+      xmax: 542
+      xmin: 521
+      ymax: 564
+      ymin: 544
+    class: class_8
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00369.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00369.jpg
+  objects:
+  - bounding_box:
+      xmax: 895
+      xmin: 874
+      ymax: 551
+      ymin: 532
+    class: class_8
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00369.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00370.jpg
+  objects:
+  - bounding_box:
+      xmax: 904
+      xmin: 880
+      ymax: 559
+      ymin: 536
+    class: class_8
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00370.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00370.jpg
+  objects:
+  - bounding_box:
+      xmax: 467
+      xmin: 440
+      ymax: 554
+      ymin: 531
+    class: class_8
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00370.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00371.jpg
+  objects:
+  - bounding_box:
+      xmax: 372
+      xmin: 316
+      ymax: 577
+      ymin: 521
+    class: class_5
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00371.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00372.jpg
+  objects:
+  - bounding_box:
+      xmax: 1017
+      xmin: 974
+      ymax: 529
+      ymin: 486
+    class: class_4
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00372.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00373.jpg
+  objects:
+  - bounding_box:
+      xmax: 195
+      xmin: 164
+      ymax: 548
+      ymin: 517
+    class: class_4
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00373.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00373.jpg
+  objects:
+  - bounding_box:
+      xmax: 853
+      xmin: 819
+      ymax: 545
+      ymin: 511
+    class: class_4
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00373.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00376.jpg
+  objects:
+  - bounding_box:
+      xmax: 309
+      xmin: 266
+      ymax: 530
+      ymin: 487
+    class: class_6
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00376.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00376.jpg
+  objects:
+  - bounding_box:
+      xmax: 1031
+      xmin: 989
+      ymax: 552
+      ymin: 510
+    class: class_6
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00376.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00377.jpg
+  objects:
+  - bounding_box:
+      xmax: 1172
+      xmin: 1133
+      ymax: 543
+      ymin: 504
+    class: class_8
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00377.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00377.jpg
+  objects:
+  - bounding_box:
+      xmax: 278
+      xmin: 239
+      ymax: 531
+      ymin: 490
+    class: class_8
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00377.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00378.jpg
+  objects:
+  - bounding_box:
+      xmax: 145
+      xmin: 22
+      ymax: 362
+      ymin: 242
+    class: class_8
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00378.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00379.jpg
+  objects:
+  - bounding_box:
+      xmax: 232
+      xmin: 186
+      ymax: 504
+      ymin: 458
+    class: class_8
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00379.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00379.jpg
+  objects:
+  - bounding_box:
+      xmax: 1109
+      xmin: 1062
+      ymax: 489
+      ymin: 442
+    class: class_8
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00379.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00380.jpg
+  objects:
+  - bounding_box:
+      xmax: 975
+      xmin: 952
+      ymax: 563
+      ymin: 540
+    class: class_8
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00380.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00380.jpg
+  objects:
+  - bounding_box:
+      xmax: 575
+      xmin: 551
+      ymax: 559
+      ymin: 535
+    class: class_8
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00380.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00382.jpg
+  objects:
+  - bounding_box:
+      xmax: 485
+      xmin: 445
+      ymax: 530
+      ymin: 490
+    class: class_8
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00382.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00382.jpg
+  objects:
+  - bounding_box:
+      xmax: 1248
+      xmin: 1209
+      ymax: 535
+      ymin: 496
+    class: class_8
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00382.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00384.jpg
+  objects:
+  - bounding_box:
+      xmax: 1263
+      xmin: 1199
+      ymax: 480
+      ymin: 416
+    class: class_8
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00384.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00385.jpg
+  objects:
+  - bounding_box:
+      xmax: 1016
+      xmin: 977
+      ymax: 568
+      ymin: 529
+    class: class_8
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00385.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00385.jpg
+  objects:
+  - bounding_box:
+      xmax: 307
+      xmin: 267
+      ymax: 571
+      ymin: 531
+    class: class_8
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00385.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00390.jpg
+  objects:
+  - bounding_box:
+      xmax: 503
+      xmin: 455
+      ymax: 550
+      ymin: 502
+    class: class_8
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00390.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00390.jpg
+  objects:
+  - bounding_box:
+      xmax: 1265
+      xmin: 1219
+      ymax: 541
+      ymin: 494
+    class: class_8
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00390.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00391.jpg
+  objects:
+  - bounding_box:
+      xmax: 1304
+      xmin: 1260
+      ymax: 551
+      ymin: 502
+    class: class_6
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00391.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00391.jpg
+  objects:
+  - bounding_box:
+      xmax: 247
+      xmin: 198
+      ymax: 558
+      ymin: 508
+    class: class_6
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00391.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00392.jpg
+  objects:
+  - bounding_box:
+      xmax: 423
+      xmin: 358
+      ymax: 512
+      ymin: 443
+    class: class_7
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00392.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00395.jpg
+  objects:
+  - bounding_box:
+      xmax: 241
+      xmin: 201
+      ymax: 561
+      ymin: 519
+    class: class_6
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00395.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00395.jpg
+  objects:
+  - bounding_box:
+      xmax: 938
+      xmin: 903
+      ymax: 555
+      ymin: 519
+    class: class_6
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00395.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00396.jpg
+  objects:
+  - bounding_box:
+      xmax: 238
+      xmin: 192
+      ymax: 531
+      ymin: 484
+    class: class_7
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00396.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00396.jpg
+  objects:
+  - bounding_box:
+      xmax: 1046
+      xmin: 998
+      ymax: 516
+      ymin: 468
+    class: class_7
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00396.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00397.jpg
+  objects:
+  - bounding_box:
+      xmax: 982
+      xmin: 947
+      ymax: 559
+      ymin: 524
+    class: class_4
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00397.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00398.jpg
+  objects:
+  - bounding_box:
+      xmax: 795
+      xmin: 771
+      ymax: 560
+      ymin: 538
+    class: class_4
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00398.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00401.jpg
+  objects:
+  - bounding_box:
+      xmax: 461
+      xmin: 420
+      ymax: 537
+      ymin: 496
+    class: class_4
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00401.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00401.jpg
+  objects:
+  - bounding_box:
+      xmax: 1163
+      xmin: 1122
+      ymax: 538
+      ymin: 497
+    class: class_4
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00401.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00403.jpg
+  objects:
+  - bounding_box:
+      xmax: 592
+      xmin: 568
+      ymax: 564
+      ymin: 540
+    class: class_4
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00403.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00403.jpg
+  objects:
+  - bounding_box:
+      xmax: 965
+      xmin: 939
+      ymax: 559
+      ymin: 532
+    class: class_4
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00403.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00404.jpg
+  objects:
+  - bounding_box:
+      xmax: 396
+      xmin: 335
+      ymax: 476
+      ymin: 415
+    class: class_4
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00404.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00404.jpg
+  objects:
+  - bounding_box:
+      xmax: 1312
+      xmin: 1255
+      ymax: 472
+      ymin: 415
+    class: class_4
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00404.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00405.jpg
+  objects:
+  - bounding_box:
+      xmax: 1309
+      xmin: 1255
+      ymax: 525
+      ymin: 470
+    class: class_4
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00405.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00405.jpg
+  objects:
+  - bounding_box:
+      xmax: 411
+      xmin: 355
+      ymax: 499
+      ymin: 444
+    class: class_4
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00405.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00412.jpg
+  objects:
+  - bounding_box:
+      xmax: 1047
+      xmin: 1002
+      ymax: 545
+      ymin: 499
+    class: class_7
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00412.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00413.jpg
+  objects:
+  - bounding_box:
+      xmax: 1084
+      xmin: 1038
+      ymax: 529
+      ymin: 480
+    class: class_3
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00413.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00414.jpg
+  objects:
+  - bounding_box:
+      xmax: 1078
+      xmin: 1032
+      ymax: 468
+      ymin: 421
+    class: class_3
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00414.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00416.jpg
+  objects:
+  - bounding_box:
+      xmax: 851
+      xmin: 813
+      ymax: 543
+      ymin: 505
+    class: class_3
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00416.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00418.jpg
+  objects:
+  - bounding_box:
+      xmax: 482
+      xmin: 460
+      ymax: 585
+      ymin: 563
+    class: class_8
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00418.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00419.jpg
+  objects:
+  - bounding_box:
+      xmax: 1025
+      xmin: 979
+      ymax: 537
+      ymin: 489
+    class: class_7
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00419.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00420.jpg
+  objects:
+  - bounding_box:
+      xmax: 851
+      xmin: 828
+      ymax: 565
+      ymin: 542
+    class: class_3
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00420.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00420.jpg
+  objects:
+  - bounding_box:
+      xmax: 383
+      xmin: 361
+      ymax: 570
+      ymin: 548
+    class: class_3
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00420.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00425.jpg
+  objects:
+  - bounding_box:
+      xmax: 342
+      xmin: 302
+      ymax: 543
+      ymin: 503
+    class: class_5
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00425.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00425.jpg
+  objects:
+  - bounding_box:
+      xmax: 941
+      xmin: 900
+      ymax: 541
+      ymin: 500
+    class: class_5
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00425.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00427.jpg
+  objects:
+  - bounding_box:
+      xmax: 388
+      xmin: 294
+      ymax: 479
+      ymin: 383
+    class: class_5
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00427.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00428.jpg
+  objects:
+  - bounding_box:
+      xmax: 353
+      xmin: 325
+      ymax: 576
+      ymin: 548
+    class: class_7
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00428.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00428.jpg
+  objects:
+  - bounding_box:
+      xmax: 966
+      xmin: 937
+      ymax: 572
+      ymin: 543
+    class: class_7
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00428.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00431.jpg
+  objects:
+  - bounding_box:
+      xmax: 314
+      xmin: 275
+      ymax: 564
+      ymin: 527
+    class: class_8
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00431.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00431.jpg
+  objects:
+  - bounding_box:
+      xmax: 1179
+      xmin: 1141
+      ymax: 536
+      ymin: 496
+    class: class_8
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00431.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00432.jpg
+  objects:
+  - bounding_box:
+      xmax: 263
+      xmin: 237
+      ymax: 586
+      ymin: 560
+    class: class_8
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00432.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00432.jpg
+  objects:
+  - bounding_box:
+      xmax: 970
+      xmin: 942
+      ymax: 540
+      ymin: 512
+    class: class_8
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00432.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00434.jpg
+  objects:
+  - bounding_box:
+      xmax: 257
+      xmin: 167
+      ymax: 286
+      ymin: 194
+    class: class_5
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00434.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00436.jpg
+  objects:
+  - bounding_box:
+      xmax: 816
+      xmin: 794
+      ymax: 553
+      ymin: 531
+    class: class_5
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00436.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00439.jpg
+  objects:
+  - bounding_box:
+      xmax: 1251
+      xmin: 1194
+      ymax: 564
+      ymin: 504
+    class: class_8
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00439.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00441.jpg
+  objects:
+  - bounding_box:
+      xmax: 1112
+      xmin: 1063
+      ymax: 580
+      ymin: 531
+    class: class_8
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00441.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00443.jpg
+  objects:
+  - bounding_box:
+      xmax: 843
+      xmin: 823
+      ymax: 598
+      ymin: 579
+    class: class_8
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00443.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00443.jpg
+  objects:
+  - bounding_box:
+      xmax: 497
+      xmin: 477
+      ymax: 596
+      ymin: 578
+    class: class_8
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00443.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00444.jpg
+  objects:
+  - bounding_box:
+      xmax: 419
+      xmin: 389
+      ymax: 600
+      ymin: 569
+    class: class_7
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00444.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00444.jpg
+  objects:
+  - bounding_box:
+      xmax: 1001
+      xmin: 972
+      ymax: 601
+      ymin: 572
+    class: class_7
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00444.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00445.jpg
+  objects:
+  - bounding_box:
+      xmax: 1066
+      xmin: 1021
+      ymax: 544
+      ymin: 498
+    class: class_5
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00445.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00445.jpg
+  objects:
+  - bounding_box:
+      xmax: 254
+      xmin: 213
+      ymax: 561
+      ymin: 519
+    class: class_5
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00445.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00456.jpg
+  objects:
+  - bounding_box:
+      xmax: 476
+      xmin: 421
+      ymax: 470
+      ymin: 414
+    class: class_3
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00456.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00457.jpg
+  objects:
+  - bounding_box:
+      xmax: 1301
+      xmin: 1243
+      ymax: 475
+      ymin: 418
+    class: class_2
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00457.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00457.jpg
+  objects:
+  - bounding_box:
+      xmax: 554
+      xmin: 517
+      ymax: 504
+      ymin: 466
+    class: class_2
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00457.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00459.jpg
+  objects:
+  - bounding_box:
+      xmax: 909
+      xmin: 884
+      ymax: 573
+      ymin: 548
+    class: class_1
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00459.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00467.jpg
+  objects:
+  - bounding_box:
+      xmax: 1168
+      xmin: 1132
+      ymax: 537
+      ymin: 501
+    class: class_3
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00467.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00468.jpg
+  objects:
+  - bounding_box:
+      xmax: 1165
+      xmin: 1128
+      ymax: 544
+      ymin: 506
+    class: class_3
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00468.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00470.jpg
+  objects:
+  - bounding_box:
+      xmax: 847
+      xmin: 823
+      ymax: 513
+      ymin: 489
+    class: class_1
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00470.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00474.jpg
+  objects:
+  - bounding_box:
+      xmax: 1274
+      xmin: 1242
+      ymax: 581
+      ymin: 549
+    class: class_7
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00474.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00474.jpg
+  objects:
+  - bounding_box:
+      xmax: 545
+      xmin: 514
+      ymax: 600
+      ymin: 569
+    class: class_7
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00474.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00475.jpg
+  objects:
+  - bounding_box:
+      xmax: 1310
+      xmin: 1233
+      ymax: 543
+      ymin: 468
+    class: class_7
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00475.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00476.jpg
+  objects:
+  - bounding_box:
+      xmax: 199
+      xmin: 163
+      ymax: 555
+      ymin: 518
+    class: class_7
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00476.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00476.jpg
+  objects:
+  - bounding_box:
+      xmax: 1187
+      xmin: 1152
+      ymax: 558
+      ymin: 523
+    class: class_7
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00476.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00477.jpg
+  objects:
+  - bounding_box:
+      xmax: 338
+      xmin: 298
+      ymax: 546
+      ymin: 506
+    class: class_5
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00477.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00478.jpg
+  objects:
+  - bounding_box:
+      xmax: 963
+      xmin: 921
+      ymax: 512
+      ymin: 470
+    class: class_5
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00478.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00478.jpg
+  objects:
+  - bounding_box:
+      xmax: 258
+      xmin: 218
+      ymax: 523
+      ymin: 483
+    class: class_5
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00478.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00480.jpg
+  objects:
+  - bounding_box:
+      xmax: 1103
+      xmin: 1055
+      ymax: 492
+      ymin: 444
+    class: class_2
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00480.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00483.jpg
+  objects:
+  - bounding_box:
+      xmax: 203
+      xmin: 150
+      ymax: 563
+      ymin: 510
+    class: class_7
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00483.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00483.jpg
+  objects:
+  - bounding_box:
+      xmax: 1232
+      xmin: 1182
+      ymax: 583
+      ymin: 531
+    class: class_7
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00483.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00486.jpg
+  objects:
+  - bounding_box:
+      xmax: 465
+      xmin: 410
+      ymax: 574
+      ymin: 519
+    class: class_7
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00486.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00494.jpg
+  objects:
+  - bounding_box:
+      xmax: 1211
+      xmin: 1113
+      ymax: 395
+      ymin: 300
+    class: class_1
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00494.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00496.jpg
+  objects:
+  - bounding_box:
+      xmax: 552
+      xmin: 511
+      ymax: 536
+      ymin: 494
+    class: class_8
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00496.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00500.jpg
+  objects:
+  - bounding_box:
+      xmax: 1000
+      xmin: 952
+      ymax: 546
+      ymin: 499
+    class: class_5
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00500.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00501.jpg
+  objects:
+  - bounding_box:
+      xmax: 962
+      xmin: 943
+      ymax: 577
+      ymin: 557
+    class: class_4
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00501.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00501.jpg
+  objects:
+  - bounding_box:
+      xmax: 628
+      xmin: 610
+      ymax: 577
+      ymin: 558
+    class: class_4
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00501.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00512.jpg
+  objects:
+  - bounding_box:
+      xmax: 270
+      xmin: 230
+      ymax: 522
+      ymin: 486
+    class: class_5
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00512.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00512.jpg
+  objects:
+  - bounding_box:
+      xmax: 1179
+      xmin: 1139
+      ymax: 530
+      ymin: 490
+    class: class_5
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00512.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00513.jpg
+  objects:
+  - bounding_box:
+      xmax: 197
+      xmin: 142
+      ymax: 556
+      ymin: 501
+    class: class_7
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00513.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00515.jpg
+  objects:
+  - bounding_box:
+      xmax: 333
+      xmin: 257
+      ymax: 435
+      ymin: 361
+    class: class_3
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00515.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00518.jpg
+  objects:
+  - bounding_box:
+      xmax: 499
+      xmin: 451
+      ymax: 574
+      ymin: 526
+    class: class_7
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00518.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00519.jpg
+  objects:
+  - bounding_box:
+      xmax: 507
+      xmin: 454
+      ymax: 584
+      ymin: 531
+    class: class_7
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00519.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00521.jpg
+  objects:
+  - bounding_box:
+      xmax: 405
+      xmin: 377
+      ymax: 604
+      ymin: 574
+    class: class_7
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00521.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00521.jpg
+  objects:
+  - bounding_box:
+      xmax: 976
+      xmin: 946
+      ymax: 595
+      ymin: 565
+    class: class_7
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00521.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00524.jpg
+  objects:
+  - bounding_box:
+      xmax: 241
+      xmin: 187
+      ymax: 584
+      ymin: 530
+    class: class_7
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00524.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00524.jpg
+  objects:
+  - bounding_box:
+      xmax: 1271
+      xmin: 1219
+      ymax: 580
+      ymin: 528
+    class: class_7
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00524.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00528.jpg
+  objects:
+  - bounding_box:
+      xmax: 1026
+      xmin: 985
+      ymax: 380
+      ymin: 339
+    class: class_7
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00528.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00528.jpg
+  objects:
+  - bounding_box:
+      xmax: 205
+      xmin: 166
+      ymax: 455
+      ymin: 415
+    class: class_7
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00528.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00544.jpg
+  objects:
+  - bounding_box:
+      xmax: 762
+      xmin: 744
+      ymax: 458
+      ymin: 438
+    class: class_1
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00544.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00552.jpg
+  objects:
+  - bounding_box:
+      xmax: 554
+      xmin: 537
+      ymax: 529
+      ymin: 512
+    class: class_8
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00552.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00552.jpg
+  objects:
+  - bounding_box:
+      xmax: 832
+      xmin: 814
+      ymax: 526
+      ymin: 508
+    class: class_8
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00552.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00560.jpg
+  objects:
+  - bounding_box:
+      xmax: 1099
+      xmin: 1039
+      ymax: 233
+      ymin: 173
+    class: class_3
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00560.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00601.jpg
+  objects:
+  - bounding_box:
+      xmax: 145
+      xmin: 82
+      ymax: 508
+      ymin: 450
+    class: class_7
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00601.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00602.jpg
+  objects:
+  - bounding_box:
+      xmax: 1299
+      xmin: 1268
+      ymax: 586
+      ymin: 555
+    class: class_8
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00602.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00602.jpg
+  objects:
+  - bounding_box:
+      xmax: 474
+      xmin: 443
+      ymax: 574
+      ymin: 543
+    class: class_8
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00602.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00605.jpg
+  objects:
+  - bounding_box:
+      xmax: 206
+      xmin: 167
+      ymax: 550
+      ymin: 511
+    class: class_4
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00605.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00605.jpg
+  objects:
+  - bounding_box:
+      xmax: 881
+      xmin: 846
+      ymax: 535
+      ymin: 501
+    class: class_4
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00605.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00609.jpg
+  objects:
+  - bounding_box:
+      xmax: 841
+      xmin: 809
+      ymax: 539
+      ymin: 507
+    class: class_4
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00609.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00609.jpg
+  objects:
+  - bounding_box:
+      xmax: 343
+      xmin: 310
+      ymax: 546
+      ymin: 512
+    class: class_4
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00609.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00610.jpg
+  objects:
+  - bounding_box:
+      xmax: 938
+      xmin: 917
+      ymax: 574
+      ymin: 553
+    class: class_4
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00610.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00611.jpg
+  objects:
+  - bounding_box:
+      xmax: 872
+      xmin: 839
+      ymax: 521
+      ymin: 488
+    class: class_4
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00611.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00613.jpg
+  objects:
+  - bounding_box:
+      xmax: 1169
+      xmin: 1132
+      ymax: 598
+      ymin: 561
+    class: class_5
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00613.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00613.jpg
+  objects:
+  - bounding_box:
+      xmax: 513
+      xmin: 478
+      ymax: 581
+      ymin: 546
+    class: class_5
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00613.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00615.jpg
+  objects:
+  - bounding_box:
+      xmax: 918
+      xmin: 890
+      ymax: 600
+      ymin: 572
+    class: class_8
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00615.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00615.jpg
+  objects:
+  - bounding_box:
+      xmax: 413
+      xmin: 386
+      ymax: 600
+      ymin: 571
+    class: class_8
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00615.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00616.jpg
+  objects:
+  - bounding_box:
+      xmax: 463
+      xmin: 437
+      ymax: 584
+      ymin: 558
+    class: class_32
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00616.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00616.jpg
+  objects:
+  - bounding_box:
+      xmax: 904
+      xmin: 876
+      ymax: 569
+      ymin: 541
+    class: class_32
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00616.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00621.jpg
+  objects:
+  - bounding_box:
+      xmax: 808
+      xmin: 782
+      ymax: 469
+      ymin: 443
+    class: class_4
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00621.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00623.jpg
+  objects:
+  - bounding_box:
+      xmax: 1034
+      xmin: 974
+      ymax: 434
+      ymin: 374
+    class: class_4
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00623.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00624.jpg
+  objects:
+  - bounding_box:
+      xmax: 845
+      xmin: 821
+      ymax: 488
+      ymin: 464
+    class: class_2
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00624.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00625.jpg
+  objects:
+  - bounding_box:
+      xmax: 1102
+      xmin: 1037
+      ymax: 443
+      ymin: 377
+    class: class_2
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00625.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00626.jpg
+  objects:
+  - bounding_box:
+      xmax: 895
+      xmin: 857
+      ymax: 442
+      ymin: 404
+    class: class_2
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00626.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00628.jpg
+  objects:
+  - bounding_box:
+      xmax: 1085
+      xmin: 998
+      ymax: 363
+      ymin: 276
+    class: class_32
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00628.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00630.jpg
+  objects:
+  - bounding_box:
+      xmax: 1285
+      xmin: 1219
+      ymax: 385
+      ymin: 315
+    class: class_4
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00630.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00631.jpg
+  objects:
+  - bounding_box:
+      xmax: 834
+      xmin: 799
+      ymax: 512
+      ymin: 478
+    class: class_4
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00631.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00632.jpg
+  objects:
+  - bounding_box:
+      xmax: 147
+      xmin: 101
+      ymax: 424
+      ymin: 379
+    class: class_1
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00632.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00634.jpg
+  objects:
+  - bounding_box:
+      xmax: 570
+      xmin: 525
+      ymax: 416
+      ymin: 371
+    class: class_2
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00634.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00638.jpg
+  objects:
+  - bounding_box:
+      xmax: 953
+      xmin: 914
+      ymax: 414
+      ymin: 374
+    class: class_1
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00638.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00640.jpg
+  objects:
+  - bounding_box:
+      xmax: 1176
+      xmin: 1105
+      ymax: 424
+      ymin: 353
+    class: class_4
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00640.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00645.jpg
+  objects:
+  - bounding_box:
+      xmax: 1090
+      xmin: 1034
+      ymax: 367
+      ymin: 311
+    class: class_1
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00645.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00651.jpg
+  objects:
+  - bounding_box:
+      xmax: 851
+      xmin: 800
+      ymax: 456
+      ymin: 404
+    class: class_1
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00651.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00659.jpg
+  objects:
+  - bounding_box:
+      xmax: 1033
+      xmin: 993
+      ymax: 470
+      ymin: 430
+    class: class_2
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00659.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00661.jpg
+  objects:
+  - bounding_box:
+      xmax: 1169
+      xmin: 1138
+      ymax: 430
+      ymin: 401
+    class: class_2
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00661.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00664.jpg
+  objects:
+  - bounding_box:
+      xmax: 880
+      xmin: 849
+      ymax: 468
+      ymin: 437
+    class: class_4
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00664.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00665.jpg
+  objects:
+  - bounding_box:
+      xmax: 579
+      xmin: 557
+      ymax: 493
+      ymin: 471
+    class: class_4
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00665.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00667.jpg
+  objects:
+  - bounding_box:
+      xmax: 764
+      xmin: 737
+      ymax: 471
+      ymin: 444
+    class: class_4
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00667.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00668.jpg
+  objects:
+  - bounding_box:
+      xmax: 1172
+      xmin: 1083
+      ymax: 340
+      ymin: 254
+    class: class_2
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00668.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00669.jpg
+  objects:
+  - bounding_box:
+      xmax: 949
+      xmin: 899
+      ymax: 444
+      ymin: 393
+    class: class_4
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00669.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00670.jpg
+  objects:
+  - bounding_box:
+      xmax: 1064
+      xmin: 997
+      ymax: 373
+      ymin: 306
+    class: class_4
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00670.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00671.jpg
+  objects:
+  - bounding_box:
+      xmax: 883
+      xmin: 846
+      ymax: 430
+      ymin: 393
+    class: class_2
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00671.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00674.jpg
+  objects:
+  - bounding_box:
+      xmax: 751
+      xmin: 717
+      ymax: 405
+      ymin: 371
+    class: class_1
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00674.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00680.jpg
+  objects:
+  - bounding_box:
+      xmax: 953
+      xmin: 900
+      ymax: 448
+      ymin: 394
+    class: class_1
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00680.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00681.jpg
+  objects:
+  - bounding_box:
+      xmax: 846
+      xmin: 820
+      ymax: 460
+      ymin: 434
+    class: class_1
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00681.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00686.jpg
+  objects:
+  - bounding_box:
+      xmax: 412
+      xmin: 377
+      ymax: 474
+      ymin: 437
+    class: class_5
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00686.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00690.jpg
+  objects:
+  - bounding_box:
+      xmax: 799
+      xmin: 775
+      ymax: 529
+      ymin: 506
+    class: class_4
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00690.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00691.jpg
+  objects:
+  - bounding_box:
+      xmax: 907
+      xmin: 885
+      ymax: 514
+      ymin: 492
+    class: class_4
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00691.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00691.jpg
+  objects:
+  - bounding_box:
+      xmax: 490
+      xmin: 469
+      ymax: 512
+      ymin: 490
+    class: class_4
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00691.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00693.jpg
+  objects:
+  - bounding_box:
+      xmax: 1024
+      xmin: 984
+      ymax: 423
+      ymin: 383
+    class: class_3
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00693.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00698.jpg
+  objects:
+  - bounding_box:
+      xmax: 765
+      xmin: 737
+      ymax: 442
+      ymin: 413
+    class: class_1
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00698.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00699.jpg
+  objects:
+  - bounding_box:
+      xmax: 756
+      xmin: 727
+      ymax: 443
+      ymin: 413
+    class: class_1
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00699.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00701.jpg
+  objects:
+  - bounding_box:
+      xmax: 1088
+      xmin: 1042
+      ymax: 442
+      ymin: 396
+    class: class_2
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00701.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00703.jpg
+  objects:
+  - bounding_box:
+      xmax: 1042
+      xmin: 1001
+      ymax: 401
+      ymin: 360
+    class: class_1
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00703.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00704.jpg
+  objects:
+  - bounding_box:
+      xmax: 793
+      xmin: 766
+      ymax: 438
+      ymin: 411
+    class: class_2
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00704.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00705.jpg
+  objects:
+  - bounding_box:
+      xmax: 991
+      xmin: 955
+      ymax: 378
+      ymin: 343
+    class: class_1
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00705.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00706.jpg
+  objects:
+  - bounding_box:
+      xmax: 899
+      xmin: 866
+      ymax: 402
+      ymin: 371
+    class: class_1
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00706.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00707.jpg
+  objects:
+  - bounding_box:
+      xmax: 943
+      xmin: 907
+      ymax: 419
+      ymin: 383
+    class: class_4
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00707.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00710.jpg
+  objects:
+  - bounding_box:
+      xmax: 1164
+      xmin: 1084
+      ymax: 283
+      ymin: 201
+    class: class_2
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00710.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00714.jpg
+  objects:
+  - bounding_box:
+      xmax: 828
+      xmin: 784
+      ymax: 357
+      ymin: 313
+    class: class_1
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00714.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00716.jpg
+  objects:
+  - bounding_box:
+      xmax: 869
+      xmin: 820
+      ymax: 386
+      ymin: 335
+    class: class_4
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00716.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00717.jpg
+  objects:
+  - bounding_box:
+      xmax: 859
+      xmin: 835
+      ymax: 459
+      ymin: 435
+    class: class_4
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00717.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00719.jpg
+  objects:
+  - bounding_box:
+      xmax: 969
+      xmin: 933
+      ymax: 427
+      ymin: 390
+    class: class_2
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00719.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00720.jpg
+  objects:
+  - bounding_box:
+      xmax: 756
+      xmin: 737
+      ymax: 448
+      ymin: 429
+    class: class_2
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00720.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00723.jpg
+  objects:
+  - bounding_box:
+      xmax: 717
+      xmin: 696
+      ymax: 446
+      ymin: 424
+    class: class_4
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00723.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00729.jpg
+  objects:
+  - bounding_box:
+      xmax: 570
+      xmin: 536
+      ymax: 523
+      ymin: 489
+    class: class_3
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00729.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00730.jpg
+  objects:
+  - bounding_box:
+      xmax: 512
+      xmin: 466
+      ymax: 490
+      ymin: 443
+    class: class_3
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00730.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00730.jpg
+  objects:
+  - bounding_box:
+      xmax: 1083
+      xmin: 1053
+      ymax: 547
+      ymin: 517
+    class: class_3
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00730.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00733.jpg
+  objects:
+  - bounding_box:
+      xmax: 543
+      xmin: 508
+      ymax: 462
+      ymin: 426
+    class: class_4
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00733.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00733.jpg
+  objects:
+  - bounding_box:
+      xmax: 965
+      xmin: 937
+      ymax: 551
+      ymin: 523
+    class: class_4
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00733.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00734.jpg
+  objects:
+  - bounding_box:
+      xmax: 1166
+      xmin: 1090
+      ymax: 528
+      ymin: 450
+    class: class_3
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00734.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00740.jpg
+  objects:
+  - bounding_box:
+      xmax: 1213
+      xmin: 1163
+      ymax: 560
+      ymin: 510
+    class: class_5
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00740.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00740.jpg
+  objects:
+  - bounding_box:
+      xmax: 534
+      xmin: 489
+      ymax: 558
+      ymin: 513
+    class: class_5
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00740.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00742.jpg
+  objects:
+  - bounding_box:
+      xmax: 368
+      xmin: 334
+      ymax: 596
+      ymin: 562
+    class: class_7
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00742.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00742.jpg
+  objects:
+  - bounding_box:
+      xmax: 995
+      xmin: 960
+      ymax: 587
+      ymin: 554
+    class: class_7
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00742.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00746.jpg
+  objects:
+  - bounding_box:
+      xmax: 1181
+      xmin: 1135
+      ymax: 537
+      ymin: 492
+    class: class_8
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00746.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00746.jpg
+  objects:
+  - bounding_box:
+      xmax: 281
+      xmin: 235
+      ymax: 515
+      ymin: 469
+    class: class_8
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00746.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00747.jpg
+  objects:
+  - bounding_box:
+      xmax: 345
+      xmin: 298
+      ymax: 538
+      ymin: 489
+    class: class_6
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00747.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00747.jpg
+  objects:
+  - bounding_box:
+      xmax: 1196
+      xmin: 1148
+      ymax: 553
+      ymin: 506
+    class: class_6
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00747.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00749.jpg
+  objects:
+  - bounding_box:
+      xmax: 346
+      xmin: 301
+      ymax: 596
+      ymin: 551
+    class: class_5
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00749.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00749.jpg
+  objects:
+  - bounding_box:
+      xmax: 1200
+      xmin: 1153
+      ymax: 593
+      ymin: 546
+    class: class_5
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00749.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00752.jpg
+  objects:
+  - bounding_box:
+      xmax: 979
+      xmin: 934
+      ymax: 494
+      ymin: 448
+    class: class_1
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00752.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00755.jpg
+  objects:
+  - bounding_box:
+      xmax: 883
+      xmin: 852
+      ymax: 549
+      ymin: 518
+    class: class_1
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00755.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00758.jpg
+  objects:
+  - bounding_box:
+      xmax: 1014
+      xmin: 982
+      ymax: 553
+      ymin: 521
+    class: class_8
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00758.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00758.jpg
+  objects:
+  - bounding_box:
+      xmax: 406
+      xmin: 374
+      ymax: 547
+      ymin: 515
+    class: class_8
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00758.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00760.jpg
+  objects:
+  - bounding_box:
+      xmax: 616
+      xmin: 591
+      ymax: 563
+      ymin: 538
+    class: class_8
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00760.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00760.jpg
+  objects:
+  - bounding_box:
+      xmax: 1049
+      xmin: 1023
+      ymax: 569
+      ymin: 542
+    class: class_8
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00760.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00773.jpg
+  objects:
+  - bounding_box:
+      xmax: 903
+      xmin: 879
+      ymax: 538
+      ymin: 514
+    class: class_1
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00773.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00774.jpg
+  objects:
+  - bounding_box:
+      xmax: 961
+      xmin: 929
+      ymax: 548
+      ymin: 516
+    class: class_1
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00774.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00775.jpg
+  objects:
+  - bounding_box:
+      xmax: 930
+      xmin: 884
+      ymax: 529
+      ymin: 483
+    class: class_1
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00775.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00776.jpg
+  objects:
+  - bounding_box:
+      xmax: 893
+      xmin: 861
+      ymax: 537
+      ymin: 505
+    class: class_1
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00776.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00777.jpg
+  objects:
+  - bounding_box:
+      xmax: 858
+      xmin: 834
+      ymax: 550
+      ymin: 526
+    class: class_1
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00777.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00780.jpg
+  objects:
+  - bounding_box:
+      xmax: 1227
+      xmin: 1165
+      ymax: 636
+      ymin: 572
+    class: class_3
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00780.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00780.jpg
+  objects:
+  - bounding_box:
+      xmax: 444
+      xmin: 380
+      ymax: 621
+      ymin: 557
+    class: class_3
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00780.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00791.jpg
+  objects:
+  - bounding_box:
+      xmax: 1062
+      xmin: 985
+      ymax: 489
+      ymin: 412
+    class: class_4
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00791.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00798.jpg
+  objects:
+  - bounding_box:
+      xmax: 806
+      xmin: 786
+      ymax: 565
+      ymin: 545
+    class: class_2
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00798.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00802.jpg
+  objects:
+  - bounding_box:
+      xmax: 683
+      xmin: 610
+      ymax: 336
+      ymin: 267
+    class: class_1
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00802.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00803.jpg
+  objects:
+  - bounding_box:
+      xmax: 835
+      xmin: 771
+      ymax: 295
+      ymin: 232
+    class: class_1
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00803.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00806.jpg
+  objects:
+  - bounding_box:
+      xmax: 832
+      xmin: 807
+      ymax: 432
+      ymin: 407
+    class: class_1
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00806.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00821.jpg
+  objects:
+  - bounding_box:
+      xmax: 882
+      xmin: 859
+      ymax: 466
+      ymin: 444
+    class: class_5
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00821.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00821.jpg
+  objects:
+  - bounding_box:
+      xmax: 356
+      xmin: 333
+      ymax: 466
+      ymin: 442
+    class: class_5
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00821.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00825.jpg
+  objects:
+  - bounding_box:
+      xmax: 1108
+      xmin: 1083
+      ymax: 404
+      ymin: 378
+    class: class_1
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00825.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00829.jpg
+  objects:
+  - bounding_box:
+      xmax: 576
+      xmin: 553
+      ymax: 422
+      ymin: 399
+    class: class_1
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00829.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00831.jpg
+  objects:
+  - bounding_box:
+      xmax: 1014
+      xmin: 975
+      ymax: 410
+      ymin: 371
+    class: class_1
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00831.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00833.jpg
+  objects:
+  - bounding_box:
+      xmax: 822
+      xmin: 776
+      ymax: 378
+      ymin: 332
+    class: class_1
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00833.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00834.jpg
+  objects:
+  - bounding_box:
+      xmax: 1187
+      xmin: 1130
+      ymax: 325
+      ymin: 264
+    class: class_1
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00834.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00838.jpg
+  objects:
+  - bounding_box:
+      xmax: 1097
+      xmin: 1068
+      ymax: 411
+      ymin: 382
+    class: class_2
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00838.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00838.jpg
+  objects:
+  - bounding_box:
+      xmax: 470
+      xmin: 443
+      ymax: 446
+      ymin: 419
+    class: class_2
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00838.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00839.jpg
+  objects:
+  - bounding_box:
+      xmax: 1279
+      xmin: 1234
+      ymax: 342
+      ymin: 297
+    class: class_2
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00839.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00839.jpg
+  objects:
+  - bounding_box:
+      xmax: 346
+      xmin: 303
+      ymax: 409
+      ymin: 365
+    class: class_2
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00839.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00846.jpg
+  objects:
+  - bounding_box:
+      xmax: 409
+      xmin: 374
+      ymax: 418
+      ymin: 383
+    class: class_2
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00846.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00846.jpg
+  objects:
+  - bounding_box:
+      xmax: 1128
+      xmin: 1091
+      ymax: 385
+      ymin: 348
+    class: class_2
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00846.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00848.jpg
+  objects:
+  - bounding_box:
+      xmax: 1054
+      xmin: 982
+      ymax: 313
+      ymin: 241
+    class: class_1
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00848.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00850.jpg
+  objects:
+  - bounding_box:
+      xmax: 1005
+      xmin: 973
+      ymax: 405
+      ymin: 373
+    class: class_1
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00850.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00851.jpg
+  objects:
+  - bounding_box:
+      xmax: 1147
+      xmin: 1092
+      ymax: 367
+      ymin: 312
+    class: class_1
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00851.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00854.jpg
+  objects:
+  - bounding_box:
+      xmax: 1255
+      xmin: 1182
+      ymax: 327
+      ymin: 254
+    class: class_2
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00854.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00860.jpg
+  objects:
+  - bounding_box:
+      xmax: 1168
+      xmin: 1077
+      ymax: 231
+      ymin: 144
+    class: class_2
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00860.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00862.jpg
+  objects:
+  - bounding_box:
+      xmax: 362
+      xmin: 285
+      ymax: 501
+      ymin: 425
+    class: class_7
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00862.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00870.jpg
+  objects:
+  - bounding_box:
+      xmax: 590
+      xmin: 569
+      ymax: 477
+      ymin: 456
+    class: class_5
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00870.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00870.jpg
+  objects:
+  - bounding_box:
+      xmax: 1050
+      xmin: 1030
+      ymax: 461
+      ymin: 441
+    class: class_5
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00870.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00871.jpg
+  objects:
+  - bounding_box:
+      xmax: 411
+      xmin: 375
+      ymax: 443
+      ymin: 407
+    class: class_5
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00871.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00871.jpg
+  objects:
+  - bounding_box:
+      xmax: 1313
+      xmin: 1273
+      ymax: 421
+      ymin: 381
+    class: class_5
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00871.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00876.jpg
+  objects:
+  - bounding_box:
+      xmax: 491
+      xmin: 466
+      ymax: 494
+      ymin: 469
+    class: class_3
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00876.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00876.jpg
+  objects:
+  - bounding_box:
+      xmax: 796
+      xmin: 776
+      ymax: 497
+      ymin: 477
+    class: class_3
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00876.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00879.jpg
+  objects:
+  - bounding_box:
+      xmax: 341
+      xmin: 301
+      ymax: 575
+      ymin: 535
+    class: class_32
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00879.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00879.jpg
+  objects:
+  - bounding_box:
+      xmax: 1029
+      xmin: 988
+      ymax: 547
+      ymin: 506
+    class: class_32
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00879.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00881.jpg
+  objects:
+  - bounding_box:
+      xmax: 1168
+      xmin: 1131
+      ymax: 598
+      ymin: 561
+    class: class_5
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00881.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00881.jpg
+  objects:
+  - bounding_box:
+      xmax: 513
+      xmin: 478
+      ymax: 581
+      ymin: 546
+    class: class_5
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00881.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00882.jpg
+  objects:
+  - bounding_box:
+      xmax: 317
+      xmin: 244
+      ymax: 617
+      ymin: 546
+    class: class_5
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00882.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00884.jpg
+  objects:
+  - bounding_box:
+      xmax: 890
+      xmin: 855
+      ymax: 512
+      ymin: 477
+    class: class_4
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00884.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00886.jpg
+  objects:
+  - bounding_box:
+      xmax: 838
+      xmin: 815
+      ymax: 540
+      ymin: 517
+    class: class_4
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00886.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00889.jpg
+  objects:
+  - bounding_box:
+      xmax: 713
+      xmin: 689
+      ymax: 554
+      ymin: 530
+    class: class_4
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00889.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00891.jpg
+  objects:
+  - bounding_box:
+      xmax: 767
+      xmin: 747
+      ymax: 571
+      ymin: 551
+    class: class_4
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00891.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00891.jpg
+  objects:
+  - bounding_box:
+      xmax: 493
+      xmin: 473
+      ymax: 576
+      ymin: 556
+    class: class_4
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00891.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00894.jpg
+  objects:
+  - bounding_box:
+      xmax: 417
+      xmin: 389
+      ymax: 555
+      ymin: 527
+    class: class_4
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00894.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00894.jpg
+  objects:
+  - bounding_box:
+      xmax: 1132
+      xmin: 1093
+      ymax: 568
+      ymin: 529
+    class: class_4
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00894.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00895.jpg
+  objects:
+  - bounding_box:
+      xmax: 238
+      xmin: 193
+      ymax: 527
+      ymin: 482
+    class: class_4
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00895.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00895.jpg
+  objects:
+  - bounding_box:
+      xmax: 1014
+      xmin: 966
+      ymax: 466
+      ymin: 418
+    class: class_4
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00895.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00898.jpg
+  objects:
+  - bounding_box:
+      xmax: 355
+      xmin: 323
+      ymax: 536
+      ymin: 504
+    class: class_4
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00898.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
+- filename: image00898.jpg
+  objects:
+  - bounding_box:
+      xmax: 849
+      xmin: 817
+      ymax: 542
+      ymin: 510
+    class: class_4
+  path: C:/Users/Dominik/Documents/Studium/Master/Computer_vision/dataset/GTSDB/Test/Images_jpg/image00898.jpg
+  size:
+    depth: 3
+    height: 800
+    width: 1360
