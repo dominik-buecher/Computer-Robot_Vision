@@ -1,0 +1,48 @@
+Projektplan
+
+12 November 2023
+15:38
+
+Erkennung von Geschwindigkeitsschildern:
+=> Ziel: Erkennung/Lokalisierung vom Schild im Bild und anschließende Klassifizierung des Schilds
+=> Zusatz: Live-Modus: mit Kamera-Stream Bilder machen und auslesen, live klassifizieren und erlaubte Geschwindigkeit ausgeben
+
+Konzept:
+(mehrere Notebooks?)
+
+	1. Datensatz vorbereiten
+- vorhandenen Datensatz analysieren, evt. Bearbeiten
+Eigene Erweiterungen:
+- statische Bilder (beim Stehen bleiben)
+- bei Bewegung?
+- evt. Schon Videos aufnehmen für spätere Validierung
+	2. Netz für die Lokalisierung (Dominik):
+- recherchieren, was gut funktioniert
+- aussuchen und mit Datensatz abstimmen
+- Transfer Learning oder bewährte Architektur selber trainieren
+	3. Netz für die Klassifizierung (Aaron):
+- recherchieren
+- mehrere Netze aussuchen, trainieren auf Datensatz und miteinander vergleichen
+- für das beste entscheiden
+	4. Validierung / Evaluation:
+- Models testen mit Bildern, Metriken errechnen (Recall, Precision, etc.)
+	5. Live-Modus:
+- Video-Stream einbinden
+- Im Fenster live Bounding Box um Schild
+- Text mit erfasster Geschwindigkeit ausgeben
+
+
+
+
+Zeitplan:
+	14.11.	16.11.	21.11.	23.11.	28.11.	30.11.	05.11.
+Vorbereitung	Fragen stellen wegen Datensatz, Erweiterung (Google Street View oder selber rumfahren)						
+ToDos	- Datensatz untersuchen/preprocessing						
+	- Nochmal schauen nach anderen
+Tatsächlich gemacht							
+
+
+	07.12.	12.12.	13.12.	19.12.	21.12.	09.01.	11.01.	16.01.
+Vorbereitung								Präsi
+ToDos								
+Tatsächlich gemacht	
