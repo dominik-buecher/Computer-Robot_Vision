@@ -1,7 +1,6 @@
 # Dateipfad zur Textdatei
 dateipfad = r'C:\Users\Dominik\Documents\Studium\Master\Computer_vision\dataset\GTSDB\Test\Images_jpg\gt.txt'
 
-
 # Liste zum Speichern der Zeilen, die beibehalten werden sollen
 beibehalten = []
 counter = 0
