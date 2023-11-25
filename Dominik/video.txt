@@ -1,0 +1,2 @@
+C:/Users/Dominik/Documents/Studium/Master/Computer_vision/videos_24_11_2023/speed_30/frames\frame_0001.jpg 1 206 657 28 31
+C:/Users/Dominik/Documents/Studium/Master/Computer_vision/videos_24_11_2023/speed_30/frames\frame_0002.jpg 1 199 655 32 33
