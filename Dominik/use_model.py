@@ -1,35 +1,56 @@
 #C:/Users/Dominik/Documents/opencv/build/x64/vc15/bin/opencv_createsamples.exe -info pos.txt -w 24 -h 24 -num 1000 -vec pos.vec
-#C:/Users/Dominik/Documents/opencv/build/x64/vc15/bin/opencv_traincascade.exe -data Dominik/cascade_4/ -vec Dominik/pos.vec -bg dataset/negative_samples/neg.txt -precalcValBufSize 6000 -precalcIdxBufSize 6000 -w 24 -h 24 -numPos 280 -numNeg 280 -numStages 8 -maxFalseAlarmRate 0.20 -minHitRate 0.999
-
+#C:/Users/Dominik/Documents/opencv/build/x64/vc15/bin/opencv_traincascade.exe -data Dominik/cascade_5/ -vec Dominik/pos.vec -bg dataset/negative_samples/neg.txt -precalcValBufSize 6000 -precalcIdxBufSize 6000 -w 24 -h 24 -numPos 280 -numNeg 280 -numStages 8 -maxFalseAlarmRate 0.20 -minHitRate 0.999
+#C:/Users/domin/Documents/opencv_old/opencv/build/x64/vc15/bin/opencv_traincascade.exe -data Dominik/cascade_5/ -vec Dominik/pos.vec -bg Dominik/neg.txt -precalcValBufSize 6000 -precalcIdxBufSize 6000 -w 24 -h 24 -numPos 280 -numNeg 280 -numStages 6 -maxFalseAlarmRate 0.05 -minHitRate 0.999
 
 import cv2
+import os
 
-def detect_and_draw_speed_sign(image_path, cascade):
+counter = 0  # Hier wird die Variable counter global initialisiert
+
+def detect_and_save_speed_signs(image_path, cascade, output_folder):
+    global counter  # Weise darauf hin, dass counter global verwendet wird
     # Lade das Bild
     image = cv2.imread(image_path)
-    gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
     rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 
     # Erkenne Geschwindigkeitsschilder
     speed_signs = cascade.detectMultiScale(rgb, scaleFactor=1.1, minNeighbors=5, minSize=(24, 24))
 
-    # Zeichne Bounding-Boxen um Geschwindigkeitsschilder
+    # Zeichne Bounding-Boxen auf das Originalbild
     for (x, y, w, h) in speed_signs:
-        cv2.rectangle(image, (x-w, y-h), (x+w, y+h), (0, 255, 0), 2)
+        cv2.rectangle(image, (x-w, y-h), (x + w, y + h), (0, 255, 0), 2)
 
-        # Extrahiere den Bereich der Bounding Box
-        roi = image[y-h:y+h, x-w:x+w]
+    # Erstelle den Ausgabeordner, wenn er noch nicht existiert
+    if not os.path.exists(output_folder):
+        os.makedirs(output_folder)
 
-        # Zeige den Bereich der Bounding Box in einem separaten Fenster an
-        #cv2.imshow('Region of Interest', roi)
-        #cv2.waitKey(0)
+    # Speichere das Bild mit eingezeichneten Bounding-Boxen im Ausgabeordner
+    output_path = os.path.join(output_folder, f"output_{counter}.jpg")
+    cv2.imwrite(output_path, cv2.cvtColor(image, cv2.COLOR_RGB2BGR))
+    counter = counter + 1
 
-    # Zeige das Ergebnisbild mit Bounding-Boxen an
-    cv2.imshow('Detected Speed Signs', image)
-    cv2.waitKey(0)
-    cv2.destroyAllWindows()
+def process_images_from_file(file_path, cascade, output_folder):
+    with open(file_path, 'r') as file:
+        lines = file.readlines()
 
-# Beispielaufruf:
-cascade_speedsign = cv2.CascadeClassifier('Dominik/cascade_4/cascade.xml')
-image_path = r'C:\Users\Dominik\Documents\Studium\Master\Computer_vision\Computer-Robot_Vision\dataset\positive_samples\00146.jpg'
-detect_and_draw_speed_sign(image_path, cascade_speedsign)
+    for line in lines:
+        # Splitte die Zeile anhand des Semikolons
+        values = line.strip().split(';')
+
+        # Extrahiere den Dateinamen und die Bounding Box-Koordinaten
+        image_name = values[0]
+        bbox = list(map(int, values[1:]))
+
+        # Setze den vollständigen Pfad zum Bild
+        image_path = os.path.join('dataset/positive_samples/', image_name)
+
+        # Rufe die Funktion zur Erkennung und Zeichnung auf
+        detect_and_save_speed_signs(image_path, cascade, output_folder)
+
+if __name__ == "__main__":
+    # Beispielaufruf:
+    cascade_speedsign = cv2.CascadeClassifier('Dominik/cascade_5/cascade.xml')
+    txt_file_path = 'dataset/positive_samples/gt.txt'
+    output_folder_path = 'dataset/result/'
+
+    process_images_from_file(txt_file_path, cascade_speedsign, output_folder_path)
