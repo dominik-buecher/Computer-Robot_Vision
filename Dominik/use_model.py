@@ -1,6 +1,6 @@
-#C:/Users/Dominik/Documents/opencv/build/x64/vc15/bin/opencv_createsamples.exe -info pos.txt -w 24 -h 24 -num 1000 -vec pos.vec
-#C:/Users/Dominik/Documents/opencv/build/x64/vc15/bin/opencv_traincascade.exe -data Dominik/cascade_5/ -vec Dominik/pos.vec -bg dataset/negative_samples/neg.txt -precalcValBufSize 6000 -precalcIdxBufSize 6000 -w 24 -h 24 -numPos 280 -numNeg 280 -numStages 8 -maxFalseAlarmRate 0.20 -minHitRate 0.999
-#C:/Users/domin/Documents/opencv_old/opencv/build/x64/vc15/bin/opencv_traincascade.exe -data Dominik/cascade_5/ -vec Dominik/pos.vec -bg Dominik/neg.txt -precalcValBufSize 6000 -precalcIdxBufSize 6000 -w 24 -h 24 -numPos 280 -numNeg 280 -numStages 6 -maxFalseAlarmRate 0.05 -minHitRate 0.999
+#C:/Users/Dominik/Documents/opencv/build/x64/vc15/bin/opencv_createsamples.exe -info dataset/positive_samples/pos_new.txt -w 24 -h 24 -num 5000 -vec dataset/positive_samples/pos.vec
+#C:/Users/Dominik/Documents/opencv/build/x64/vc15/bin/opencv_traincascade.exe -data Dominik/cascade_7/ -vec dataset/positive_samples/pos.vec -bg dataset/negative_samples/neg.txt -precalcValBufSize 10000 -precalcIdxBufSize 10000 -w 24 -h 24 -numPos 3500 -numNeg 3500 -numStages 5 -maxFalseAlarmRate 0.05 -minHitRate 0.999
+#C:/Users/domin/Documents/opencv_old/opencv/build/x64/vc15/bin/opencv_traincascade.exe -data Dominik/cascade_5/ -vec dataset/positive_samples/pos.vec -bg dataset/negative_samples/neg.txt -precalcValBufSize 8000 -precalcIdxBufSize 8000 -w 24 -h 24 -numPos 3800 -numNeg 2000 -numStages 10 -maxFalseAlarmRate 0.05 -minHitRate 0.999
 
 import cv2
 import os
@@ -49,7 +49,7 @@ def process_images_from_file(file_path, cascade, output_folder):
 
 if __name__ == "__main__":
     # Beispielaufruf:
-    cascade_speedsign = cv2.CascadeClassifier('Dominik/cascade_5/cascade.xml')
+    cascade_speedsign = cv2.CascadeClassifier('Dominik/cascade_6/cascade.xml')
     txt_file_path = 'dataset/positive_samples/gt.txt'
     output_folder_path = 'dataset/result/'
 

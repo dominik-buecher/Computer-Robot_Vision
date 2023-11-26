@@ -10,7 +10,7 @@ def process_images_from_file(file_path, cascade, output_folder, ground_truth_fil
     actual_positives = len(gt_lines)
 
     for line in gt_lines:
-        values = line.strip().split(';')
+        values = line.strip().split(' ')
         image_name = values[0]
         bbox_gt = list(map(int, values[1:]))
 
@@ -45,7 +45,7 @@ def process_images_from_file(file_path, cascade, output_folder, ground_truth_fil
 
         # Speichere das Bild mit eingezeichneten Bounding-Boxen im Ausgabeordner
         output_path = os.path.join(output_folder, f"output_{image_name}")
-        cv2.imwrite(output_path, cv2.cvtColor(image, cv2.COLOR_RGB2BGR))
+        #cv2.imwrite(output_path, cv2.cvtColor(image, cv2.COLOR_RGB2BGR))
 
     # Berechne Precision und Recall
     precision = true_positives / (true_positives + false_positives) if (true_positives + false_positives) > 0 else 0
@@ -70,9 +70,9 @@ def calculate_union(bbox1, bbox2):
     return area_bbox1 + area_bbox2 - calculate_intersection(bbox1, bbox2)
 
 if __name__ == "__main__":
-    cascade_speedsign = cv2.CascadeClassifier('Dominik/cascade/cascade.xml')
+    cascade_speedsign = cv2.CascadeClassifier('Dominik/cascade_6/cascade.xml')
     txt_file_path = 'dataset/positive_samples/gt.txt'
     output_folder_path = 'dataset/result/'
-    ground_truth_file = "dataset/positive_samples/gt.txt"    #'dataset/positive_samples/ground_truth.txt'  # Pfade anpassen
+    ground_truth_file = "dataset/positive_samples/output2.txt"    #'dataset/positive_samples/ground_truth.txt'  # Pfade anpassen
 
     process_images_from_file(txt_file_path, cascade_speedsign, output_folder_path, ground_truth_file)
