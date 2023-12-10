@@ -4,3 +4,5 @@ datasets/
 .venv
 __pycache__
 aaron/models/own_model_deeper.h5
+Dominik/models/
+dataset/
