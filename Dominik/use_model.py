@@ -1,6 +1,12 @@
-#C:/Users/Dominik/Documents/opencv/build/x64/vc15/bin/opencv_createsamples.exe -info dataset/positive_samples/pos_new.txt -w 24 -h 24 -num 5000 -vec dataset/positive_samples/pos.vec
-#C:/Users/Dominik/Documents/opencv/build/x64/vc15/bin/opencv_traincascade.exe -data Dominik/cascade_7/ -vec dataset/positive_samples/pos.vec -bg dataset/negative_samples/neg.txt -precalcValBufSize 10000 -precalcIdxBufSize 10000 -w 24 -h 24 -numPos 3500 -numNeg 3500 -numStages 5 -maxFalseAlarmRate 0.05 -minHitRate 0.999
-#C:/Users/domin/Documents/opencv_old/opencv/build/x64/vc15/bin/opencv_traincascade.exe -data Dominik/cascade_5/ -vec dataset/positive_samples/pos.vec -bg dataset/negative_samples/neg.txt -precalcValBufSize 8000 -precalcIdxBufSize 8000 -w 24 -h 24 -numPos 3800 -numNeg 2000 -numStages 10 -maxFalseAlarmRate 0.05 -minHitRate 0.999
+#C:/Users/Dominik/Documents/opencv/build/x64/vc15/bin/opencv_createsamples.exe -info dataset/positive_samples/train/train.txt -w 30 -h 30 -num 5000 -vec dataset/positive_samples/train/train_30.vec
+#C:/Users/Dominik/Documents/opencv/build/x64/vc15/bin/opencv_traincascade.exe -data Dominik/cascade_9/ -vec dataset/positive_samples/train/train.vec -bg dataset/negative_samples/neg2.txt -precalcValBufSize 14000 -precalcIdxBufSize 14000 -w 24 -h 24 -numPos 3500 -numNeg 7000 -numStages 5 -maxFalseAlarmRate 0.1 -minHitRate 0.999 -mode ALL -featureType LBP
+#C:/Users/domin/Documents/opencv_old/opencv/build/x64/vc15/bin/opencv_traincascade.exe -data Dominik/cascade_9/ -vec dataset/positive_samples/train.vec -bg dataset/negative_samples/neg2.txt -precalcValBufSize 14000 -precalcIdxBufSize 14000 -w 24 -h 24 -numPos 3500 -numNeg 2000 -numStages 5 -maxFalseAlarmRate 0.1 -minHitRate 0.999 -mode ALL -featureType LBP
+
+#C:/Users/Dominik/Documents/opencv/build/x64/vc15/bin/opencv_traincascade.exe -data Dominik/cascade_8/ -vec dataset/positive_samples/train/train.vec -bg dataset/negative_samples/neg2.txt -precalcValBufSize 14000 -precalcIdxBufSize 14000 -w 24 -h 24 -numPos 3500 -numNeg 7000 -numStages 5 -maxFalseAlarmRate 0.1 -minHitRate 0.999 
+
+
+#opencv_visualisation --image=/data/object.png --model=/data/model.xml --data=/data/result/
+
 
 import cv2
 import os
