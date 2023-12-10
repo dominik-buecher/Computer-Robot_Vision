@@ -57,7 +57,7 @@ def process_images_from_file(cascade, output_folder, ground_truth_file):
         rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 
         # Erkenne Geschwindigkeitsschilder
-        speed_signs = cascade.detectMultiScale(rgb, scaleFactor=1.1, minNeighbors=5, minSize=(24, 24))
+        speed_signs = cascade.detectMultiScale(rgb, scaleFactor=1.1, minNeighbors=3, minSize=(24, 24))
 
         # Extrahiere tatsächliche Bounding-Boxen
         bboxes_gt = [bbox_values[i:i+4] for i in range(0, len(bbox_values), 4)]
@@ -131,7 +131,7 @@ def calculate_union(bbox1, bbox2):
 def test_speed(cascade):
 
     # Pfad zum Bild, das du klassifizieren möchtest
-    image_path = r'dataset\positive_samples\test\00003.jpg'  # Ersetze dies durch den tatsächlichen Pfad zu deinem Bild
+    image_path = r'dataset\positive_samples\test\frame_2303.jpg'  # Ersetze dies durch den tatsächlichen Pfad zu deinem Bild
 
     # Lade das Bild
     image = cv2.imread(image_path)
@@ -143,7 +143,7 @@ def test_speed(cascade):
     start_time = time.time()
 
     # Anwenden des Cascade-Modells auf das Bild
-    objects = cascade.detectMultiScale(gray_image, scaleFactor=1.1, minNeighbors=5, minSize=(24, 24))
+    objects = cascade.detectMultiScale(gray_image, scaleFactor=1.4, minNeighbors=5, minSize=(24, 24))
 
     # Messen der Zeit nach der Klassifikation
     end_time = time.time()
@@ -164,7 +164,7 @@ def test_speed(cascade):
 
 
 if __name__ == "__main__":
-    cascade_speedsign = cv2.CascadeClassifier('Dominik/models/cascade_21/cascade.xml')
+    cascade_speedsign = cv2.CascadeClassifier('Dominik/cascade_12/cascade.xml')
     if cascade_speedsign.empty():
         print("Error: Unable to load cascade classifier.")
 

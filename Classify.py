@@ -27,7 +27,7 @@ def classify_video(video_path, output_video_path, cnn_model_path, cascade_path):
         # Wende das Haar Cascade-Modell auf das Frame an, um Schilder zu erkennen
         #gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
         rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
-        signs = cascade.detectMultiScale(frame, scaleFactor=1.1, minNeighbors=5, minSize=(30, 30))
+        signs = cascade.detectMultiScale(rgb, scaleFactor=1.1, minNeighbors=5, minSize=(24, 24))
 
         # Durchlaufe erkannte Schilder
         for (x, y, w, h) in signs:
@@ -43,10 +43,10 @@ def classify_video(video_path, output_video_path, cnn_model_path, cascade_path):
             class_index = np.argmax(predictions)
             prediction = class_name[class_index]
 
-            if class_index != 1:
+            #if class_index != 1:
                 # Zeichne die Bounding Box und das Label auf das Frame
-                cv2.rectangle(frame, (x- (w//2), y - (h//2)), (x + (w//2), y + (h//2)), (0, 255, 0), 2)
-                cv2.putText(frame, prediction, (x, y - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
+            cv2.rectangle(frame, (x- (w//2), y - (h//2)), (x + (w//2), y + (h//2)), (0, 255, 0), 2)
+            cv2.putText(frame, prediction, (x, y - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
 
         # Schreibe das Frame in das Ausgabevideo
         output_video.write(frame)
@@ -73,7 +73,7 @@ def classify_image(image_path, output_image_path, cnn_model_path, cascade_path):
     # Wende das Haar Cascade-Modell auf das Bild an, um Schilder zu erkennen
     #gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
     rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
-    signs = cascade.detectMultiScale(frame, scaleFactor=1.1, minNeighbors=5, minSize=(30, 30))
+    signs = cascade.detectMultiScale(rgb, scaleFactor=1.1, minNeighbors=5, minSize=(24, 24))
 
     start_time = time.time()  # Starte die Zeitmessung
 
@@ -132,7 +132,7 @@ def classify_camera_stream(cnn_model_path, cascade_path):
         # Wende das Haar Cascade-Modell auf das Frame an, um Schilder zu erkennen
         #gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
         rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
-        signs = cascade.detectMultiScale(rgb, scaleFactor=1.1, minNeighbors=5, minSize=(30, 30))
+        signs = cascade.detectMultiScale(rgb, scaleFactor=1.1, minNeighbors=5, minSize=(24, 24))
 
         # Durchlaufe erkannte Schilder
         for (x, y, w, h) in signs:
@@ -168,8 +168,8 @@ def classify_camera_stream(cnn_model_path, cascade_path):
 
 if __name__ == "__main__":
 
-    video_path = r'C:\Users\Dominik\Documents\Studium\Master\Computer_vision\david\Aufnahme_02.MP4'
-    output_video_path = r'C:\Users\Dominik\Documents\Studium\Master\Computer_vision\david\Aufnahme_02_new.MP4'
+    video_path = r'C:\Users\Dominik\Documents\Studium\Master\Computer_vision\david\Aufnahme_01.MP4'
+    output_video_path = r'C:\Users\Dominik\Documents\Studium\Master\Computer_vision\david\Aufnahme_01_new2.MP4'
 
     cascade_path = r'Dominik\cascade_12\cascade.xml'
     cnn_model_path = r'Aaron\models\MobileNet.h5'
@@ -178,6 +178,17 @@ if __name__ == "__main__":
 
     #classify_video(video_path, output_video_path, cnn_model_path, cascade_path)
 
-    image_path = r"dataset\positive_samples\test\frame_2303.jpg"
+    #image_path = r"dataset\positive_samples\test\frame_0514.jpg"    #30
+
+    #image_path = r"dataset\positive_samples\test\frame_2303.jpg"    #40
+    #image_path = r"dataset\positive_samples\test\frame_2589.jpg"    #40
+    #image_path = r"dataset\positive_samples\test\frame_2303.jpg"    #40
+    #image_path = r"dataset\positive_samples\test\frame_1980.jpg"    #40
+
+    #image_path = r"dataset\positive_samples\train\frame_2817.jpg"    #70
+    #image_path = r"dataset\positive_samples\test\frame_3353.jpg"    #80
+    image_path = r"dataset\positive_samples\test\frame_3681.jpg"    #120
+
+
     output_image_path = r"dataset\result4\00072_test.jpg"
     classify_image(image_path, output_image_path, cnn_model_path, cascade_path)
