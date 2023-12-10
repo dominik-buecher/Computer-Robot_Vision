@@ -1,0 +1,15 @@
+Category 'no_class' has 2112 images.
+Category 'no_speed' has 68 images.
+Category 'speed_100' has 286 images.
+Category 'speed_120' has 478 images.
+Category 'speed_30' has 777 images.
+Category 'speed_40' has 2028 images.
+Category 'speed_50' has 70 images.
+Category 'speed_70' has 544 images.
+Category 'speed_80' has 264 images.
+Adding 1826 images to category 'speed_100' to match the maximum.
+Adding 1634 images to category 'speed_120' to match the maximum.
+Adding 1335 images to category 'speed_30' to match the maximum.
+Adding 2042 images to category 'speed_50' to match the maximum.
+Adding 1568 images to category 'speed_70' to match the maximum.
+Adding 1848 images to category 'speed_80' to match the maximum.
