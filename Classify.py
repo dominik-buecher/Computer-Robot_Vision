@@ -25,8 +25,9 @@ def classify_video(video_path, output_video_path, cnn_model_path, cascade_path):
             break
 
         # Wende das Haar Cascade-Modell auf das Frame an, um Schilder zu erkennen
-        gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
-        signs = cascade.detectMultiScale(gray, scaleFactor=1.1, minNeighbors=5, minSize=(30, 30))
+        #gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+        rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
+        signs = cascade.detectMultiScale(frame, scaleFactor=1.1, minNeighbors=5, minSize=(30, 30))
 
         # Durchlaufe erkannte Schilder
         for (x, y, w, h) in signs:
@@ -70,14 +71,15 @@ def classify_image(image_path, output_image_path, cnn_model_path, cascade_path):
     class_name = ['end_speed', 'no_class', 'speed_100', 'speed_120', 'speed_30', 'speed_40', 'speed_50', 'speed_70', 'speed_80']
 
     # Wende das Haar Cascade-Modell auf das Bild an, um Schilder zu erkennen
-    gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
-    signs = cascade.detectMultiScale(gray, scaleFactor=1.1, minNeighbors=5, minSize=(30, 30))
+    #gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+    rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
+    signs = cascade.detectMultiScale(frame, scaleFactor=1.1, minNeighbors=5, minSize=(30, 30))
 
     start_time = time.time()  # Starte die Zeitmessung
 
     # Durchlaufe erkannte Schilder
     for (x, y, w, h) in signs:
-        if (y - h < 0) or (y + h > 1080) or (x - w < 0) or x + w > 1920:
+        if (y - (h // 2) < 0) or (y + (h // 2) > 1080) or (x - (w // 2) < 0) or x + (w // 2) > 1920:
             continue
         
         # Schneide die Bounding Box aus dem Bild aus
@@ -92,7 +94,7 @@ def classify_image(image_path, output_image_path, cnn_model_path, cascade_path):
 
         if class_index != 1:
             # Zeichne die Bounding Box und das Label auf das Bild
-            cv2.rectangle(frame, (x - w, y - h), (x + w, y +h), (0, 255, 0), 2)
+            cv2.rectangle(frame, (x - (w // 2), y - (h // 2)), (x + (w // 2), y + (h // 2)), (0, 255, 0), 2)
             cv2.putText(frame, prediction, (x, y - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
 
     end_time = time.time()  # Stoppe die Zeitmessung
@@ -128,8 +130,9 @@ def classify_camera_stream(cnn_model_path, cascade_path):
             break
 
         # Wende das Haar Cascade-Modell auf das Frame an, um Schilder zu erkennen
-        gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
-        signs = cascade.detectMultiScale(gray, scaleFactor=1.1, minNeighbors=5, minSize=(30, 30))
+        #gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+        rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
+        signs = cascade.detectMultiScale(rgb, scaleFactor=1.1, minNeighbors=5, minSize=(30, 30))
 
         # Durchlaufe erkannte Schilder
         for (x, y, w, h) in signs:
@@ -165,16 +168,16 @@ def classify_camera_stream(cnn_model_path, cascade_path):
 
 if __name__ == "__main__":
 
-    video_path = r'C:\Users\Dominik\Documents\Studium\Master\Computer_vision\david\Aufnahme_01.MP4'
-    output_video_path = r'C:\Users\Dominik\Documents\Studium\Master\Computer_vision\david\Aufnahme_01_new.MP4'
+    video_path = r'C:\Users\Dominik\Documents\Studium\Master\Computer_vision\david\Aufnahme_02.MP4'
+    output_video_path = r'C:\Users\Dominik\Documents\Studium\Master\Computer_vision\david\Aufnahme_02_new.MP4'
 
     cascade_path = r'Dominik\cascade_12\cascade.xml'
-    #cnn_model_path = r'Aaron\models\MobileNet.h5'
+    cnn_model_path = r'Aaron\models\MobileNet.h5'
     #cnn_model_path = r'Aaron\models\own_model_deeper.h5'
-    cnn_model_path = r'Aaron\models\MobileNetAugmented.h5'
+    #cnn_model_path = r'Aaron\models\MobileNetAugmented.h5'
 
     #classify_video(video_path, output_video_path, cnn_model_path, cascade_path)
 
-    image_path = r"dataset\positive_samples\test\frame_1097.jpg"
+    image_path = r"dataset\positive_samples\test\frame_2303.jpg"
     output_image_path = r"dataset\result4\00072_test.jpg"
     classify_image(image_path, output_image_path, cnn_model_path, cascade_path)

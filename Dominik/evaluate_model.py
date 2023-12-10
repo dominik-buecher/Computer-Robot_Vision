@@ -143,7 +143,7 @@ def test_speed(cascade):
     start_time = time.time()
 
     # Anwenden des Cascade-Modells auf das Bild
-    objects = cascade.detectMultiScale(gray_image, scaleFactor=1.1, minNeighbors=5, minSize=(30, 30))
+    objects = cascade.detectMultiScale(gray_image, scaleFactor=1.1, minNeighbors=5, minSize=(24, 24))
 
     # Messen der Zeit nach der Klassifikation
     end_time = time.time()
@@ -164,7 +164,7 @@ def test_speed(cascade):
 
 
 if __name__ == "__main__":
-    cascade_speedsign = cv2.CascadeClassifier('Dominik/cascade_22/cascade.xml')
+    cascade_speedsign = cv2.CascadeClassifier('Dominik/models/cascade_21/cascade.xml')
     if cascade_speedsign.empty():
         print("Error: Unable to load cascade classifier.")
 
