@@ -43,10 +43,10 @@ def classify_video(video_path, output_video_path, cnn_model_path, cascade_path):
             class_index = np.argmax(predictions)
             prediction = class_name[class_index]
 
-            #if class_index != 1:
+            if class_index != 1:
                 # Zeichne die Bounding Box und das Label auf das Frame
-            cv2.rectangle(frame, (x- (w//2), y - (h//2)), (x + (w//2), y + (h//2)), (0, 255, 0), 2)
-            cv2.putText(frame, prediction, (x, y - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
+                cv2.rectangle(frame, (x- (w//2), y - (h//2)), (x + (w//2), y + (h//2)), (0, 255, 0), 2)
+                cv2.putText(frame, prediction, (x, y - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
 
         # Schreibe das Frame in das Ausgabevideo
         output_video.write(frame)
@@ -169,14 +169,14 @@ def classify_camera_stream(cnn_model_path, cascade_path):
 if __name__ == "__main__":
 
     video_path = r'C:\Users\Dominik\Documents\Studium\Master\Computer_vision\david\Aufnahme_01.MP4'
-    output_video_path = r'C:\Users\Dominik\Documents\Studium\Master\Computer_vision\david\Aufnahme_01_new2.MP4'
+    output_video_path = r'C:\Users\Dominik\Documents\Studium\Master\Computer_vision\david\Aufnahme_01_new17.MP4'
 
-    cascade_path = r'Dominik\cascade_12\cascade.xml'
+    cascade_path = r'Dominik\models\cascade_17\cascade.xml'
     cnn_model_path = r'Aaron\models\MobileNet.h5'
     #cnn_model_path = r'Aaron\models\own_model_deeper.h5'
     #cnn_model_path = r'Aaron\models\MobileNetAugmented.h5'
 
-    #classify_video(video_path, output_video_path, cnn_model_path, cascade_path)
+    classify_video(video_path, output_video_path, cnn_model_path, cascade_path)
 
     #image_path = r"dataset\positive_samples\test\frame_0514.jpg"    #30
 
@@ -187,8 +187,8 @@ if __name__ == "__main__":
 
     #image_path = r"dataset\positive_samples\train\frame_2817.jpg"    #70
     #image_path = r"dataset\positive_samples\test\frame_3353.jpg"    #80
-    image_path = r"dataset\positive_samples\test\frame_3681.jpg"    #120
+    #image_path = r"dataset\positive_samples\test\frame_3681.jpg"    #120
 
 
     output_image_path = r"dataset\result4\00072_test.jpg"
-    classify_image(image_path, output_image_path, cnn_model_path, cascade_path)
+    #classify_image(image_path, output_image_path, cnn_model_path, cascade_path)
