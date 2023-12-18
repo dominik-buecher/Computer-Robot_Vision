@@ -7,26 +7,31 @@
 # opencv_visualisation --image=/data/object.png --model=/data/model.xml --data=/data/result/
 
 # cascade_8
-# cascade_9     C:/Users/Dominik/Documents/opencv/build/x64/vc15/bin/opencv_traincascade.exe -data Dominik/cascade_10/ -vec dataset/positive_samples/train/train.vec -bg dataset/negative_samples/neg2.txt -precalcValBufSize 14000 -precalcIdxBufSize 14000 -w 24 -h 24 -numPos 3500 -numNeg 7000 -numStages 5 -maxFalseAlarmRate 0.1 -minHitRate 0.999 mode ALL              *5: Precision: 0.8577981651376146, Recall: 0.8577981651376146
-
-# cascade_13    C:/Users/Dominik/Documents/opencv/build/x64/vc15/bin/opencv_traincascade.exe -data Dominik/cascade_13/ -vec dataset/positive_samples/train/train.vec -bg dataset/negative_samples/neg2.txt -precalcValBufSize 16000 -precalcIdxBufSize 16000 -w 24 -h 24 -numPos 3500 -numNeg 7000 -numStages 7 -maxFalseAlarmRate 0.05 -minHitRate 0.999                       5: Precision: 0.7777777777777778, Recall: 0.7659574468085106   *7: Precision: 0.8894009216589862, Recall: 0.8853211009174312
-# cascade_17    C:/Users/Dominik/Documents/opencv/build/x64/vc15/bin/opencv_traincascade.exe -data Dominik/cascade_17/ -vec dataset/positive_samples/train/train.vec -bg dataset/negative_samples/neg2.txt -precalcValBufSize 16000 -precalcIdxBufSize 16000 -w 24 -h 24 -numPos 3500 -numNeg 3500 -numStages 5 -maxFalseAlarmRate 0.05 -minHitRate 0.999                      *5: Precision: 0.8073394495412844, Recall: 0.8073394495412844
-# cascade_14    C:/Users/Dominik/Documents/opencv/build/x64/vc15/bin/opencv_traincascade.exe -data Dominik/cascade_14/ -vec dataset/positive_samples/train/train.vec -bg dataset/negative_samples/neg2.txt -precalcValBufSize 16000 -precalcIdxBufSize 16000 -w 24 -h 24 -numPos 3500 -numNeg 1750 -numStages 5 -maxFalseAlarmRate 0.05 -minHitRate 0.999                      *5: Precision: 0.7247706422018348, Recall: 0.7247706422018348
-
-# cascade_10	C:/Users/Dominik/Documents/opencv/build/x64/vc15/bin/opencv_traincascade.exe -data Dominik/cascade_10/ -vec dataset/positive_samples/train/train.vec -bg dataset/negative_samples/neg2.txt -precalcValBufSize 16000 -precalcIdxBufSize 16000 -w 24 -h 24 -numPos 3500 -numNeg 7000 -numStages 10 -maxFalseAlarmRate 0.1 -minHitRate 0.999 -featureType LBP      5: Precision: 0.9196428571428571, Recall: 0.7826747720364742   *7: Precision: 0.8644859813084113, Recall: 0.8486238532110092
-# cascade_11    C:/Users/Dominik/Documents/opencv/build/x64/vc15/bin/opencv_traincascade.exe -data Dominik/cascade_11/ -vec dataset/positive_samples/train/train.vec -bg dataset/negative_samples/neg2.txt -precalcValBufSize 16000 -precalcIdxBufSize 16000 -w 24 -h 24 -numPos 3500 -numNeg 1750 -numStages 12 -maxFalseAlarmRate 0.1 -minHitRate 0.999 -featureType LBP      5: Precision: 0.7082066869300911, Recall: 0.7082066869300911   7: Precision: 0.8703703703703703, Recall: 0.8571428571428571  10: Precision: 0.9270462633451957, Recall: 0.7917933130699089   *12: Precision: 0.925531914893617, Recall: 0.7981651376146789
-
-# cascade_12    C:/Users/Dominik/Documents/opencv/build/x64/vc15/bin/opencv_traincascade.exe -data Dominik/cascade_12/ -vec dataset/positive_samples/train/train.vec -bg dataset/negative_samples/neg2.txt -precalcValBufSize 16000 -precalcIdxBufSize 16000 -w 24 -h 24 -numPos 3500 -numNeg 1750 -numStages 7 -maxFalseAlarmRate 0.05 -minHitRate 0.999 -featureType LBP      5: Precision: 0.7978723404255319, Recall: 0.7978723404255319   *7: Precision: 0.8976744186046511, Recall: 0.8853211009174312
-# cascade_16    C:/Users/Dominik/Documents/opencv/build/x64/vc15/bin/opencv_traincascade.exe -data Dominik/cascade_16/ -vec dataset/positive_samples/train/train.vec -bg dataset/negative_samples/neg2.txt -precalcValBufSize 16000 -precalcIdxBufSize 16000 -w 24 -h 24 -numPos 3500 -numNeg 3500 -numStages 7 -maxFalseAlarmRate 0.05 -minHitRate 0.999 -featureType LBP      5: Precision: 0.8783570300157978, Recall: 0.8449848024316109   *7: Precision: 0.9476439790575916, Recall: 0.8302752293577982
-# cascade_15    C:/Users/Dominik/Documents/opencv/build/x64/vc15/bin/opencv_traincascade.exe -data Dominik/cascade_15/ -vec dataset/positive_samples/train/train.vec -bg dataset/negative_samples/neg2.txt -precalcValBufSize 16000 -precalcIdxBufSize 16000 -w 24 -h 24 -numPos 3500 -numNeg 7000 -numStages 7 -maxFalseAlarmRate 0.05 -minHitRate 0.999 -featureType LBP     *5: Precision: 0.9045226130653267, Recall: 0.8256880733944955   *7: 
-
-# cascade_20   C:/Users/Dominik/Documents/opencv/build/x64/vc15/bin/opencv_traincascade.exe -data Dominik/cascade_20/ -vec dataset/positive_samples/train/train.vec -bg dataset/negative_samples/neg2.txt -precalcValBufSize 16000 -precalcIdxBufSize 16000 -w 24 -h 24 -numPos 3500 -numNeg 1750 -numStages 7 -maxFalseAlarmRate 0.01 -minHitRate 0.999 -featureType LBP       5: Precision: 0.8635658914728682, Recall: 0.8465045592705167   *7: Precision: 0.9421052631578948, Recall: 0.8211009174311926
-# cascade_19   C:/Users/Dominik/Documents/opencv/build/x64/vc15/bin/opencv_traincascade.exe -data Dominik/cascade_19/ -vec dataset/positive_samples/train/train.vec -bg dataset/negative_samples/neg2.txt -precalcValBufSize 16000 -precalcIdxBufSize 16000 -w 24 -h 24 -numPos 3500 -numNeg 3500 -numStages 5 -maxFalseAlarmRate 0.01 -minHitRate 0.999 -featureType LBP      *5: Precision: 0.9381443298969072, Recall: 0.8348623853211009   *7:
-# cascade_18   C:/Users/Dominik/Documents/opencv/build/x64/vc15/bin/opencv_traincascade.exe -data Dominik/cascade_18/ -vec dataset/positive_samples/train/train.vec -bg dataset/negative_samples/neg2.txt -precalcValBufSize 16000 -precalcIdxBufSize 16000 -w 24 -h 24 -numPos 3500 -numNeg 7000 -numStages 5 -maxFalseAlarmRate 0.01 -minHitRate 0.999 -featureType LBP      *5:
+# cascade_9     C:/Users/Dominik/Documents/opencv/build/x64/vc15/bin/opencv_traincascade.exe -data Dominik/models/cascade_10/ -vec dataset/positive_samples/train/train.vec -bg dataset/negative_samples/neg2.txt -precalcValBufSize 14000 -precalcIdxBufSize 14000 -w 24 -h 24 -numPos 3500 -numNeg 7000 -numStages 5 -maxFalseAlarmRate 0.1 -minHitRate 0.999 mode ALL              *5: Precision: 0.8577981651376146, Recall: 0.8577981651376146
 
 
-# cascade_21   C:/Users/Dominik/Documents/opencv/build/x64/vc15/bin/opencv_traincascade.exe -data Dominik/cascade_21/ -vec dataset/positive_samples/train/train.vec -bg dataset/negative_samples/neg2.txt -precalcValBufSize 16000 -precalcIdxBufSize 16000 -w 24 -h 24 -numPos 3500 -numNeg 1750 -numStages 5 -maxFalseAlarmRate 0.2 -minHitRate 0.999                       *3: Precision: 0.945054945054945, Recall: 0.7889908256880734
-# cascade_22   C:/Users/Dominik/Documents/opencv/build/x64/vc15/bin/opencv_traincascade.exe -data Dominik/cascade_22/ -vec dataset/positive_samples/train/train.vec -bg dataset/negative_samples/neg2.txt -precalcValBufSize 16000 -precalcIdxBufSize 16000 -w 24 -h 24 -numPos 3500 -numNeg 7000 -numStages 5 -maxFalseAlarmRate 0.2 -minHitRate 0.999	                      *5: Precision: 0.3394495412844037, Recall: 0.3394495412844037
+
+# cascade_13    C:/Users/Dominik/Documents/opencv/build/x64/vc15/bin/opencv_traincascade.exe -data Dominik/models/cascade_13/ -vec dataset/positive_samples/train/train.vec -bg dataset/negative_samples/neg2.txt -precalcValBufSize 16000 -precalcIdxBufSize 16000 -w 24 -h 24 -numPos 3500 -numNeg 7000 -numStages 7 -maxFalseAlarmRate 0.05 -minHitRate 0.999                       5: Precision: 0.7777777777777778, Recall: 0.7659574468085106   *7: Precision: 0.8894009216589862, Recall: 0.8853211009174312   10:
+# cascade_17    C:/Users/Dominik/Documents/opencv/build/x64/vc15/bin/opencv_traincascade.exe -data Dominik/models/cascade_17/ -vec dataset/positive_samples/train/train.vec -bg dataset/negative_samples/neg2.txt -precalcValBufSize 16000 -precalcIdxBufSize 16000 -w 24 -h 24 -numPos 3500 -numNeg 3500 -numStages 7 -maxFalseAlarmRate 0.05 -minHitRate 0.999                      *5: Precision: 0.8073394495412844, Recall: 0.8073394495412844   *7: Precision: 0.9036697247706422, Recall: 0.9036697247706422   10:
+# cascade_14    C:/Users/Dominik/Documents/opencv/build/x64/vc15/bin/opencv_traincascade.exe -data Dominik/models/cascade_14/ -vec dataset/positive_samples/train/train.vec -bg dataset/negative_samples/neg2.txt -precalcValBufSize 16000 -precalcIdxBufSize 16000 -w 24 -h 24 -numPos 3500 -numNeg 1750 -numStages 7 -maxFalseAlarmRate 0.05 -minHitRate 0.999                      *5: Precision: 0.7247706422018348, Recall: 0.7247706422018348   *7: Precision: 0.8623853211009175, Recall: 0.8623853211009175   10:
+
+# cascade_12    C:/Users/Dominik/Documents/opencv/build/x64/vc15/bin/opencv_traincascade.exe -data Dominik/models/cascade_12/ -vec dataset/positive_samples/train/train.vec -bg dataset/negative_samples/neg2.txt -precalcValBufSize 16000 -precalcIdxBufSize 16000 -w 24 -h 24 -numPos 3500 -numNeg 1750 -numStages 10 -maxFalseAlarmRate 0.05 -minHitRate 0.999 -featureType LBP      5: Precision: 0.7978723404255319, Recall: 0.7978723404255319   *7: Precision: 0.8976744186046511, Recall: 0.8853211009174312   10:
+# cascade_16    C:/Users/Dominik/Documents/opencv/build/x64/vc15/bin/opencv_traincascade.exe -data Dominik/models/cascade_16/ -vec dataset/positive_samples/train/train.vec -bg dataset/negative_samples/neg2.txt -precalcValBufSize 16000 -precalcIdxBufSize 16000 -w 24 -h 24 -numPos 3500 -numNeg 3500 -numStages 7 -maxFalseAlarmRate 0.05 -minHitRate 0.999 -featureType LBP      5: Precision: 0.8783570300157978, Recall: 0.8449848024316109   *7: Precision: 0.9476439790575916, Recall: 0.8302752293577982   10:
+# cascade_15    C:/Users/Dominik/Documents/opencv/build/x64/vc15/bin/opencv_traincascade.exe -data Dominik/models/cascade_15/ -vec dataset/positive_samples/train/train.vec -bg dataset/negative_samples/neg2.txt -precalcValBufSize 16000 -precalcIdxBufSize 16000 -w 24 -h 24 -numPos 3500 -numNeg 7000 -numStages 8 -maxFalseAlarmRate 0.05 -minHitRate 0.999 -featureType LBP     *5: Precision: 0.9045226130653267, Recall: 0.8256880733944955   *7: Precision: 0.9677419354838710, Recall: 0.8256880733944955   8:
+
+
+
+# cascade_20   C:/Users/Dominik/Documents/opencv/build/x64/vc15/bin/opencv_traincascade.exe -data Dominik/models/cascade_20/ -vec dataset/positive_samples/train/train.vec -bg dataset/negative_samples/neg2.txt -precalcValBufSize 16000 -precalcIdxBufSize 16000 -w 24 -h 24 -numPos 3500 -numNeg 1750 -numStages 7 -maxFalseAlarmRate 0.01 -minHitRate 0.999 -featureType LBP       5: Precision: 0.8635658914728682, Recall: 0.8465045592705167   *7: Precision: 0.9421052631578948, Recall: 0.8211009174311926
+# cascade_19   C:/Users/Dominik/Documents/opencv/build/x64/vc15/bin/opencv_traincascade.exe -data Dominik/models/cascade_19/ -vec dataset/positive_samples/train/train.vec -bg dataset/negative_samples/neg2.txt -precalcValBufSize 16000 -precalcIdxBufSize 16000 -w 24 -h 24 -numPos 3500 -numNeg 3500 -numStages 7 -maxFalseAlarmRate 0.01 -minHitRate 0.999 -featureType LBP      *5: Precision: 0.9381443298969072, Recall: 0.8348623853211009   *7:
+# cascade_18   C:/Users/Dominik/Documents/opencv/build/x64/vc15/bin/opencv_traincascade.exe -data Dominik/models/cascade_18/ -vec dataset/positive_samples/train/train.vec -bg dataset/negative_samples/neg2.txt -precalcValBufSize 16000 -precalcIdxBufSize 16000 -w 24 -h 24 -numPos 3500 -numNeg 7000 -numStages 5 -maxFalseAlarmRate 0.01 -minHitRate 0.999 -featureType LBP      *5:
+
+
+# cascade_10	C:/Users/Dominik/Documents/opencv/build/x64/vc15/bin/opencv_traincascade.exe -data Dominik/models/cascade_10/ -vec dataset/positive_samples/train/train.vec -bg dataset/negative_samples/neg2.txt -precalcValBufSize 16000 -precalcIdxBufSize 16000 -w 24 -h 24 -numPos 3500 -numNeg 7000 -numStages 10 -maxFalseAlarmRate 0.1 -minHitRate 0.999 -featureType LBP      5: Precision: 0.9196428571428571, Recall: 0.7826747720364742   *7: Precision: 0.8644859813084113, Recall: 0.8486238532110092
+# cascade_11    C:/Users/Dominik/Documents/opencv/build/x64/vc15/bin/opencv_traincascade.exe -data Dominik/models/cascade_11/ -vec dataset/positive_samples/train/train.vec -bg dataset/negative_samples/neg2.txt -precalcValBufSize 16000 -precalcIdxBufSize 16000 -w 24 -h 24 -numPos 3500 -numNeg 1750 -numStages 12 -maxFalseAlarmRate 0.1 -minHitRate 0.999 -featureType LBP      5: Precision: 0.7082066869300911, Recall: 0.7082066869300911   7: Precision: 0.8703703703703703, Recall: 0.8571428571428571  10: Precision: 0.9270462633451957, Recall: 0.7917933130699089   *12: Precision: 0.925531914893617, Recall: 0.7981651376146789
+
+
+# cascade_21   C:/Users/Dominik/Documents/opencv/build/x64/vc15/bin/opencv_traincascade.exe -data Dominik/models/cascade_21/ -vec dataset/positive_samples/train/train.vec -bg dataset/negative_samples/neg2.txt -precalcValBufSize 16000 -precalcIdxBufSize 16000 -w 24 -h 24 -numPos 3500 -numNeg 1750 -numStages 5 -maxFalseAlarmRate 0.2 -minHitRate 0.999                       *3: Precision: 0.945054945054945, Recall: 0.7889908256880734
+# cascade_22   C:/Users/Dominik/Documents/opencv/build/x64/vc15/bin/opencv_traincascade.exe -data Dominik/models/cascade_22/ -vec dataset/positive_samples/train/train.vec -bg dataset/negative_samples/neg2.txt -precalcValBufSize 16000 -precalcIdxBufSize 16000 -w 24 -h 24 -numPos 3500 -numNeg 7000 -numStages 5 -maxFalseAlarmRate 0.2 -minHitRate 0.999	                      *5: Precision: 0.3394495412844037, Recall: 0.3394495412844037
 
 
 import time
@@ -57,7 +62,7 @@ def process_images_from_file(cascade, output_folder, ground_truth_file):
         rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 
         # Erkenne Geschwindigkeitsschilder
-        speed_signs = cascade.detectMultiScale(rgb, scaleFactor=1.1, minNeighbors=5, minSize=(24, 24))
+        speed_signs = cascade.detectMultiScale(rgb, scaleFactor=1.1, minNeighbors=3, minSize=(24, 24))
 
         # Extrahiere tatsächliche Bounding-Boxen
         bboxes_gt = [bbox_values[i:i+4] for i in range(0, len(bbox_values), 4)]
@@ -131,7 +136,7 @@ def calculate_union(bbox1, bbox2):
 def test_speed(cascade):
 
     # Pfad zum Bild, das du klassifizieren möchtest
-    image_path = r'dataset\positive_samples\test\00003.jpg'  # Ersetze dies durch den tatsächlichen Pfad zu deinem Bild
+    image_path = r'dataset\positive_samples\test\frame_2303.jpg'  # Ersetze dies durch den tatsächlichen Pfad zu deinem Bild
 
     # Lade das Bild
     image = cv2.imread(image_path)
@@ -143,7 +148,7 @@ def test_speed(cascade):
     start_time = time.time()
 
     # Anwenden des Cascade-Modells auf das Bild
-    objects = cascade.detectMultiScale(gray_image, scaleFactor=1.1, minNeighbors=5, minSize=(30, 30))
+    objects = cascade.detectMultiScale(gray_image, scaleFactor=1.4, minNeighbors=5, minSize=(24, 24))
 
     # Messen der Zeit nach der Klassifikation
     end_time = time.time()
@@ -162,9 +167,12 @@ def test_speed(cascade):
     cv2.destroyAllWindows()
 
 
+# def create_grafic():
+
+
 
 if __name__ == "__main__":
-    cascade_speedsign = cv2.CascadeClassifier('Dominik/cascade_22/cascade.xml')
+    cascade_speedsign = cv2.CascadeClassifier('Dominik/models/cascade_15/cascade.xml')
     if cascade_speedsign.empty():
         print("Error: Unable to load cascade classifier.")
 
