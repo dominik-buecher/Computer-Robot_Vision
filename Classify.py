@@ -34,6 +34,9 @@ def classify_video(video_path, output_video_path, cnn_model_path, cascade_path):
         #gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
         rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
         signs = cascade.detectMultiScale(rgb, scaleFactor=1.1, minNeighbors=5, minSize=(24, 24))
+        #gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+        rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
+        signs = cascade.detectMultiScale(rgb, scaleFactor=1.1, minNeighbors=5, minSize=(24, 24))
 
         # Klassifiziere das Schild mit dem CNN-Modell
         # Durchlaufe erkannte Schilder
@@ -156,8 +159,8 @@ def classify_video_batch(video_path, output_video_path, cnn_model_path, cascade_
             if not os.path.exists(directory):
                 os.makedirs(directory)
 
-            timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
-            filename = f"{class_name}_{roi_count}_{timestamp}.jpg"
+
+            filename = f"{class_name}_{roi_count}_{class_prob}.jpg"
             save_path = os.path.join(directory, filename)
             cv2.imwrite(save_path, frame_sign_rois[i])
             roi_count += 1
@@ -195,6 +198,9 @@ def classify_image(image_path, output_image_path, cnn_model_path, cascade_path):
     class_name = ['end_speed', 'no_sign', 'no_speed_sign', 'speed_100', 'speed_120', 'speed_30', 'speed_40', 'speed_50', 'speed_70', 'speed_80']
 
     # Wende das Haar Cascade-Modell auf das Bild an, um Schilder zu erkennen
+    #gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+    rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
+    signs = cascade.detectMultiScale(rgb, scaleFactor=1.1, minNeighbors=5, minSize=(24, 24))
     #gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
     rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
     signs = cascade.detectMultiScale(rgb, scaleFactor=1.1, minNeighbors=5, minSize=(24, 24))
