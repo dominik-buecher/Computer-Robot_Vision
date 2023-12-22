@@ -11,7 +11,7 @@
     <maxFalseAlarm>5.0000000745058060e-02</maxFalseAlarm>
     <weightTrimRate>9.4999999999999996e-01</weightTrimRate>
     <maxDepth>1</maxDepth>
-    <maxWeakCount>100</maxWeakCount></stageParams>
+    <maxWeakCount>500</maxWeakCount></stageParams>
   <featureParams>
     <maxCatCount>0</maxCatCount>
     <featSize>1</featSize>
