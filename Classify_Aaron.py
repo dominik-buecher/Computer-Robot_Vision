@@ -4,94 +4,39 @@ import tensorflow as tf
 from tensorflow import keras
 import time
 import os
-import datetime
+import csv
+import matplotlib.pyplot as plt
 
+def classify_video_batch(input_video_path, output_video_path, cnn_model_path, cascade_path):
 
-def classify_video(video_path, output_video_path, cnn_model_path, cascade_path):
+     # Get the directory of the input video
+    target_dir = os.path.dirname(output_video_path)
+
+    # Get the video name
+    video_name = os.path.splitext(os.path.basename(input_video_path))[0]
+
+    # Create a CSV file name with the video name
+    csv_file_name = 'predicted_labels_' + video_name + '.csv'
+    # Create a CSV file in the same directory
+    csv_file_path = os.path.join(target_dir, csv_file_name)
+
+    # Create a directory for the classified_video and the CSV file
+    output_path = os.path.dirname(output_video_path)
+    os.makedirs(output_path, exist_ok=True)
+
     # Lade das Haar Cascade-Modell für die Schilderlokalisierung
     cascade = cv2.CascadeClassifier(cascade_path)
 
     # Lade das CNN-Modell für die Schilderklassifikation
     cnn_model = tf.keras.models.load_model(cnn_model_path)
+    get_warm = np.zeros((1, 128, 128, 3), dtype=np.uint8)
 
-    # Öffne das Video
-    cap = cv2.VideoCapture(video_path)
-
-    # Erstelle einen VideoWriter für das Ergebnisvideo
-    fourcc = cv2.VideoWriter_fourcc(*'mp4v')  # oder 'XVID' je nach Codec
-    output_video = cv2.VideoWriter(output_video_path, fourcc, 30.0, (int(cap.get(3)), int(cap.get(4))))
-    class_name = ['end_speed', 'no_sign', 'no_speed_sign', 'speed_100', 'speed_120', 'speed_30', 'speed_40', 'speed_50', 'speed_70', 'speed_80']
-    total_time = 0
-    counter_predictions = 0
     start_time = time.time()  # Starte die Zeitmessung
-    while True:
-        # Lese ein Frame aus dem Video
-        ret, frame = cap.read()
-        if not ret:
-            break
-
-        # Wende das Haar Cascade-Modell auf das Frame an, um Schilder zu erkennen
-        #gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
-        rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
-        signs = cascade.detectMultiScale(rgb, scaleFactor=1.1, minNeighbors=5, minSize=(24, 24))
-
-        # Klassifiziere das Schild mit dem CNN-Modell
-        # Durchlaufe erkannte Schilder
-        for (x, y, w, h) in signs:
-             # Schneide die Bounding Box aus dem Bild aus
-            if (y - (h) < 0) or (y + (h) > 1080) or (x - (w) < 0) or x + (w) > 1920:
-                continue
-
-            # Schneide die Bounding Box aus dem Bild aus
-            sign_roi = frame[y - h:y + h, x - w:x + w]
-
-            # Berechne die Reduzierung der Größe für jede Dimension
-            width_reduction = int(w * 0.1)
-            height_reduction = int(h * 0.1)
-
-            # Schneide das ROI, um es um 20% kleiner zu machen
-            sign_roi_cropped = sign_roi[height_reduction:-height_reduction, width_reduction:-width_reduction]
-
-            sign_roi_rescaled = cv2.resize(sign_roi_cropped, (128, 128))
-            sign_roi_rescaled = cv2.cvtColor(sign_roi_rescaled, cv2.COLOR_BGR2RGB)
-
-            predictions = cnn_model(np.expand_dims(sign_roi_rescaled, axis=0))
-
-            class_index = np.argmax(predictions)
-            prediction = class_name[class_index] + " " + str(np.max(predictions))
-            print(predictions)
-            cv2.imshow("Classified Image", sign_roi_rescaled)
-            cv2.waitKey(0)
-
-            # Zeichne die Bounding Box und das Label auf das Bild
-            # Berechne die neuen Koordinaten für die Bounding Box, die der verkleinerten ROI entsprechen
-            cv2.rectangle(frame, (x - w + width_reduction, y - h + height_reduction), (x + w - width_reduction, y + h - height_reduction), (0, 255, 0), 2)
-            cv2.putText(frame, prediction, (x, y - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
-
-        # Schreibe das Frame in das Ausgabevideo
-        output_video.write(frame)
-
-    end_time = time.time()  # Stoppe die Zeitmessung
-    elapsed_time = end_time - start_time  # Berechne die vergangene Zeit
-
-    print(f"Time taken in totoal: {elapsed_time} seconds")
-    print("Model: ", cnn_model_path)
-    #print(f"Took an average of {total_time/counter_predictions} seconds for CNN Model to classify an image")
-    # Freigabe von Ressourcen
-    cap.release()
-    output_video.release()
-    cv2.destroyAllWindows()
-
-
-def classify_video_batch(video_path, output_video_path, cnn_model_path, cascade_path):
-        # Lade das Haar Cascade-Modell für die Schilderlokalisierung
-    cascade = cv2.CascadeClassifier(cascade_path)
-
-    # Lade das CNN-Modell für die Schilderklassifikation
-    cnn_model = tf.keras.models.load_model(cnn_model_path)
+    cnn_model(get_warm)
+    print(f"CNN Warmup took {time.time() - start_time} seconds")
 
     # Öffne das Video
-    cap = cv2.VideoCapture(video_path)
+    cap = cv2.VideoCapture(input_video_path)
 
     # Erstelle einen VideoWriter für das Ergebnisvideo
     fourcc = cv2.VideoWriter_fourcc(*'mp4v')  # oder 'XVID' je nach Codec
@@ -100,89 +45,130 @@ def classify_video_batch(video_path, output_video_path, cnn_model_path, cascade_
 
     save_roi_path = os.path.dirname(output_video_path) + "\\rois"
 
-    total_time = 0
-    counter_predictions = 0
+    cnn_total_time = 0
+    haar_total_time = 0
+    cnn_counter_predictions = 0
+    haar_counter_predictions = 0
+
     roi_count = 0
     start_time = time.time()  # Starte die Zeitmessung
-    while True:
-        # Lese ein Frame aus dem Video
-        ret, frame = cap.read()
-        if not ret:
-            break
+    frame_number = 0
 
-        # Wende das Haar Cascade-Modell auf das Frame an, um Schilder zu erkennen
-        rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
-        signs = cascade.detectMultiScale(rgb, scaleFactor=1.1, minNeighbors=5, minSize=(24, 24))
 
-        frame_sign_rois = np.zeros((len(signs), 128, 128, 3), dtype=np.uint8)
-        coords = []
-        for i, (x, y, w, h) in enumerate(signs):
-            # Bereinige die Koordinaten der Bounding Box
-            if (y - (h) < 0) or (y + (h) > 1080) or (x - (w) < 0) or x + (w) > 1920:
-                continue
+    with open(csv_file_path, 'w', newline='') as file:
+        writer = csv.writer(file)
 
-            # Schneide die Bounding Box aus dem Bild aus
-            sign_roi = frame[y - h:y + h, x - w:x + w]
+        while True:
+            # Lese ein Frame aus dem Video
+            ret, frame = cap.read()
+            if not ret:
+                break
 
-            # Reduziere die Größe um 10% (optional, falls benötigt)
-            width_reduction = int(w * 0.1)
-            height_reduction = int(h * 0.1)
+            frame_number += 1
 
-            sign_roi_cropped = sign_roi[height_reduction:-height_reduction, width_reduction:-width_reduction]
+            # Wende das Haar Cascade-Modell auf das Frame an, um Schilder zu erkennen
+            rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
+            before_haar = time.time()  # Starte die Zeitmessung
+            signs = cascade.detectMultiScale(rgb, scaleFactor=1.1, minNeighbors=5, minSize=(24, 24))
+            haar_total_time += (time.time() - before_haar)  # Stoppe die Zeitmessung
+            haar_counter_predictions += 1
 
-            # Konvertiere das ROI in RGB und skaliere es
-            frame_sign_rois[i] = cv2.resize(cv2.cvtColor(sign_roi_cropped, cv2.COLOR_BGR2RGB), (128, 128))
+            frame_sign_rois = []
+            coords = []
+            for i, (x, y, w, h) in enumerate(signs):
+                # Bereinige die Koordinaten der Bounding Box
+                if (y - (h) < 0) or (y + (h) > 1080) or (x - (w) < 0) or x + (w) > 1920:
+                    continue
 
-            coords.append((x, y, w, h))
+                # Schneide die Bounding Box aus dem Bild aus
+                sign_roi = frame[y - h:y + h, x - w:x + w]
 
-        if frame_sign_rois.shape[0]:
-            predictions = cnn_model(frame_sign_rois)
+                # Reduziere die Größe um 10% (optional, falls benötigt)
+                width_reduction = int(w * 0.4)
+                height_reduction = int(h * 0.4)
 
-        # Schreibe das Frame in das Ausgabevideo
-        for i, (x, y, w, h) in enumerate(coords):
-            # Berechne die Koordinaten der Bounding Box nach der Reduzierung der Größe
+                sign_roi_cropped = sign_roi[height_reduction:-height_reduction, width_reduction:-width_reduction]
 
-            class_index = np.argmax(predictions[i])
-            class_prob = np.max(predictions[i])
-            x_start = x - w + int(w * 0.1)
-            y_start = y - h + int(h * 0.1)
-            x_end = x + w - int(w * 0.1)
-            y_end = y + h - int(h * 0.1)
+                # Konvertiere das ROI in RGB und skaliere es
+                color_roi = cv2.cvtColor(sign_roi_cropped, cv2.COLOR_BGR2RGB)
+                resized_roi = cv2.resize(color_roi, (128, 128)).astype(np.uint8)
+                frame_sign_rois.append(resized_roi)
 
-            # save the bounding box to the folder with predicted class
-            class_name = class_names[class_index]
-            directory = os.path.join(save_roi_path, class_name)
+                # update the coordinates of the bounding box after cropping
+                coords.append((x, y, w- width_reduction, h - height_reduction))
 
-            if not os.path.exists(directory):
-                os.makedirs(directory)
+            predicted_classes = []
+            if len(coords) > 0:
+                frame_sign_rois = np.array(frame_sign_rois)
+                before_pred = time.time()  # Starte die Zeitmessung
+                predictions = cnn_model(frame_sign_rois)
+                cnn_total_time += (time.time() - before_pred)  # Stoppe die Zeitmessung
+                cnn_counter_predictions += 1
 
-            timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
-            filename = f"{class_name}_{roi_count}_{timestamp}.jpg"
-            save_path = os.path.join(directory, filename)
-            cv2.imwrite(save_path, frame_sign_rois[i])
-            roi_count += 1
+                # Schreibe das Frame in das Ausgabevideo
+                for i, (x, y, w, h) in enumerate(coords):
+                    # Berechne die Koordinaten der Bounding Box nach der Reduzierung der Größe
 
-            if class_index != 1 and class_index != 2 and class_prob > 0.995:
-                # Zeichne die Bounding Box um das Schild
-                prediction = class_names[class_index] + " " + str(class_prob)
-                cv2.rectangle(frame, (x_start, y_start), (x_end, y_end), (0, 255, 0), 2)
-                cv2.putText(frame, prediction, ((x_start - 10, y_start)), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
+                    class_index = np.argmax(predictions[i])
+                    class_prob = np.max(predictions[i])
+                    class_prob = np.round(class_prob, 2)
 
-        output_video.write(frame)
+                    x_start = x - w
+                    y_start = y - h
+                    x_end = x + w
+                    y_end = y + h
+
+                    # save the bounding box to the folder with predicted class
+                    class_name = class_names[class_index]
+
+                    directory = os.path.join(save_roi_path, class_name)
+
+                    if not os.path.exists(directory):
+                        os.makedirs(directory)
+
+                    class_prob_str = str(class_prob)
+                    filename = f"{frame_number}_{class_name}_{class_prob_str}_{roi_count}.jpg"
+                    save_path = os.path.join(directory, filename)
+                    cv2.imwrite(save_path, cv2.cvtColor(frame_sign_rois[i], cv2.COLOR_RGB2BGR))
+
+                    roi_count += 1
+
+                    if class_prob > 0.9: predicted_classes.append(class_name)
+                    else: predicted_classes.append('no_sign')
+                    # if class_index != 1 and class_index != 2 and class_prob > 0.995:
+                        # Zeichne die Bounding Box um das Schild
+                    prediction = class_names[class_index] + " " + class_prob_str
+                    cv2.rectangle(frame, (x_start, y_start), (x_end, y_end), (0, 255, 0), 2)
+                    cv2.putText(frame, prediction, ((x_start - 10, y_start)), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
+            else:
+                predicted_classes.append('no_sign')
+
+
+                # Write the frame number and predicted classes to the CSV file
+            writer.writerow([frame_number] + predicted_classes)
+            predicted_classes.clear()
+
+            output_video.write(frame)
+
+            if frame_number % 100 == 0:
+                print(f"Processed {frame_number} frames")
 
     end_time = time.time()  # Stoppe die Zeitmessung
     elapsed_time = end_time - start_time  # Berechne die vergangene Zeit
 
-    print(f"Time taken in totoal: {elapsed_time} seconds")
-    print("Model: ", cnn_model_path)
-    #print(f"Took an average of {total_time/counter_predictions} seconds for CNN Model to classify an image")
     # Freigabe von Ressourcen
     cap.release()
     output_video.release()
     cv2.destroyAllWindows()
 
+    print("Model: ", cnn_model_path)
+    print(f"Time taken in total: {round(elapsed_time, 4)} seconds")
+    print(f"Took an average of {round(haar_total_time/haar_counter_predictions, 4)} seconds for HAAR Model to classify an image - total time: {round(haar_total_time, 4)} - total predictions: {haar_counter_predictions}")
+    print(f"Took an average of {round(cnn_total_time/cnn_counter_predictions, 4)} seconds for CNN Model to classify an image - total time: {round(cnn_total_time, 4)} - total predictions: {cnn_counter_predictions}")
+    print(f"Other processing took {round(elapsed_time - haar_total_time - cnn_total_time, 4)} seconds.")
 
-def classify_image(image_path, output_image_path, cnn_model_path, cascade_path):
+
+def classify_image(image_path, cnn_model_path, cascade_path):
     # Lade das Haar Cascade-Modell für die Schilderlokalisierung
     cascade = cv2.CascadeClassifier(cascade_path)
 
@@ -192,47 +178,75 @@ def classify_image(image_path, output_image_path, cnn_model_path, cascade_path):
     # Lade das Bild
     frame = cv2.imread(image_path)
 
-    class_name = ['end_speed', 'no_sign', 'no_speed_sign', 'speed_100', 'speed_120', 'speed_30', 'speed_40', 'speed_50', 'speed_70', 'speed_80']
+    class_names = ['end_speed', 'no_sign', 'no_speed_sign', 'speed_100', 'speed_120', 'speed_30', 'speed_40', 'speed_50', 'speed_70', 'speed_80']
+
+    save_roi_path = os.path.dirname(image_path) + "\\rois"
+    rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
 
     # Wende das Haar Cascade-Modell auf das Bild an, um Schilder zu erkennen
-    #gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
-    rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
     signs = cascade.detectMultiScale(rgb, scaleFactor=1.1, minNeighbors=5, minSize=(24, 24))
 
     start_time = time.time()  # Starte die Zeitmessung
 
+    frame_sign_rois = np.zeros((len(signs), 128, 128, 3), dtype=np.uint8)
+    coords = []
     # Durchlaufe erkannte Schilder
-    for (x, y, w, h) in signs:
+    for i, (x, y, w, h) in enumerate(signs):
+        # Bereinige die Koordinaten der Bounding Box
+        if (y - (h) < 0) or (y + (h) > 1080) or (x - (w) < 0) or x + (w) > 1920:
+            continue
+
         # Schneide die Bounding Box aus dem Bild aus
         sign_roi = frame[y - h:y + h, x - w:x + w]
 
-        # Berechne die Reduzierung der Größe für jede Dimension
-        width_reduction = int(w * 0.1)
-        height_reduction = int(h * 0.1)
+        # Reduziere die Größe um 10% (optional, falls benötigt)
+        width_reduction = int(w * 0.4)
+        height_reduction = int(h * 0.4)
 
-        # Schneide das ROI, um es um 20% kleiner zu machen
         sign_roi_cropped = sign_roi[height_reduction:-height_reduction, width_reduction:-width_reduction]
-            # Zeige das Bild an
-        cv2.imshow("cropped Image", sign_roi_cropped)
 
-        sign_roi_rescaled = cv2.resize(sign_roi_cropped, (128, 128))
-        sign_roi_rescaled = cv2.cvtColor(sign_roi_rescaled, cv2.COLOR_BGR2RGB)
+        # Konvertiere das ROI in RGB und skaliere es
+        frame_sign_rois[i] = cv2.resize(cv2.cvtColor(sign_roi_cropped, cv2.COLOR_BGR2RGB), (128, 128))
 
-        # Klassifiziere das Schild mit dem CNN-Modell
-        start_time = time.time()  # Starte die Zeitmessung
-        predictions = cnn_model.predict(np.expand_dims(sign_roi_rescaled, axis=0))
-        end_time = time.time()  # Stoppe die Zeitmessung
-        elapsed_time = end_time - start_time  # Berechne die vergangene Zeit
+        coords.append((x, y, w, h))
 
-        print(f"Time taken for classification: {elapsed_time} seconds")
+        if frame_sign_rois.shape[0]:
+                    predictions = cnn_model(frame_sign_rois)
 
-        class_index = np.argmax(predictions)
-        prediction = class_name[class_index] + " " + str(np.max(predictions))
+        predicted_classes = []
 
-        # Zeichne die Bounding Box und das Label auf das Bild
-        # Berechne die neuen Koordinaten für die Bounding Box, die der verkleinerten ROI entsprechen
-        cv2.rectangle(frame, (x - w + width_reduction, y - h + height_reduction), (x + w - width_reduction, y + h - height_reduction), (0, 255, 0), 2)
-        cv2.putText(frame, prediction, (x, y - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
+        roi_count = 0
+        # Schreibe das Frame in das Ausgabevideo
+        for i, (x, y, w, h) in enumerate(coords):
+            # Berechne die Koordinaten der Bounding Box nach der Reduzierung der Größe
+
+            class_index = np.argmax(predictions[i])
+            class_prob = np.round(np.max(predictions[i]),4)
+            x_start = x - w + int(w * 0.1)
+            y_start = y - h + int(h * 0.1)
+            x_end = x + w - int(w * 0.1)
+            y_end = y + h - int(h * 0.1)
+
+            # save the bounding box to the folder with predicted class
+            class_name = class_names[class_index]
+
+            directory = os.path.join(save_roi_path, class_name)
+
+            if not os.path.exists(directory):
+                os.makedirs(directory)
+
+            filename = f"{class_name}_{class_prob}_{roi_count}.jpg"
+            save_path = os.path.join(directory, filename)
+            cv2.imwrite(save_path, cv2.cvtColor(frame_sign_rois[i], cv2.COLOR_RGB2BGR))
+
+            roi_count += 1
+
+            if class_prob > 0.9: predicted_classes.append(class_name)
+            # if class_index != 1 and class_index != 2 and class_prob > 0.995:
+                # Zeichne die Bounding Box um das Schild
+            prediction = class_names[class_index] + " " + str(class_prob)
+            cv2.rectangle(frame, (x_start, y_start), (x_end, y_end), (0, 255, 0), 2)
+            cv2.putText(frame, prediction, ((x_start - 10, y_start)), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
 
     # Zeige das Bild an
     cv2.imshow("Classified Image", frame)
@@ -389,7 +403,19 @@ if __name__ == "__main__":
 
     #     input_video_path = os.path.join(test_video_folder, video_file)
     #     output_video_path = os.path.join(result_video_folder, "processed_" + video_file)
-input_video_path = r"C:\Users\aaron\Desktop\Programmierung\Master\Machine Vision\Computer-Robot_Vision_repo\test_videos\no_audio_GX010093.MP4"
-output_video_path = r"C:\Users\aaron\Desktop\Programmierung\Master\Machine Vision\Computer-Robot_Vision_repo\test_video_results_augmented_mobile\tests\GX010093\classified_GX010093.MP4"
+    video_numbers = [
+    "GX010093", "GX010098", "GX010103",
+    "GX010094", "GX010099", "GX010105",
+    "GX010095", "GX010100", "GX010106",
+    "GX010096", "GX010101", "GX010107_d",
+    "GX010097", "GX010102", "GX010108_d"
+]
+    for video_number in video_numbers:
+        input_video_path = rf"C:\Users\aaron\Desktop\Programmierung\Master\Machine Vision\Computer-Robot_Vision_repo\test_videos_with_labels\no_audio_{video_number}.MP4"
+        output_video_path = rf"C:\Users\aaron\Desktop\Programmierung\Master\Machine Vision\Computer-Robot_Vision_repo\test_video_results_augmented_mobile\tests\{video_number}\classified_{video_number}.MP4"
+        print("Processing video: ", video_number)
+        classify_video_batch(input_video_path, output_video_path, cnn_model_path_mobileNet, cascade_path)
+        print("Finished processing video: ", video_number)
 
-classify_video_batch(input_video_path, output_video_path, cnn_model_path_mobileNet, cascade_path)
+    image_path = r"C:\Users\aaron\Desktop\Programmierung\Master\Machine Vision\Computer-Robot_Vision_repo\test_video_results_augmented_mobile\tests\GX010096\test\test_image_frame_30-00030.jpg"
+    #classify_image(image_path, cnn_model_path_mobileNet, cascade_path)

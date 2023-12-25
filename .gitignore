@@ -6,7 +6,8 @@ __pycache__
 aaron/models/own_model_deeper.h5
 Dominik/models/
 dataset/
-test_video_results_augmented_mobile/
 test_videos/
 results/
 test_video_results/
+rois/
+*.mp4
