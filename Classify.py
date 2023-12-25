@@ -59,17 +59,18 @@ def classify_video(video_path, output_video_path, cnn_model_path, cascade_path):
             sign_roi_rescaled = cv2.cvtColor(sign_roi_rescaled, cv2.COLOR_BGR2RGB)
 
             predictions = cnn_model(np.expand_dims(sign_roi_rescaled, axis=0))
-
+            
             class_index = np.argmax(predictions)
             prediction = class_name[class_index] + " " + str(np.max(predictions))
+            prediction = round(prediction, 4)
             print(predictions)
             cv2.imshow("Classified Image", sign_roi_rescaled)
             cv2.waitKey(0)
 
             # Zeichne die Bounding Box und das Label auf das Bild
             # Berechne die neuen Koordinaten für die Bounding Box, die der verkleinerten ROI entsprechen
-            cv2.rectangle(frame, (x - w + width_reduction, y - h + height_reduction), (x + w - width_reduction, y + h - height_reduction), (0, 255, 0), 2)
-            cv2.putText(frame, prediction, (x, y - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
+            cv2.rectangle(frame, (x - w + width_reduction, y - h + height_reduction), (x + w - width_reduction, y + h - height_reduction), (0, 0, 255), 3)
+            cv2.putText(frame, prediction, (x, y - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 3)
 
         # Schreibe das Frame in das Ausgabevideo
         output_video.write(frame)
@@ -99,7 +100,7 @@ def classify_video_batch(video_path, output_video_path, cnn_model_path, cascade_
     # Erstelle einen VideoWriter für das Ergebnisvideo
     fourcc = cv2.VideoWriter_fourcc(*'mp4v')  # oder 'XVID' je nach Codec
     output_video = cv2.VideoWriter(output_video_path, fourcc, 30.0, (int(cap.get(3)), int(cap.get(4))))
-    class_names = ['end_speed', 'no_sign', 'no_speed_sign', 'speed_100', 'speed_120', 'speed_30', 'speed_40', 'speed_50', 'speed_70', 'speed_80']
+    class_names = ['end_speed', 'no_sign', 'no_speed_sign', '100', '120', '30', '40', '50', '70', '80']
 
     save_roi_path = os.path.dirname(output_video_path) + "\\rois"
 
@@ -168,8 +169,9 @@ def classify_video_batch(video_path, output_video_path, cnn_model_path, cascade_
             if class_index != 1 and class_index != 2 and class_prob > 0.995:
                 # Zeichne die Bounding Box um das Schild
                 prediction = class_names[class_index] + " " + str(class_prob)
-                cv2.rectangle(frame, (x_start, y_start), (x_end, y_end), (0, 255, 0), 2)
-                cv2.putText(frame, prediction, ((x_start - 10, y_start)), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
+                prediction = round(prediction, 4)
+                cv2.rectangle(frame, (x - w + width_reduction, y - h + height_reduction), (x + w - width_reduction, y + h - height_reduction), (0, 0, 255), 3)
+                cv2.putText(frame, prediction, (x, y - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 3)
 
         output_video.write(frame)
 
@@ -201,11 +203,8 @@ def classify_image(image_path, output_image_path, cnn_model_path, cascade_path):
     #gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
     rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
     signs = cascade.detectMultiScale(rgb, scaleFactor=1.1, minNeighbors=5, minSize=(24, 24))
-    #gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
-    rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
-    signs = cascade.detectMultiScale(rgb, scaleFactor=1.1, minNeighbors=5, minSize=(24, 24))
 
-    start_time = time.time()  # Starte die Zeitmessung
+    start_time = time.time()
 
     # Durchlaufe erkannte Schilder
     for (x, y, w, h) in signs:
@@ -234,11 +233,11 @@ def classify_image(image_path, output_image_path, cnn_model_path, cascade_path):
 
         class_index = np.argmax(predictions)
         prediction = class_name[class_index] + " " + str(np.max(predictions))
-
+        prediction = round(prediction, 4)
         # Zeichne die Bounding Box und das Label auf das Bild
         # Berechne die neuen Koordinaten für die Bounding Box, die der verkleinerten ROI entsprechen
-        cv2.rectangle(frame, (x - w + width_reduction, y - h + height_reduction), (x + w - width_reduction, y + h - height_reduction), (0, 255, 0), 2)
-        cv2.putText(frame, prediction, (x, y - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
+        cv2.rectangle(frame, (x - w + width_reduction, y - h + height_reduction), (x + w - width_reduction, y + h - height_reduction), (0, 0, 255), 3)
+        cv2.putText(frame, prediction, (x, y - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 3)
 
     # Zeige das Bild an
     cv2.imshow("Classified Image", frame)
@@ -284,11 +283,11 @@ def classify_camera_stream(cnn_model_path, cascade_path):
             predictions = cnn_model(np.expand_dims(sign_roi_rescaled, axis=0), training=False)
             class_index = np.argmax(predictions)
             prediction = class_name[class_index]
-
+            prediction = round(prediction, 4)
             if class_index != 1:
                 # Zeichne die Bounding Box und das Label auf das Frame
-                cv2.rectangle(frame, (x - w, y - (h)), (x + w, y + (h)), (0, 255, 0), 2)
-                cv2.putText(frame, prediction, (x, y - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
+                cv2.rectangle(frame, (x - w, y - (h)), (x + w, y + (h)), (0, 0, 255), 3)
+                cv2.putText(frame, prediction, (x, y - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 3)
 
         # Zeige das Frame an
         cv2.imshow("Classified Camera Stream", frame)

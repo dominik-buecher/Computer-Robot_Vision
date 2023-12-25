@@ -5,6 +5,8 @@ datasets/
 __pycache__
 aaron/models/own_model_deeper.h5
 Dominik/models/
+Dominik/models_copy/
+dataset/
 dataset/
 test_videos/
 results/

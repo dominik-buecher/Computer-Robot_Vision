@@ -60,9 +60,9 @@ def process_images_from_file(cascade, output_folder, ground_truth_file):
         image = cv2.imread(image_path)
 
         rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
-
+        gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
         # Erkenne Geschwindigkeitsschilder
-        speed_signs = cascade.detectMultiScale(rgb, scaleFactor=1.1, minNeighbors=3, minSize=(24, 24))
+        speed_signs = cascade.detectMultiScale(gray_image, scaleFactor=1.1, minNeighbors=5, minSize=(24, 24))
 
         # Extrahiere tatsächliche Bounding-Boxen
         bboxes_gt = [bbox_values[i:i+4] for i in range(0, len(bbox_values), 4)]
@@ -172,7 +172,7 @@ def test_speed(cascade):
 
 
 if __name__ == "__main__":
-    cascade_speedsign = cv2.CascadeClassifier('Dominik/models/cascade_15/cascade.xml')
+    cascade_speedsign = cv2.CascadeClassifier('Dominik/models/cascade_17/cascade.xml')
     if cascade_speedsign.empty():
         print("Error: Unable to load cascade classifier.")
 
