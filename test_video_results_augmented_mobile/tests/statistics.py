@@ -14,6 +14,7 @@ def read_labels(file_path, has_header=True):
             df = pd.read_csv(file_path, names=column_names, header=0)
         else:
             df = pd.read_csv(file_path,names=column_names, header=None)
+            # df = pd.read_csv(file_path, header=None)
     elif file_path.endswith('.xlsx'):
         df = pd.read_excel(file_path)
     else:
@@ -158,12 +159,12 @@ def main():
     class_labels = ['end_speed', 'no_sign', 'no_speed_sign', 'speed_100', 'speed_120',
                     'speed_30', 'speed_40', 'speed_50', 'speed_70', 'speed_80']
 
-    # actual_labels = read_labels(actual_file)
+    actual_labels = read_labels(actual_file)
 
-    # predicted_labels = read_labels(predicted_file, False)
+    predicted_labels = read_labels(predicted_file, False)
 
-    # matrix = create_confusion_matrix(actual_labels, predicted_labels, class_labels)
-    # np.save(confusion_matrix_path, matrix)
+    matrix = create_confusion_matrix(actual_labels, predicted_labels, class_labels)
+    np.save(confusion_matrix_path, matrix)
 
     # calculate_and_display_metrics(matrix, class_labels)
     # display_matrix(matrix, class_labels, video_name)
