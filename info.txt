@@ -1,7 +1,0 @@
-Dataset: https://benchmark.ini.rub.de/
-
-	-German Traffic Sign Recognition Benchmark (GTSRB) Download: 
-		https://sid.erda.dk/public/archives/daaeac0d7ce1152aea9b61d9f1e19370/published-archive.html
-
-	-German Traffic Sign Detection Benchmark (GTSDB) Download: 
-		https://sid.erda.dk/public/archives/ff17dc924eba88d5d01a807357d6614c/published-archive.html
