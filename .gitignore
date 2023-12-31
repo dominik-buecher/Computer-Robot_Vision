@@ -15,3 +15,5 @@ rois/
 *.mp4
 
 train_videos/
+
+!Aaron/models/MobileNet100k.h5
