@@ -22,8 +22,8 @@ def move_images_to_test_folder(input_folder, output_folder, test_percentage=0.15
             # Durchsuche alle Bilder im Unterordner
             images = os.listdir(subfolder_path)
             num_test_images = int(len(images) * test_percentage)
-
-            # Zufällige Auswahl von Bildern für den Testordner
+            print(f"Moving {num_test_images} images to test folder for category '{subfolder}'.")
+            # # Zufällige Auswahl von Bildern für den Testordner
             test_images = random.sample(images, num_test_images)
 
             # Verschiebe die ausgewählten Bilder in den Testordner
@@ -36,5 +36,5 @@ def move_images_to_test_folder(input_folder, output_folder, test_percentage=0.15
 input_folder = r"C:\Users\aaron\Desktop\Programmierung\Master\Machine Vision\Computer-Robot_Vision_repo\datasets\sign_classification\train"
 output_folder = r"C:\Users\aaron\Desktop\Programmierung\Master\Machine Vision\Computer-Robot_Vision_repo\datasets\sign_classification\test"
 
-move_images_to_test_folder(input_folder, output_folder, test_percentage=0.5)
+move_images_to_test_folder(input_folder, output_folder, test_percentage=0.3)
 

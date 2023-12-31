@@ -2,6 +2,7 @@ import cv2
 import numpy as np
 import tensorflow as tf
 from tensorflow import keras
+import shutil
 import time
 import os
 import csv
@@ -24,6 +25,13 @@ def classify_video_batch(input_video_path, output_video_path, cnn_model_path, ca
     output_path = os.path.dirname(output_video_path)
     os.makedirs(output_path, exist_ok=True)
 
+    # Copy the Excel file with the Ground Truth Labels into the output directory and keep the file name
+    ground_truth_source_path = rf"C:\Users\aaron\Desktop\Programmierung\Master\Machine Vision\Computer-Robot_Vision_repo\test_videos_with_labels\done\{video_name}_labels.xlsx"
+
+    # take the path string except the last part (the file name) and copy the labels file to the output directory
+    ground_truth_target_dir = os.path.dirname(output_video_path)
+    shutil.copy(ground_truth_source_path, ground_truth_target_dir)
+
     # Lade das Haar Cascade-Modell für die Schilderlokalisierung
     cascade = cv2.CascadeClassifier(cascade_path)
 
@@ -41,7 +49,12 @@ def classify_video_batch(input_video_path, output_video_path, cnn_model_path, ca
     # Erstelle einen VideoWriter für das Ergebnisvideo
     fourcc = cv2.VideoWriter_fourcc(*'mp4v')  # oder 'XVID' je nach Codec
     output_video = cv2.VideoWriter(output_video_path, fourcc, 30.0, (int(cap.get(3)), int(cap.get(4))))
-    class_names = ['end_speed', 'no_sign', 'no_speed_sign', 'speed_100', 'speed_120', 'speed_30', 'speed_40', 'speed_50', 'speed_70', 'speed_80']
+    if True:
+        class_names = ['end_speed', 'no_sign', 'speed_100', 'speed_120', 'speed_30', 'speed_40', 'speed_50', 'speed_70', 'speed_80']
+        print("Using less classes: ", class_names)
+    else:
+        class_names = ['end_speed', 'no_sign', 'no_speed_sign', 'speed_100', 'speed_120', 'speed_30', 'speed_40', 'speed_50', 'speed_70', 'speed_80']
+        print("Using all classes: ", class_names)
 
     save_roi_path = os.path.dirname(output_video_path) + "\\rois"
 
@@ -127,7 +140,9 @@ def classify_video_batch(input_video_path, output_video_path, cnn_model_path, ca
                         os.makedirs(directory)
 
                     class_prob_str = str(class_prob)
-                    filename = f"{frame_number}_{class_name}_{class_prob_str}_{roi_count}.jpg"
+                    # remove the dot from the string
+                    class_prob_str = class_prob_str.replace('.', '')
+                    filename = f"frame_{frame_number}_{class_name}_{class_prob_str}_roi_{roi_count}.jpg"
                     save_path = os.path.join(directory, filename)
                     cv2.imwrite(save_path, cv2.cvtColor(frame_sign_rois[i], cv2.COLOR_RGB2BGR))
 
@@ -385,7 +400,10 @@ if __name__ == "__main__":
     cascade_path = r'Dominik\cascade_12\cascade.xml'
     cnn_model_path_deeper = r'Aaron\models\own_model_deeper.h5'
     cnn_model_path_shallow = r'Aaron\models\own_model_shallow.h5'
-    cnn_model_path_mobileNet = r'Aaron\models\MobileNetAugmented.h5'
+    cnn_model_path_mobileNet = r'Aaron\models\MobileNetLessClasses.h5'
+    cnn_model_path_mobileNet60k = r'Aaron\models\MobileNet60k.h5'
+    cnn_model_path_mobileNet100k = r'Aaron\models\MobileNet100k.h5'
+    cnn_model_path_efficientNet = r'Aaron\models\EfficientNetB2.h5'
 
     #classify_video_batch(video_path2, output_video_path4, cnn_model_path_mobileNet, cascade_path)
 
@@ -401,8 +419,8 @@ if __name__ == "__main__":
     #     if not video_file.lower().endswith(('.mp4', '.avi', '.mov')):
     #         continue
 
-    #     input_video_path = os.path.join(test_video_folder, video_file)
-    #     output_video_path = os.path.join(result_video_folder, "processed_" + video_file)
+#         input_video_path = os.path.join(test_video_folder, video_file)
+#         output_video_path = os.path.join(result_video_folder, "processed_" + video_file)
     video_numbers = [
     "GX010093", "GX010098", "GX010103",
     "GX010094", "GX010099", "GX010105",
@@ -410,12 +428,27 @@ if __name__ == "__main__":
     "GX010096", "GX010101", "GX010107_d",
     "GX010097", "GX010102", "GX010108_d"
 ]
+    start_time = time.time()  # Starte die Zeitmessung
     for video_number in video_numbers:
-        input_video_path = rf"C:\Users\aaron\Desktop\Programmierung\Master\Machine Vision\Computer-Robot_Vision_repo\test_videos_with_labels\no_audio_{video_number}.MP4"
-        output_video_path = rf"C:\Users\aaron\Desktop\Programmierung\Master\Machine Vision\Computer-Robot_Vision_repo\test_video_results_augmented_mobile\tests\{video_number}\classified_{video_number}.MP4"
+        input_video_path = rf"C:\Users\aaron\Desktop\Programmierung\Master\Machine Vision\Computer-Robot_Vision_repo\test_videos_with_labels\{video_number}.MP4"
+        output_video_path = rf"C:\Users\aaron\Desktop\Programmierung\Master\Machine Vision\Computer-Robot_Vision_repo\test_video_results_augmented_mobile100k\tests\{video_number}\classified_{video_number}.MP4"
         print("Processing video: ", video_number)
-        classify_video_batch(input_video_path, output_video_path, cnn_model_path_mobileNet, cascade_path)
+        classify_video_batch(input_video_path, output_video_path, cnn_model_path_mobileNet100k, cascade_path)
         print("Finished processing video: ", video_number)
+    print("Classifying all videos took: ", time.time() - start_time, " seconds")
 
-    image_path = r"C:\Users\aaron\Desktop\Programmierung\Master\Machine Vision\Computer-Robot_Vision_repo\test_video_results_augmented_mobile\tests\GX010096\test\test_image_frame_30-00030.jpg"
-    #classify_image(image_path, cnn_model_path_mobileNet, cascade_path)
+
+    # dir_path = r"C:\Users\aaron\Desktop\Programmierung\Master\Machine Vision\Computer-Robot_Vision_repo\train_videos"
+    # # Liste aller MP4-Dateien im Verzeichnis
+    # video_files = [f for f in os.listdir(dir_path) if f.lower().endswith('.mp4')]
+    # print("Found ", len(video_files), " videos in directory: ", dir_path)
+    # start_time = time.time()  # Starte die Zeitmessung
+    # for video_file in video_files:
+    #     video_number = os.path.splitext(video_file)[0]  # Entferne die Dateierweiterung
+    #     input_video_path = os.path.join(dir_path, video_file)
+    #     output_video_path = rf"C:\Users\aaron\Desktop\Programmierung\Master\Machine Vision\Computer-Robot_Vision_repo\train_videos\{video_number}\classified_{video_number}.MP4"
+    #     print("Processing video: ", video_number)
+    #     classify_video_batch(input_video_path, output_video_path, cnn_model_path_mobileNet, cascade_path)
+    #     print("Finished processing video: ", video_number)
+    # print("Classifying all videos took: ", time.time() - start_time, " seconds")
+

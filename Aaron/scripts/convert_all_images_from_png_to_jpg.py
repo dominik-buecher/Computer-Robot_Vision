@@ -2,7 +2,7 @@ import cv2
 import os
 
 # Pfad zum Hauptordner
-main_folder_path = r'C:\Users\aaron\Desktop\Programmierung\Master\Machine Vision\Computer-Robot_Vision_repo\datasets\sign_classification\train'
+main_folder_path = r'C:\Users\aaron\Desktop\Programmierung\Master\Machine Vision\Computer-Robot_Vision_repo\datasets\sign_classification\backup\train'
 
 # Zähler für die Bildnamen
 image_counter = 1

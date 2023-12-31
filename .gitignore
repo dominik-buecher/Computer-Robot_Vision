@@ -3,7 +3,7 @@ datasets/
 .streamlit
 .venv
 __pycache__
-aaron/models/own_model_deeper.h5
+Aaron/models
 Dominik/models/
 Dominik/models_copy/
 dataset/
@@ -13,3 +13,5 @@ results/
 test_video_results/
 rois/
 *.mp4
+
+train_videos/

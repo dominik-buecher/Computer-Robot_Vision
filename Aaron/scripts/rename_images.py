@@ -22,7 +22,7 @@ def rename_and_convert_images(folder_path):
         file_path = os.path.join(folder_path, filename)
 
         # Neuer Dateiname für die .jpg Datei
-        new_filename = f"img_{counter}.jpg"
+        new_filename = f"aug_img_{counter}.jpg"
         new_file_path = os.path.join(folder_path, new_filename)
 
         # Prüfen, ob es sich um eine .png Datei handelt
@@ -35,7 +35,7 @@ def rename_and_convert_images(folder_path):
             # Datei umbenennen, vorhandene Dateien werden überschrieben
             os.rename(file_path, new_file_path)
 
-        print(f"Datei {filename} wurde zu {new_filename} umbenannt oder konvertiert")
+        #print(f"Datei {filename} wurde zu {new_filename} umbenannt oder konvertiert")
         counter += 1
 
     print("Alle Dateien wurden umbenannt oder konvertiert.")
@@ -68,17 +68,29 @@ def make_images_square(folder_path):
 
     print("Alle Bilder wurden bearbeitet.")
 
-input_folder = r"C:\Users\aaron\Desktop\Programmierung\Master\Machine Vision\Computer-Robot_Vision_repo\datasets\sign_classification\train\no_sign"
+
+
+def find_problematic_images(directory):
+    for filename in os.listdir(directory):
+        if filename.endswith(('.jpg', '.jpeg', '.png', '.gif', '.bmp')):
+            try:
+                img = Image.open(os.path.join(directory, filename))
+                img.verify()  # verify that it is, in fact an image
+            except (IOError, SyntaxError) as e:
+                print('Bad file:', filename)  # print out the names of corrupt files
+
+
+input_folder = r"C:\Users\aaron\Desktop\Programmierung\Master\Machine Vision\Computer-Robot_Vision_repo\datasets\sign_classification\backup\train_more\train"
 
 # Pfad zum Ordner mit den Bildern angeben
 folder_path = 'Pfad/zu/Ihrem/Ordner'
-make_images_square(input_folder)
+#make_images_square(input_folder)
 
 
 
-# for subfolder in os.listdir(input_folder):
-#         subfolder_path = os.path.join(input_folder, subfolder)
-#         print("renaming images in folder ", subfolder_path)
+for subfolder in os.listdir(input_folder):
+        subfolder_path = os.path.join(input_folder, subfolder)
+        print("Checking images in ", subfolder_path)
 
-#         # Pfad zum Ordner mit den Bildern angeben
-#         rename_and_convert_images(subfolder_path)
+        # Pfad zum Ordner mit den Bildern angeben
+        find_problematic_images(subfolder_path)
