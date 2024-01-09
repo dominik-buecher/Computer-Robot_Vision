@@ -6,7 +6,6 @@ import shutil
 import time
 import os
 import csv
-import matplotlib.pyplot as plt
 
 def classify_video_batch(input_video_path, output_video_path, cnn_model_path, cascade_path):
 
@@ -26,7 +25,7 @@ def classify_video_batch(input_video_path, output_video_path, cnn_model_path, ca
     os.makedirs(output_path, exist_ok=True)
 
     # Copy the Excel file with the Ground Truth Labels into the output directory and keep the file name
-    ground_truth_source_path = rf"C:\Users\aaron\Desktop\Programmierung\Master\Machine Vision\Computer-Robot_Vision\test_videos_with_labels\done\{video_name}_labels.xlsx"
+    ground_truth_source_path = rf"test_videos_with_labels\done\{video_name}_labels.xlsx"
 
     # take the path string except the last part (the file name) and copy the labels file to the output directory
     ground_truth_target_dir = os.path.dirname(output_video_path)
@@ -410,8 +409,8 @@ if __name__ == "__main__":
 
     #classify_video_batch(video_path2, output_video_path4, cnn_model_path_mobileNet, cascade_path)
 
-    test_video_folder = r"C:\Users\aaron\Desktop\Programmierung\Master\Machine Vision\Computer-Robot_Vision\test_videos"
-    result_video_folder = r"C:\Users\aaron\Desktop\Programmierung\Master\Machine Vision\Computer-Robot_Vision\test_video_results_augmented_mobile"
+    test_video_folder = r"test_videos"
+    result_video_folder = r"test_video_results_augmented_mobile"
 
     # # Stelle sicher, dass das Ergebnisverzeichnis existiert
     # if not os.path.exists(result_video_folder):
@@ -438,8 +437,8 @@ if __name__ == "__main__":
     print("\n\n\nStarting to classify videos with Own Model shallow no augmentation")
     start_time = time.time()  # Starte die Zeitmessung
     for video_number in video_numbers:
-        input_video_path = rf"C:\Users\aaron\Desktop\Programmierung\Master\Machine Vision\Computer-Robot_Vision\test_videos_with_labels\{video_number}.MP4"
-        output_video_path = rf"C:\Users\aaron\Desktop\Programmierung\Master\Machine Vision\Computer-Robot_Vision\DELETE_test_video_results_own_shallow\tests\{video_number}\classified_{video_number}.MP4"
+        input_video_path = rf"test_videos_with_labels\{video_number}.MP4"
+        output_video_path = rf"test_video_results_own_shallow\tests\{video_number}\classified_{video_number}.MP4"
         print("Processing video: ", video_number)
         classify_video_batch(input_video_path, output_video_path, cnn_model_path_shallow, cascade_path)
         print("Finished processing video: ", video_number)
@@ -449,8 +448,8 @@ if __name__ == "__main__":
     print("\n\n\nStarting to classify videos with Own Model deeper no augmentation")
     start_time = time.time()  # Starte die Zeitmessung
     for video_number in video_numbers:
-        input_video_path = rf"C:\Users\aaron\Desktop\Programmierung\Master\Machine Vision\Computer-Robot_Vision\test_videos_with_labels\{video_number}.MP4"
-        output_video_path = rf"C:\Users\aaron\Desktop\Programmierung\Master\Machine Vision\Computer-Robot_Vision\DELETE_test_video_results_own_deeper\tests\{video_number}\classified_{video_number}.MP4"
+        input_video_path = rf"test_videos_with_labels\{video_number}.MP4"
+        output_video_path = rf"test_video_results_own_deeper\tests\{video_number}\classified_{video_number}.MP4"
         print("Processing video: ", video_number)
         classify_video_batch(input_video_path, output_video_path, cnn_model_path_deeper, cascade_path)
         print("Finished processing video: ", video_number)
@@ -461,8 +460,8 @@ if __name__ == "__main__":
     print("\n\n\nStarting to classify videos with MobileNet no augmentation")
     start_time = time.time()  # Starte die Zeitmessung
     for video_number in video_numbers:
-        input_video_path = rf"C:\Users\aaron\Desktop\Programmierung\Master\Machine Vision\Computer-Robot_Vision\test_videos_with_labels\{video_number}.MP4"
-        output_video_path = rf"C:\Users\aaron\Desktop\Programmierung\Master\Machine Vision\Computer-Robot_Vision\DELETE_test_video_results_MobileNet\tests\{video_number}\classified_{video_number}.MP4"
+        input_video_path = rf"test_videos_with_labels\{video_number}.MP4"
+        output_video_path = rf"test_video_results_MobileNet\tests\{video_number}\classified_{video_number}.MP4"
         print("Processing video: ", video_number)
         classify_video_batch(input_video_path, output_video_path, cnn_model_path_mobileNet, cascade_path)
         print("Finished processing video: ", video_number)
@@ -472,8 +471,8 @@ if __name__ == "__main__":
     print("\n\n\nStarting to classify videos with MobileNet60k")
     start_time = time.time()  # Starte die Zeitmessung
     for video_number in video_numbers:
-        input_video_path = rf"C:\Users\aaron\Desktop\Programmierung\Master\Machine Vision\Computer-Robot_Vision\test_videos_with_labels\{video_number}.MP4"
-        output_video_path = rf"C:\Users\aaron\Desktop\Programmierung\Master\Machine Vision\Computer-Robot_Vision\DELETE_test_video_results_MobileNet60k\tests\{video_number}\classified_{video_number}.MP4"
+        input_video_path = rf"test_videos_with_labels\{video_number}.MP4"
+        output_video_path = rf"test_video_results_MobileNet60k\tests\{video_number}\classified_{video_number}.MP4"
         print("Processing video: ", video_number)
         classify_video_batch(input_video_path, output_video_path, cnn_model_path_mobileNet60k, cascade_path)
         print("Finished processing video: ", video_number)
@@ -484,8 +483,8 @@ if __name__ == "__main__":
     print("\n\n\nStarting to classify videos with MobileNet100k")
     start_time = time.time()  # Starte die Zeitmessung
     for video_number in video_numbers:
-        input_video_path = rf"C:\Users\aaron\Desktop\Programmierung\Master\Machine Vision\Computer-Robot_Vision\test_videos_with_labels\{video_number}.MP4"
-        output_video_path = rf"C:\Users\aaron\Desktop\Programmierung\Master\Machine Vision\Computer-Robot_Vision\DELETE_test_video_results_MobileNet100k\tests\{video_number}\classified_{video_number}.MP4"
+        input_video_path = rf"test_videos_with_labels\{video_number}.MP4"
+        output_video_path = rf"test_video_results_MobileNet100k\tests\{video_number}\classified_{video_number}.MP4"
         print("Processing video: ", video_number)
         classify_video_batch(input_video_path, output_video_path, cnn_model_path_mobileNet100k, cascade_path)
         print("Finished processing video: ", video_number)
@@ -495,8 +494,8 @@ if __name__ == "__main__":
     print("\n\n\nStarting to classify videos with EfficientNetB2 60k")
     start_time = time.time()  # Starte die Zeitmessung
     for video_number in video_numbers:
-        input_video_path = rf"C:\Users\aaron\Desktop\Programmierung\Master\Machine Vision\Computer-Robot_Vision\test_videos_with_labels\{video_number}.MP4"
-        output_video_path = rf"C:\Users\aaron\Desktop\Programmierung\Master\Machine Vision\Computer-Robot_Vision\DELETE_test_video_results_EfficientNet60k\tests\{video_number}\classified_{video_number}.MP4"
+        input_video_path = rf"test_videos_with_labels\{video_number}.MP4"
+        output_video_path = rf"test_video_results_EfficientNet60k\tests\{video_number}\classified_{video_number}.MP4"
         print("Processing video: ", video_number)
         classify_video_batch(input_video_path, output_video_path, cnn_model_path_efficientNet60k, cascade_path)
         print("Finished processing video: ", video_number)
@@ -506,8 +505,8 @@ if __name__ == "__main__":
     print("\n\n\nStarting to classify videos with EfficientNetB2 100k")
     start_time = time.time()  # Starte die Zeitmessung
     for video_number in video_numbers:
-        input_video_path = rf"C:\Users\aaron\Desktop\Programmierung\Master\Machine Vision\Computer-Robot_Vision\test_videos_with_labels\{video_number}.MP4"
-        output_video_path = rf"C:\Users\aaron\Desktop\Programmierung\Master\Machine Vision\Computer-Robot_Vision\DELETE_test_video_results_EfficientNet100k\tests\{video_number}\classified_{video_number}.MP4"
+        input_video_path = rf"test_videos_with_labels\{video_number}.MP4"
+        output_video_path = rf"test_video_results_EfficientNet100k\tests\{video_number}\classified_{video_number}.MP4"
         print("Processing video: ", video_number)
         classify_video_batch(input_video_path, output_video_path, cnn_model_path_efficientNet100k, cascade_path)
         print("Finished processing video: ", video_number)
