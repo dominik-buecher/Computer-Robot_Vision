@@ -48,5 +48,5 @@ def copy_random_images(source_folder, destination_folder, num_images):
 
 source_folder = r'C:\Users\aaron\Desktop\Programmierung\Master\Machine Vision\Computer-Robot_Vision_repo\datasets\sign_classification\no_speed_sign'
 destination_folder = r"C:\Users\aaron\Desktop\Programmierung\Master\Machine Vision\Computer-Robot_Vision_repo\datasets\sign_classification\train\no_speed_sign"
-num_images = 6000
+num_images = 5000
 copy_random_images(source_folder, destination_folder, num_images)
