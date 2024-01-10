@@ -1,0 +1,596 @@
+(machine_vision_tf) C:\Users\aaron\Desktop\Programmierung\Master\Machine Vision\Computer-Robot_Vision>C:/Users/aaron/anaconda3/envs/machine_vision_tf/python.exe "c:/Users/aaron/Desktop/Programmierung/Master/Machine Vision/Computer-Robot_Vision/statistics_mv.py"
+Aktuelles Verzeichnis: C:\Users\aaron\Desktop\Programmierung\Master\Machine Vision\Computer-Robot_Vision
+Metriken für jede Klasse:
+Klasse end_speed:
+    True Positives (TP): 8
+    False Positives (FP): 5
+    False Negatives (FN): 154
+    True Negatives (TN): 22335
+    Precision: 0.62
+    Recall: 0.05
+    F1-Score: 0.09
+Klasse no_sign:
+    True Positives (TP): 19698
+    False Positives (FP): 550
+    False Negatives (FN): 62
+    True Negatives (TN): 2192
+    Precision: 0.97
+    Recall: 1.00
+    F1-Score: 0.98
+Klasse speed_100:
+    True Positives (TP): 38
+    False Positives (FP): 14
+    False Negatives (FN): 66
+    True Negatives (TN): 22384
+    Precision: 0.73
+    Recall: 0.37
+    F1-Score: 0.49
+Klasse speed_120:
+    True Positives (TP): 28
+    False Positives (FP): 10
+    False Negatives (FN): 13
+    True Negatives (TN): 22451
+    Precision: 0.74
+    Recall: 0.68
+    F1-Score: 0.71
+Klasse speed_30:
+    True Positives (TP): 459
+    False Positives (FP): 16
+    False Negatives (FN): 217
+    True Negatives (TN): 21810
+    Precision: 0.97
+    Recall: 0.68
+    F1-Score: 0.80
+Klasse speed_40:
+    True Positives (TP): 386
+    False Positives (FP): 36
+    False Negatives (FN): 25
+    True Negatives (TN): 22055
+    Precision: 0.91
+    Recall: 0.94
+    F1-Score: 0.93
+Klasse speed_50:
+    True Positives (TP): 581
+    False Positives (FP): 18
+    False Negatives (FN): 37
+    True Negatives (TN): 21866
+    Precision: 0.97
+    Recall: 0.94
+    F1-Score: 0.95
+Klasse speed_70:
+    True Positives (TP): 570
+    False Positives (FP): 15
+    False Negatives (FN): 95
+    True Negatives (TN): 21822
+    Precision: 0.97
+    Recall: 0.86
+    F1-Score: 0.91
+Klasse speed_80:
+    True Positives (TP): 63
+    False Positives (FP): 7
+    False Negatives (FN): 2
+    True Negatives (TN): 22430
+    Precision: 0.90
+    Recall: 0.97
+    F1-Score: 0.93
+      Klasse  True Positives  False Positives  False Negatives  True Negatives  Precision    Recall  F1-Score
+0  end_speed               8                5              154           22335   0.615385  0.049383  0.091429
+1    no_sign           19698              550               62            2192   0.972837  0.996862  0.984703
+2  speed_100              38               14               66           22384   0.730769  0.365385  0.487179
+3  speed_120              28               10               13           22451   0.736842  0.682927  0.708861
+4   speed_30             459               16              217           21810   0.966316  0.678994  0.797567
+5   speed_40             386               36               25           22055   0.914692  0.939173  0.926771
+6   speed_50             581               18               37           21866   0.969950  0.940129  0.954807
+7   speed_70             570               15               95           21822   0.974359  0.857143  0.912000
+8   speed_80              63                7                2           22430   0.900000  0.969231  0.933333
+9     Gesamt           21831              671              671          179345   0.970180  0.970180  0.970180
+Gesamtgenauigkeit (Accuracy): 0.97
+Metriken für jede Klasse:
+Klasse end_speed:
+    True Positives (TP): 7
+    False Positives (FP): 7
+    False Negatives (FN): 155
+    True Negatives (TN): 22348
+    Precision: 0.50
+    Recall: 0.04
+    F1-Score: 0.08
+Klasse no_sign:
+    True Positives (TP): 19642
+    False Positives (FP): 610
+    False Negatives (FN): 118
+    True Negatives (TN): 2147
+    Precision: 0.97
+    Recall: 0.99
+    F1-Score: 0.98
+Klasse speed_100:
+    True Positives (TP): 59
+    False Positives (FP): 23
+    False Negatives (FN): 46
+    True Negatives (TN): 22389
+    Precision: 0.72
+    Recall: 0.56
+    F1-Score: 0.63
+Klasse speed_120:
+    True Positives (TP): 26
+    False Positives (FP): 13
+    False Negatives (FN): 17
+    True Negatives (TN): 22461
+    Precision: 0.67
+    Recall: 0.60
+    F1-Score: 0.63
+Klasse speed_30:
+    True Positives (TP): 371
+    False Positives (FP): 78
+    False Negatives (FN): 304
+    True Negatives (TN): 21764
+    Precision: 0.83
+    Recall: 0.55
+    F1-Score: 0.66
+Klasse speed_40:
+    True Positives (TP): 383
+    False Positives (FP): 87
+    False Negatives (FN): 32
+    True Negatives (TN): 22015
+    Precision: 0.81
+    Recall: 0.92
+    F1-Score: 0.87
+Klasse speed_50:
+    True Positives (TP): 543
+    False Positives (FP): 26
+    False Negatives (FN): 77
+    True Negatives (TN): 21871
+    Precision: 0.95
+    Recall: 0.88
+    F1-Score: 0.91
+Klasse speed_70:
+    True Positives (TP): 491
+    False Positives (FP): 24
+    False Negatives (FN): 180
+    True Negatives (TN): 21822
+    Precision: 0.95
+    Recall: 0.73
+    F1-Score: 0.83
+Klasse speed_80:
+    True Positives (TP): 52
+    False Positives (FP): 75
+    False Negatives (FN): 14
+    True Negatives (TN): 22376
+    Precision: 0.41
+    Recall: 0.79
+    F1-Score: 0.54
+      Klasse  True Positives  False Positives  False Negatives  True Negatives  Precision    Recall  F1-Score
+0  end_speed               7                7              155           22348   0.500000  0.043210  0.079545
+1    no_sign           19642              610              118            2147   0.969880  0.994028  0.981805
+2  speed_100              59               23               46           22389   0.719512  0.561905  0.631016
+3  speed_120              26               13               17           22461   0.666667  0.604651  0.634146
+4   speed_30             371               78              304           21764   0.826281  0.549630  0.660142
+5   speed_40             383               87               32           22015   0.814894  0.922892  0.865537
+6   speed_50             543               26               77           21871   0.954306  0.875806  0.913373
+7   speed_70             491               24              180           21822   0.953398  0.731744  0.827993
+8   speed_80              52               75               14           22376   0.409449  0.787879  0.538860
+9     Gesamt           21574              943              943          179193   0.958121  0.958121  0.958121
+Gesamtgenauigkeit (Accuracy): 0.96
+Metriken für jede Klasse:
+Klasse end_speed:
+    True Positives (TP): 8
+    False Positives (FP): 2
+    False Negatives (FN): 154
+    True Negatives (TN): 22311
+    Precision: 0.80
+    Recall: 0.05
+    F1-Score: 0.09
+Klasse no_sign:
+    True Positives (TP): 19708
+    False Positives (FP): 443
+    False Negatives (FN): 52
+    True Negatives (TN): 2272
+    Precision: 0.98
+    Recall: 1.00
+    F1-Score: 0.99
+Klasse speed_100:
+    True Positives (TP): 66
+    False Positives (FP): 4
+    False Negatives (FN): 37
+    True Negatives (TN): 22368
+    Precision: 0.94
+    Recall: 0.64
+    F1-Score: 0.76
+Klasse speed_120:
+    True Positives (TP): 29
+    False Positives (FP): 12
+    False Negatives (FN): 12
+    True Negatives (TN): 22422
+    Precision: 0.71
+    Recall: 0.71
+    F1-Score: 0.71
+Klasse speed_30:
+    True Positives (TP): 512
+    False Positives (FP): 17
+    False Negatives (FN): 145
+    True Negatives (TN): 21801
+    Precision: 0.97
+    Recall: 0.78
+    F1-Score: 0.86
+Klasse speed_40:
+    True Positives (TP): 386
+    False Positives (FP): 11
+    False Negatives (FN): 25
+    True Negatives (TN): 22053
+    Precision: 0.97
+    Recall: 0.94
+    F1-Score: 0.96
+Klasse speed_50:
+    True Positives (TP): 595
+    False Positives (FP): 9
+    False Negatives (FN): 23
+    True Negatives (TN): 21848
+    Precision: 0.99
+    Recall: 0.96
+    F1-Score: 0.97
+Klasse speed_70:
+    True Positives (TP): 601
+    False Positives (FP): 11
+    False Negatives (FN): 53
+    True Negatives (TN): 21810
+    Precision: 0.98
+    Recall: 0.92
+    F1-Score: 0.95
+Klasse speed_80:
+    True Positives (TP): 59
+    False Positives (FP): 2
+    False Negatives (FN): 10
+    True Negatives (TN): 22404
+    Precision: 0.97
+    Recall: 0.86
+    F1-Score: 0.91
+      Klasse  True Positives  False Positives  False Negatives  True Negatives  Precision    Recall  F1-Score
+0  end_speed               8                2              154           22311   0.800000  0.049383  0.093023
+1    no_sign           19708              443               52            2272   0.978016  0.997368  0.987597
+2  speed_100              66                4               37           22368   0.942857  0.640777  0.763006
+3  speed_120              29               12               12           22422   0.707317  0.707317  0.707317
+4   speed_30             512               17              145           21801   0.967864  0.779300  0.863406
+5   speed_40             386               11               25           22053   0.972292  0.939173  0.955446
+6   speed_50             595                9               23           21848   0.985099  0.962783  0.973813
+7   speed_70             601               11               53           21810   0.982026  0.918960  0.949447
+8   speed_80              59                2               10           22404   0.967213  0.855072  0.907692
+9     Gesamt           21964              511              511          179289   0.977264  0.977264  0.977264
+Gesamtgenauigkeit (Accuracy): 0.98
+Metriken für jede Klasse:
+Klasse end_speed:
+    True Positives (TP): 8
+    False Positives (FP): 2
+    False Negatives (FN): 154
+    True Negatives (TN): 22304
+    Precision: 0.80
+    Recall: 0.05
+    F1-Score: 0.09
+Klasse no_sign:
+    True Positives (TP): 19714
+    False Positives (FP): 436
+    False Negatives (FN): 46
+    True Negatives (TN): 2272
+    Precision: 0.98
+    Recall: 1.00
+    F1-Score: 0.99
+Klasse speed_100:
+    True Positives (TP): 67
+    False Positives (FP): 3
+    False Negatives (FN): 35
+    True Negatives (TN): 22363
+    Precision: 0.96
+    Recall: 0.66
+    F1-Score: 0.78
+Klasse speed_120:
+    True Positives (TP): 29
+    False Positives (FP): 2
+    False Negatives (FN): 12
+    True Negatives (TN): 22425
+    Precision: 0.94
+    Recall: 0.71
+    F1-Score: 0.81
+Klasse speed_30:
+    True Positives (TP): 517
+    False Positives (FP): 15
+    False Negatives (FN): 140
+    True Negatives (TN): 21796
+    Precision: 0.97
+    Recall: 0.79
+    F1-Score: 0.87
+Klasse speed_40:
+    True Positives (TP): 386
+    False Positives (FP): 11
+    False Negatives (FN): 25
+    True Negatives (TN): 22046
+    Precision: 0.97
+    Recall: 0.94
+    F1-Score: 0.96
+Klasse speed_50:
+    True Positives (TP): 598
+    False Positives (FP): 0
+    False Negatives (FN): 20
+    True Negatives (TN): 21850
+    Precision: 1.00
+    Recall: 0.97
+    F1-Score: 0.98
+Klasse speed_70:
+    True Positives (TP): 602
+    False Positives (FP): 11
+    False Negatives (FN): 50
+    True Negatives (TN): 21805
+    Precision: 0.98
+    Recall: 0.92
+    F1-Score: 0.95
+Klasse speed_80:
+    True Positives (TP): 64
+    False Positives (FP): 3
+    False Negatives (FN): 1
+    True Negatives (TN): 22400
+    Precision: 0.96
+    Recall: 0.98
+    F1-Score: 0.97
+      Klasse  True Positives  False Positives  False Negatives  True Negatives  Precision    Recall  F1-Score
+0  end_speed               8                2              154           22304   0.800000  0.049383  0.093023
+1    no_sign           19714              436               46            2272   0.978362  0.997672  0.987923
+2  speed_100              67                3               35           22363   0.957143  0.656863  0.779070
+3  speed_120              29                2               12           22425   0.935484  0.707317  0.805556
+4   speed_30             517               15              140           21796   0.971805  0.786910  0.869638
+5   speed_40             386               11               25           22046   0.972292  0.939173  0.955446
+6   speed_50             598                0               20           21850   1.000000  0.967638  0.983553
+7   speed_70             602               11               50           21805   0.982055  0.923313  0.951779
+8   speed_80              64                3                1           22400   0.955224  0.984615  0.969697
+9     Gesamt           21985              483              483          179261   0.978503  0.978503  0.978503
+Gesamtgenauigkeit (Accuracy): 0.98
+Metriken für jede Klasse:
+Klasse end_speed:
+    True Positives (TP): 8
+    False Positives (FP): 1
+    False Negatives (FN): 154
+    True Negatives (TN): 22308
+    Precision: 0.89
+    Recall: 0.05
+    F1-Score: 0.09
+Klasse no_sign:
+    True Positives (TP): 19716
+    False Positives (FP): 442
+    False Negatives (FN): 44
+    True Negatives (TN): 2269
+    Precision: 0.98
+    Recall: 1.00
+    F1-Score: 0.99
+Klasse speed_100:
+    True Positives (TP): 68
+    False Positives (FP): 3
+    False Negatives (FN): 36
+    True Negatives (TN): 22364
+    Precision: 0.96
+    Recall: 0.65
+    F1-Score: 0.78
+Klasse speed_120:
+    True Positives (TP): 29
+    False Positives (FP): 4
+    False Negatives (FN): 12
+    True Negatives (TN): 22426
+    Precision: 0.88
+    Recall: 0.71
+    F1-Score: 0.78
+Klasse speed_30:
+    True Positives (TP): 502
+    False Positives (FP): 14
+    False Negatives (FN): 155
+    True Negatives (TN): 21800
+    Precision: 0.97
+    Recall: 0.76
+    F1-Score: 0.86
+Klasse speed_40:
+    True Positives (TP): 386
+    False Positives (FP): 10
+    False Negatives (FN): 25
+    True Negatives (TN): 22050
+    Precision: 0.97
+    Recall: 0.94
+    F1-Score: 0.96
+Klasse speed_50:
+    True Positives (TP): 597
+    False Positives (FP): 1
+    False Negatives (FN): 21
+    True Negatives (TN): 21852
+    Precision: 1.00
+    Recall: 0.97
+    F1-Score: 0.98
+Klasse speed_70:
+    True Positives (TP): 607
+    False Positives (FP): 13
+    False Negatives (FN): 45
+    True Negatives (TN): 21806
+    Precision: 0.98
+    Recall: 0.93
+    F1-Score: 0.95
+Klasse speed_80:
+    True Positives (TP): 64
+    False Positives (FP): 6
+    False Negatives (FN): 2
+    True Negatives (TN): 22399
+    Precision: 0.91
+    Recall: 0.97
+    F1-Score: 0.94
+      Klasse  True Positives  False Positives  False Negatives  True Negatives  Precision    Recall  F1-Score
+0  end_speed               8                1              154           22308   0.888889  0.049383  0.093567
+1    no_sign           19716              442               44            2269   0.978073  0.997773  0.987825
+2  speed_100              68                3               36           22364   0.957746  0.653846  0.777143
+3  speed_120              29                4               12           22426   0.878788  0.707317  0.783784
+4   speed_30             502               14              155           21800   0.972868  0.764079  0.855925
+5   speed_40             386               10               25           22050   0.974747  0.939173  0.956629
+6   speed_50             597                1               21           21852   0.998328  0.966019  0.981908
+7   speed_70             607               13               45           21806   0.979032  0.930982  0.954403
+8   speed_80              64                6                2           22399   0.914286  0.969697  0.941176
+9     Gesamt           21977              494              494          179274   0.978016  0.978016  0.978016
+Gesamtgenauigkeit (Accuracy): 0.98
+Metriken für jede Klasse:
+Klasse end_speed:
+    True Positives (TP): 8
+    False Positives (FP): 0
+    False Negatives (FN): 154
+    True Negatives (TN): 22306
+    Precision: 1.00
+    Recall: 0.05
+    F1-Score: 0.09
+Klasse no_sign:
+    True Positives (TP): 19709
+    False Positives (FP): 549
+    False Negatives (FN): 51
+    True Negatives (TN): 2159
+    Precision: 0.97
+    Recall: 1.00
+    F1-Score: 0.99
+Klasse speed_100:
+    True Positives (TP): 75
+    False Positives (FP): 5
+    False Negatives (FN): 27
+    True Negatives (TN): 22361
+    Precision: 0.94
+    Recall: 0.74
+    F1-Score: 0.82
+Klasse speed_120:
+    True Positives (TP): 26
+    False Positives (FP): 3
+    False Negatives (FN): 15
+    True Negatives (TN): 22424
+    Precision: 0.90
+    Recall: 0.63
+    F1-Score: 0.74
+Klasse speed_30:
+    True Positives (TP): 487
+    False Positives (FP): 17
+    False Negatives (FN): 170
+    True Negatives (TN): 21794
+    Precision: 0.97
+    Recall: 0.74
+    F1-Score: 0.84
+Klasse speed_40:
+    True Positives (TP): 386
+    False Positives (FP): 10
+    False Negatives (FN): 25
+    True Negatives (TN): 22047
+    Precision: 0.97
+    Recall: 0.94
+    F1-Score: 0.96
+Klasse speed_50:
+    True Positives (TP): 529
+    False Positives (FP): 1
+    False Negatives (FN): 89
+    True Negatives (TN): 21849
+    Precision: 1.00
+    Recall: 0.86
+    F1-Score: 0.92
+Klasse speed_70:
+    True Positives (TP): 577
+    False Positives (FP): 12
+    False Negatives (FN): 75
+    True Negatives (TN): 21804
+    Precision: 0.98
+    Recall: 0.88
+    F1-Score: 0.93
+Klasse speed_80:
+    True Positives (TP): 61
+    False Positives (FP): 13
+    False Negatives (FN): 4
+    True Negatives (TN): 22390
+    Precision: 0.82
+    Recall: 0.94
+    F1-Score: 0.88
+      Klasse  True Positives  False Positives  False Negatives  True Negatives  Precision    Recall  F1-Score
+0  end_speed               8                0              154           22306   1.000000  0.049383  0.094118
+1    no_sign           19709              549               51            2159   0.972900  0.997419  0.985007
+2  speed_100              75                5               27           22361   0.937500  0.735294  0.824176
+3  speed_120              26                3               15           22424   0.896552  0.634146  0.742857
+4   speed_30             487               17              170           21794   0.966270  0.741248  0.838932
+5   speed_40             386               10               25           22047   0.974747  0.939173  0.956629
+6   speed_50             529                1               89           21849   0.998113  0.855987  0.921603
+7   speed_70             577               12               75           21804   0.979626  0.884969  0.929895
+8   speed_80              61               13                4           22390   0.824324  0.938462  0.877698
+9     Gesamt           21858              610              610          179134   0.972850  0.972850  0.972850
+Gesamtgenauigkeit (Accuracy): 0.97
+Metriken für jede Klasse:
+Klasse end_speed:
+    True Positives (TP): 8
+    False Positives (FP): 1
+    False Negatives (FN): 154
+    True Negatives (TN): 22306
+    Precision: 0.89
+    Recall: 0.05
+    F1-Score: 0.09
+Klasse no_sign:
+    True Positives (TP): 19714
+    False Positives (FP): 588
+    False Negatives (FN): 46
+    True Negatives (TN): 2121
+    Precision: 0.97
+    Recall: 1.00
+    F1-Score: 0.98
+Klasse speed_100:
+    True Positives (TP): 67
+    False Positives (FP): 3
+    False Negatives (FN): 35
+    True Negatives (TN): 22364
+    Precision: 0.96
+    Recall: 0.66
+    F1-Score: 0.78
+Klasse speed_120:
+    True Positives (TP): 27
+    False Positives (FP): 5
+    False Negatives (FN): 14
+    True Negatives (TN): 22423
+    Precision: 0.84
+    Recall: 0.66
+    F1-Score: 0.74
+Klasse speed_30:
+    True Positives (TP): 471
+    False Positives (FP): 18
+    False Negatives (FN): 186
+    True Negatives (TN): 21794
+    Precision: 0.96
+    Recall: 0.72
+    F1-Score: 0.82
+Klasse speed_40:
+    True Positives (TP): 386
+    False Positives (FP): 20
+    False Negatives (FN): 25
+    True Negatives (TN): 22038
+    Precision: 0.95
+    Recall: 0.94
+    F1-Score: 0.94
+Klasse speed_50:
+    True Positives (TP): 481
+    False Positives (FP): 0
+    False Negatives (FN): 137
+    True Negatives (TN): 21851
+    Precision: 1.00
+    Recall: 0.78
+    F1-Score: 0.88
+Klasse speed_70:
+    True Positives (TP): 598
+    False Positives (FP): 13
+    False Negatives (FN): 55
+    True Negatives (TN): 21803
+    Precision: 0.98
+    Recall: 0.92
+    F1-Score: 0.95
+Klasse speed_80:
+    True Positives (TP): 56
+    False Positives (FP): 13
+    False Negatives (FN): 9
+    True Negatives (TN): 22391
+    Precision: 0.81
+    Recall: 0.86
+    F1-Score: 0.84
+      Klasse  True Positives  False Positives  False Negatives  True Negatives  Precision    Recall  F1-Score
+0  end_speed               8                1              154           22306   0.888889  0.049383  0.093567
+1    no_sign           19714              588               46            2121   0.971037  0.997672  0.984175
+2  speed_100              67                3               35           22364   0.957143  0.656863  0.779070
+3  speed_120              27                5               14           22423   0.843750  0.658537  0.739726
+4   speed_30             471               18              186           21794   0.963190  0.716895  0.821990
+5   speed_40             386               20               25           22038   0.950739  0.939173  0.944920
+6   speed_50             481                0              137           21851   1.000000  0.778317  0.875341
+7   speed_70             598               13               55           21803   0.978723  0.915773  0.946203
+8   speed_80              56               13                9           22391   0.811594  0.861538  0.835821
+9     Gesamt           21808              661              661          179091   0.970582  0.970582  0.970582

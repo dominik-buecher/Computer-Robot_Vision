@@ -13,6 +13,7 @@ results/
 test_video_results/
 rois/
 *.mp4
+*.MP4
 
 train_videos/
 
