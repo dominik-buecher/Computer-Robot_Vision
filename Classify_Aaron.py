@@ -1,10 +1,10 @@
 import cv2
 import numpy as np
 import tensorflow as tf
-from tensorflow import keras
-from keras import utils
-from tensorflow.python.keras.utils import np_utils
-from keras.src.utils.np_utils import generic_utils
+# from tensorflow import keras
+# from keras import utilsp
+# from tensorflow.python.keras.utils import np_utils
+# from keras.src.utils.np_utils import generic_utils
 #from tensorflow.keras.utils import generic_utils
 import shutil
 import time
@@ -282,10 +282,14 @@ def classify_camera_stream(cnn_model_path):
     # Lade das CNN-Modell für die Schilderklassifikation
     cnn_model = tf.keras.models.load_model(cnn_model_path)
 
-    class_names = ['end_speed', 'no_sign', 'no_speed_sign', 'speed_100', 'speed_120', 'speed_30', 'speed_40', 'speed_50', 'speed_70', 'speed_80']
+    class_names = ['end_speed', 'no_sign', 'speed_100', 'speed_120', 'speed_30', 'speed_40', 'speed_50', 'speed_70', 'speed_80']
 
     # Öffne die Kamera
     cap = cv2.VideoCapture(0)  # 0 für die standardmäßige Kamera, kannst du auch andere Werte wie 1, 2 usw. verwenden
+
+    # Erstelle ein Vollbildfenster
+    cv2.namedWindow("Classified Camera Stream", cv2.WND_PROP_FULLSCREEN)
+    cv2.setWindowProperty("Classified Camera Stream", cv2.WND_PROP_FULLSCREEN, cv2.WINDOW_FULLSCREEN)
 
     while True:
         # Lese ein Frame aus der Kamera
@@ -316,14 +320,15 @@ def classify_camera_stream(cnn_model_path):
             #predictions = cnn_model.predict(np.expand_dims(sign_roi_rescaled, axis=0))
             predictions = cnn_model(np.expand_dims(sign_roi_rescaled, axis=0), training=False)
             class_index = np.argmax(predictions)
-            class_prob = np.round(np.max(predictions),4)
+            
+            class_prob = np.round(np.max(predictions),2)
             class_name = class_names[class_index]
 
             if class_index != 1 and class_index != 2:
                 if class_prob > 0.9:
-                    prediction = class_name[class_index] + " " + str(class_prob)
+                    prediction = class_names[class_index] + " " + str(class_prob)
                     # Zeichne die Bounding Box und das Label auf das Frame
-                    cv2.rectangle(frame, (x - w, y - (h)), (x + w, y + (h)), (0, 255, 0), 2)
+                    cv2.rectangle(frame, (x - (w//2), y - (h//2)), (x + (w//2), y + (h//2)), (0, 255, 0), 2)
                     cv2.putText(frame, prediction, (x, y - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
 
         # Zeige das Frame an
@@ -336,78 +341,6 @@ def classify_camera_stream(cnn_model_path):
     # Freigabe von Ressourcen
     cap.release()
     cv2.destroyAllWindows()
-
-
-def test_accuracy(parent_folder, cnn_model_path, cascade_path):
-    # Lade das Haar Cascade-Modell für die Schilderlokalisierung
-    cascade = cv2.CascadeClassifier(cascade_path)
-
-    # Lade das CNN-Modell für die Schilderklassifikation
-    cnn_model = tf.keras.models.load_model(cnn_model_path)
-
-    class_name = ['end_speed', 'no_sign', 'no_speed_sign', 'speed_100', 'speed_120', 'speed_30', 'speed_40', 'speed_50', 'speed_70', 'speed_80']
-
-    total_images = 0
-    correct_predictions = 0
-    incorrect_predictions = 0
-    confusion_matrix = {}
-
-    # Durchlaufen aller Unterordner im Hauptordner
-    for folder_name in os.listdir(parent_folder):
-        subfolder_path = os.path.join(parent_folder, folder_name, 'frames')
-
-        # Überprüfen, ob der Unterordner 'frames' existiert
-        if os.path.exists(subfolder_path) and os.path.isdir(subfolder_path):
-
-            # Ground truth label aus dem Ordner-Namen extrahieren
-            ground_truth_label = folder_name
-
-            # Kopieren aller Bilder aus dem 'frames'-Ordner in den neuen Ordner
-            for image_name in os.listdir(subfolder_path):
-                file_path = os.path.join(subfolder_path, image_name)
-                image = cv2.imread(file_path, cv2.COLOR_BGR2RGB)
-                signs = cascade.detectMultiScale(image, scaleFactor=1.1, minNeighbors=5, minSize=(24, 24))
-
-                # Durchlaufe erkannte Schilder
-                for (x, y, w, h) in signs:
-                    # Schneide die Bounding Box aus dem Bild aus
-                    if (y - (h) < 0) or (y + (h) > 1080) or (x - w < 0) or x + w > 1920:
-                        continue
-
-                    sign_roi = image[y - (h):y + (h), x - w:x + w]
-                    sign_roi_rescaled = cv2.resize(sign_roi, (128, 128))
-
-                    # Klassifiziere das Schild mit dem CNN-Modell
-                    #predictions = cnn_model.predict(np.expand_dims(sign_roi_rescaled, axis=0))
-                    predictions = cnn_model(np.expand_dims(sign_roi_rescaled, axis=0), training=False)
-                    class_index = np.argmax(predictions)
-                    predicted_class = class_name[class_index]
-
-                    total_images += 1
-                    if predicted_class == ground_truth_label:
-                        correct_predictions += 1
-                    else:
-                        incorrect_predictions += 1
-                        # Update confusion matrix
-                        if ground_truth_label not in confusion_matrix:
-                            confusion_matrix[ground_truth_label] = {}
-                        if predicted_class not in confusion_matrix[ground_truth_label]:
-                            confusion_matrix[ground_truth_label][predicted_class] = 1
-                        else:
-                            confusion_matrix[ground_truth_label][predicted_class] += 1
-
-    accuracy = correct_predictions / total_images
-    print(f"Total Images: {total_images}")
-    print(f"Correct Predictions: {correct_predictions}")
-    print(f"Incorrect Predictions: {incorrect_predictions}")
-    print(f"Accuracy: {accuracy:.2%}")
-
-    print("\nConfusion Matrix:")
-    for true_label, predictions in confusion_matrix.items():
-        print(f"True Label: {true_label}")
-        for predicted_label, count in predictions.items():
-            print(f"  Predicted Label: {predicted_label}, Count: {count}")
-
 
 if __name__ == "__main__":
 
