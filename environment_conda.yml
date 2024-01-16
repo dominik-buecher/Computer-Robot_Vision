@@ -1,4 +1,4 @@
-name: machine_vision_tf
+name: machine_vision_tf_copy
 channels:
   - anaconda
   - conda-forge

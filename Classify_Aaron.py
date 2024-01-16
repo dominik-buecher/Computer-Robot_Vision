@@ -351,7 +351,7 @@ if __name__ == "__main__":
     cascade_path = "localization_models\LBP_7000_01_7\cascade.xml"
     image_path = r"C:\Users\Dominik\Documents\Studium\Master\Computer_vision\Computer-Robot_Vision\dataset\positive_samples\test\frame_1302.jpg"
     cnn_model_path = "Aaron\models\MobileNet.h5"
-    classify_camera_stream(cnn_model_path)
+    #classify_camera_stream(cnn_model_path)
 
     #classify_image(image_path, cnn_model_path, cascade_path)
 
