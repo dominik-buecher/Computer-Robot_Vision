@@ -192,7 +192,7 @@ def classify_image(image_path, cnn_model_path, cascade_path):
     # Lade das Bild
     frame = cv2.imread(image_path)
 
-    class_names = ['end_speed', 'no_sign', 'no_speed_sign', 'speed_100', 'speed_120', 'speed_30', 'speed_40', 'speed_50', 'speed_70', 'speed_80']
+    class_names = ['end_speed', 'no_sign', 'speed_100', 'speed_120', 'speed_30', 'speed_40', 'speed_50', 'speed_70', 'speed_80']
 
     save_roi_path = os.path.dirname(image_path) + "\\rois"
     rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
@@ -406,9 +406,12 @@ def test_accuracy(parent_folder, cnn_model_path, cascade_path):
 
 
 if __name__ == "__main__":
-
+    cascade_path = "localization_models\LBP_7000_01_7\cascade.xml"
+    image_path = r"C:\Users\Dominik\Documents\Studium\Master\Computer_vision\Computer-Robot_Vision\dataset\positive_samples\test\frame_1302.jpg"
     cnn_model_path = "Aaron\models\MobileNet.h5"
     classify_camera_stream(cnn_model_path)
+
+    #classify_image(image_path, cnn_model_path, cascade_path)
 
 #     #cascade_path = r'Dominik\cascade_12\cascade.xml'
 #     cascade_path = r'localization_models\LBP_7000_01_7\cascade.xml'
