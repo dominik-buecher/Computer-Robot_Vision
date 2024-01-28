@@ -36,5 +36,5 @@ def move_images_to_test_folder(input_folder, output_folder, test_percentage=0.15
 input_folder = r"C:\Users\aaron\Desktop\Programmierung\Master\Machine Vision\Computer-Robot_Vision\datasets\sign_classification\train"
 output_folder = r"C:\Users\aaron\Desktop\Programmierung\Master\Machine Vision\Computer-Robot_Vision\datasets\sign_classification\test"
 
-move_images_to_test_folder(input_folder, output_folder, test_percentage=0.3)
+move_images_to_test_folder(input_folder, output_folder, test_percentage=0.2)
 

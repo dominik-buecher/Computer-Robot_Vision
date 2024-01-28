@@ -1,8 +1,8 @@
 import matplotlib.pyplot as plt
 
 # Data from the image
-categories = ['speed_40', 'speed_80', 'speed_50', 'speed_30', 'speed_100', 'speed_70', 'speed_120', 'end_speed']
-values = [2015, 264, 70, 777, 286, 544, 478, 68]
+categories = ['speed_120', 'speed_50', 'no_sign', 'speed_40', 'speed_100', 'speed_80', 'speed_30', 'speed_70', 'end_speed']
+values = [1468, 1418, 8928, 2034, 1303, 1409, 1721, 1630, 694]
 
 # Creating the bar plot
 plt.figure(figsize=(10, 5))
